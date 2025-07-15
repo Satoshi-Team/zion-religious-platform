@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from 'next'
 import { getTranslations } from '@/lib/i18n-fixed'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'

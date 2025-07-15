@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from "next"
 import { Shell } from "@/components/shells/shell"
 // import { Breadcrumbs } from "@/components/navigation/breadcrumbs" // Removing this import

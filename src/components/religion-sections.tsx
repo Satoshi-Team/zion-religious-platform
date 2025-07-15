@@ -1,5 +1,6 @@
 // Server component - removed 'use client' to allow receiving translation function
 
+import React from 'react'
 import { ReligionSection } from "./religion-section"
 
 interface ReligionSectionsProps {

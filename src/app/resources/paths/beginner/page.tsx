@@ -1,3 +1,4 @@
+import React from 'react'
 import { Heading } from "@/components/ui/heading"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"

@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useRouter, useSearchParams } from "next/navigation"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { TRANSLATIONS } from "@/lib/services/bible-service"

@@ -1,3 +1,4 @@
+import React from 'react'
 import { type SearchResult } from "@/lib/utils/resource-search"
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"

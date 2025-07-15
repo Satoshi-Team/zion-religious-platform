@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { useTranslations } from '@/hooks/use-translations'
 
 export default function TestPage() {

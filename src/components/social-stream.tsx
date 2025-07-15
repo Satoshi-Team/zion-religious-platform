@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Facebook } from "lucide-react"
 
 export function SocialStream() {

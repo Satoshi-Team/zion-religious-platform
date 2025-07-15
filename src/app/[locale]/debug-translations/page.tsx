@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useTranslations } from "@/hooks/use-translations"
 import { getTranslations } from "@/lib/i18n-fixed"
 import { useParams } from "next/navigation"

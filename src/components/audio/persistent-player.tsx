@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useState } from "react"
 import { useAudioPlayer } from "@/contexts/audio-player-context"
 import { Button } from "@/components/ui/button"

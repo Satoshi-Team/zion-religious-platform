@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { languages } from '@/lib/i18n/config'
 import { cn } from '@/lib/utils'
 import { Globe } from 'lucide-react'

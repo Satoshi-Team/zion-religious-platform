@@ -1,3 +1,4 @@
+import React from 'react'
 import { notFound } from "next/navigation"
 import { BibleReader } from "@/components/bible/bible-reader"
 import { Breadcrumbs } from "@/components/ui/breadcrumbs"

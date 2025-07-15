@@ -1,3 +1,4 @@
+import React from 'react'
 import { notFound } from "next/navigation"
 import { AudioPlayer } from "./player"
 import { Breadcrumbs } from "@/components/ui/breadcrumbs"

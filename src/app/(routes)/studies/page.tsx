@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { BookOpen, GraduationCap, Users, Lightbulb, Target, Globe, Heart, Brain, Eye, Search } from 'lucide-react'

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Inter } from "next/font/google"
 import { MobileSidebar } from "@/components/mobile-sidebar"
 import { cn } from "@/lib/utils"

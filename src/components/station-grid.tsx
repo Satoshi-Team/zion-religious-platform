@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useFilterStore } from "@/stores/filter-store"
 import { StationCard } from "./station-card"
 

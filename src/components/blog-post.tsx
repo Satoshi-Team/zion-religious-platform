@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from "next"
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote"
 import { serialize } from "next-mdx-remote/serialize"

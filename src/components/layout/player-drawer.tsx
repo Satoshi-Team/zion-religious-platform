@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader } from "@/components/ui/sheet"
 import { Slider } from "@/components/ui/slider"

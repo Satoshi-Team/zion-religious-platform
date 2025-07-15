@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata, Viewport } from "next"
 import { Toaster } from "sonner"
 import { AudioPlayerProvider } from "@/contexts/audio-player-context"

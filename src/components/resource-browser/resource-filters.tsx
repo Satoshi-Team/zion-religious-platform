@@ -1,3 +1,4 @@
+import React from 'react'
 import { type SearchFilters } from "@/lib/utils/resource-search"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select"
 import { Checkbox } from "@/components/ui/checkbox"

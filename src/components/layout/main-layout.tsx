@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Sidebar } from "../sidebar"
 import { BottomNavigation } from "./bottom-navigation"
 import { PlayerDrawer } from "./player-drawer"

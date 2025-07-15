@@ -1,3 +1,4 @@
+import React from 'react'
 import { VerseSearch } from "@/components/bible/verse-search"
 import { Breadcrumbs } from "@/components/ui/breadcrumbs"
 

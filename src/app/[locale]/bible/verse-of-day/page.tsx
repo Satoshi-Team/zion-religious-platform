@@ -1,3 +1,4 @@
+import React from 'react'
 import { VerseOfDay } from "@/components/bible/verse-of-day"
 import { Breadcrumbs } from "@/components/ui/breadcrumbs"
 

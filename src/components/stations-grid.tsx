@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Station } from "@/types/station"
 import { StationCard } from "./station-card"
 import { cn } from "@/lib/utils"

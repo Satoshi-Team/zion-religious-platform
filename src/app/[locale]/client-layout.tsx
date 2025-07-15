@@ -1,4 +1,5 @@
 'use client'
+import React from 'react'
 import { TranslationProvider } from '@/lib/translation-provider'
 import { HeaderNavigation } from '@/components/header-navigation'
 import { Sidebar } from '@/components/sidebar'

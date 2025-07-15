@@ -1,3 +1,4 @@
+import React from 'react'
 import { notFound } from 'next/navigation'
 import { religions } from '@/data/religions'
 import { ModuleClientUI } from './module-client-ui'

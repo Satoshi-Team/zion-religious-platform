@@ -1,3 +1,4 @@
+import React from 'react'
 import { notFound } from 'next/navigation'
 import { ModuleCard } from '@/components/module-card'
 import { religions } from '@/data/religions'

@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import Link from "next/link"
 import { useTranslations } from "@/hooks/use-translations"
 import { cn } from "@/lib/utils"

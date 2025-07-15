@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Heading } from "@/components/ui/heading"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"

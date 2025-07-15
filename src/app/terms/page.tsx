@@ -1,3 +1,4 @@
+import React from 'react'
 import { Heading } from "@/components/ui/heading"
 import { Separator } from "@/components/ui/separator"
 

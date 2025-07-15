@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { Checkbox } from "@/components/ui/checkbox"

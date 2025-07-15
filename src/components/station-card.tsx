@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Station } from "@/types/station"
 import { Card } from "@/components/ui/card"
 import { PlayCircle, Pause, Loader2 } from "lucide-react"

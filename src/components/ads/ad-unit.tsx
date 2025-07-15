@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useEffect } from "react"
 import { useAdMob } from "@/services/admob-service"
 import { usePremiumStore } from "@/services/premium-service"

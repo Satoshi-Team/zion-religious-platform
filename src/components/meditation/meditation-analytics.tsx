@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useProgressStore } from "@/lib/stores/progress-store"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { MEDITATION_GUIDES } from "@/lib/constants/meditation-guides"

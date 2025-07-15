@@ -1,3 +1,4 @@
+import React from 'react'
 import { LANGUAGE_LABELS } from "@/lib/language-labels"
 
 interface LanguageDropdownProps {

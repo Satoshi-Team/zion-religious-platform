@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { createContext, useContext, useEffect, useState, useCallback } from 'react'
 import { usePathname } from 'next/navigation'
 import { isValidLocale } from '@/config/i18n'

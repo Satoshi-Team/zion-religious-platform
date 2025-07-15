@@ -1,3 +1,4 @@
+import React from 'react'
 import { type AdvancedSearchFilters } from "@/lib/utils/resource-search"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { Checkbox } from "@/components/ui/checkbox"

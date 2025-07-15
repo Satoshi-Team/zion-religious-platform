@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { useSwipeNavigation } from '@/hooks/use-swipe-navigation'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'

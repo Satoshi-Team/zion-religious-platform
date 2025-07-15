@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { StationCard } from "@/components/stations/station-card"
 import { VERIFIED_STATIONS } from "@/lib/constants/verified-stations"
 import { Suspense } from "react"

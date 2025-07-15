@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react"
 import { useDebounce } from "@/lib/hooks/use-debounce"
 import { searchResources, type SearchFilters, type SearchResult } from "@/lib/utils/resource-search"

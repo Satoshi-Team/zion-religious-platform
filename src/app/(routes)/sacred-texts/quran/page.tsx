@@ -1,3 +1,4 @@
+import React from 'react'
 export async function generateMetadata() {
   return {
     title: 'The Holy Quran | Translations, Study Resources & Commentary',

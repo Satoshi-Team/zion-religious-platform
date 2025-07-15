@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from "react"
 import { EnhancedResourceGraph as ResourceGraph } from "./enhanced-resource-graph"
 import { ResourceCard } from "./resource-card"

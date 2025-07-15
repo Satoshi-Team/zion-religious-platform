@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { Card } from "@/components/ui/card"
 import { MEDITATION_GUIDES } from "@/lib/constants/meditation-guides"
 import { MeditationCard } from "./meditation-card"
