@@ -1,0 +1,171 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Buddhism in the Modern World | Religious Studies Blog",
+  description: "Explore how Buddhism adapts and thrives in contemporary society. Learn about modern Buddhist movements, social engagement, digital Buddhism, and current challenges.",
+  openGraph: {
+    title: "Buddhism in the Modern World | Religious Studies Blog",
+    description: "Comprehensive guide to contemporary Buddhist developments and adaptations",
+    type: "article",
+  },
+}
+
+export default function BuddhismInTheModernWorld() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhism in the Modern World
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Modernity</Badge>
+            <Badge variant="secondary">Adaptation</Badge>
+            <Badge variant="secondary">Engaged Buddhism</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Buddhism continues to evolve and adapt in response to contemporary challenges and opportunities, maintaining its relevance while preserving its essential teachings. Modern Buddhism engages with science, technology, and social issues while offering timeless wisdom for addressing current global challenges.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Movements</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Global Trends:</h3>
+                  <ul>
+                    <li>Engaged Buddhism</li>
+                    <li>Secular Buddhism</li>
+                    <li>Modern Vipassana</li>
+                    <li>Western Zen</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>New Organizations:</h3>
+                  <ul>
+                    <li>International networks</li>
+                    <li>Reform movements</li>
+                    <li>Lay organizations</li>
+                    <li>Interfaith initiatives</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Buddhism and Science</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Research Areas:</h3>
+                  <ul>
+                    <li>Neuroscience studies</li>
+                    <li>Meditation research</li>
+                    <li>Consciousness studies</li>
+                    <li>Physics dialogues</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Applications:</h3>
+                  <ul>
+                    <li>Clinical mindfulness</li>
+                    <li>Therapeutic practices</li>
+                    <li>Cognitive training</li>
+                    <li>Stress reduction</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Social Engagement</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Activism Areas:</h3>
+                  <ul>
+                    <li>Environmental protection</li>
+                    <li>Peace movements</li>
+                    <li>Social justice</li>
+                    <li>Human rights</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Community Work:</h3>
+                  <ul>
+                    <li>Education programs</li>
+                    <li>Healthcare initiatives</li>
+                    <li>Poverty alleviation</li>
+                    <li>Disaster relief</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Digital Buddhism</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Online Presence:</h3>
+                  <ul>
+                    <li>Virtual temples</li>
+                    <li>Meditation apps</li>
+                    <li>Dharma websites</li>
+                    <li>Social media</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Digital Resources:</h3>
+                  <ul>
+                    <li>Online teachings</li>
+                    <li>Virtual communities</li>
+                    <li>Digital archives</li>
+                    <li>Learning platforms</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Challenges</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Issues:</h3>
+                  <ul>
+                    <li>Secularization</li>
+                    <li>Commercialization</li>
+                    <li>Authenticity debates</li>
+                    <li>Generational shifts</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Responses:</h3>
+                  <ul>
+                    <li>Renewal movements</li>
+                    <li>Education and outreach</li>
+                    <li>Interfaith dialogue</li>
+                    <li>Community resilience</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

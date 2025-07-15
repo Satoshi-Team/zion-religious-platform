@@ -1,0 +1,1023 @@
+{
+  "site": {
+    "title": "ZION.FM"
+  },
+  "home": {
+    "hero": {
+      "title": "ZION.FM | Christian Theology & Studies Portal",
+      "description": "Comprehensive resource for Christian theology, studies, teachings, and spiritual practices",
+      "ctaStartLearning": "Start Learning",
+      "ctaBrowseResources": "Browse Resources"
+    },
+    "quickAccess": {
+      "title": "Quick Access",
+      "studyGuides": {
+        "title": "Study Guides",
+        "description": "Structured learning paths for theological education"
+      },
+      "resources": {
+        "title": "Resources",
+        "description": "Access to theological texts, commentaries, and study materials"
+      },
+      "blog": {
+        "title": "Blog",
+        "description": "Latest articles, insights, and discussions on theological topics"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Connect with other learners and share insights"
+      },
+      "sacredTexts": {
+        "title": "Sacred Texts",
+        "description": "Biblical and religious text studies"
+      },
+      "teachings": {
+        "title": "Teachings",
+        "description": "Biblical teachings and theological insights"
+      },
+      "meditation": {
+        "title": "Meditation",
+        "description": "Spiritual practices and contemplative exercises"
+      },
+      "explore": {
+        "title": "Explore",
+        "description": "Discover new topics and spiritual paths"
+      }
+    },
+    "religions": {
+      "christianity": {
+        "title": "Christianity",
+        "description": "Explore Christian theology, history, and practices"
+      },
+      "islam": {
+        "title": "Islam",
+        "description": "Discover Islamic studies, traditions, and teachings"
+      },
+      "buddhism": {
+        "title": "Buddhism",
+        "description": "Learn about Buddhist philosophy and practices"
+      },
+      "hinduism": {
+        "title": "Hinduism",
+        "description": "Study Hindu traditions and spiritual practices"
+      }
+    },
+    "blog": {
+      "title": "Latest Articles",
+      "viewAll": "View All Articles"
+    },
+    "filterButtons": {
+      "browseByCategory": "Browse by Category",
+      "christianity": "Christianity",
+      "islam": "Islam",
+      "buddhism": "Buddhism",
+      "hinduism": "Hinduism",
+      "judaism": "Judaism",
+      "sikhism": "Sikhism",
+      "shinto": "Shinto",
+      "taoism": "Taoism",
+      "bahai": "Bahá'í Faith",
+      "confucianism": "Confucianism",
+      "rastafarianism": "Rastafarianism",
+      "jainism": "Jainism",
+      "viewArticles": "View Articles"
+    }
+  },
+  "religions": {
+    "christianity": {
+      "title": "Christianity",
+      "description": "Explore Christian theology, history, and practices",
+      "links": [
+        "Overview",
+        "Theology",
+        "Christology",
+        "Soteriology",
+        "Ecclesiology",
+        "Pneumatology",
+        "Eschatology",
+        "History",
+        "Early Church",
+        "Medieval",
+        "Reformation",
+        "Modern",
+        "Cultural Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Christianity Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Faiths in Dialogue: Christianity and Islam",
+          "description": "Exploring the historical and theological intersections between Christianity and Islam"
+        },
+        {
+          "title": "What is the Gospel?",
+          "description": "Understanding the core message of Christianity"
+        },
+        {
+          "title": "Who is Jesus Christ?",
+          "description": "Exploring the person and work of Jesus Christ"
+        },
+        {
+          "title": "Early Church Formation and Growth",
+          "description": "The development of Christianity in the first centuries"
+        },
+        {
+          "title": "Christian Ethics in Modern Society",
+          "description": "Applying Christian principles to contemporary issues"
+        }
+      ]
+    },
+    "islam": {
+      "title": "Islam",
+      "description": "Discover Islamic studies, traditions, and teachings",
+      "links": [
+        "Overview",
+        "History",
+        "Early Islam",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Islam Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Islam and Christianity",
+          "description": "Understanding the relationship between Islam and Christianity"
+        },
+        {
+          "title": "The Quran",
+          "description": "Exploring the holy book of Islam"
+        },
+        {
+          "title": "Islamic History",
+          "description": "The development of Islamic civilization"
+        },
+        {
+          "title": "Islamic Art",
+          "description": "The rich artistic traditions of Islam"
+        },
+        {
+          "title": "Islamic Literature",
+          "description": "The literary heritage of Islamic civilization"
+        }
+      ]
+    },
+    "buddhism": {
+      "title": "Buddhism",
+      "description": "Learn about Buddhist philosophy and practices",
+      "links": [
+        "Overview",
+        "History",
+        "Early Buddhism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Buddhism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Buddhism and Christianity",
+          "description": "Understanding the relationship between Buddhism and Christianity"
+        },
+        {
+          "title": "The Four Noble Truths",
+          "description": "The core teachings of Buddhism"
+        },
+        {
+          "title": "Early Buddhism",
+          "description": "The origins and early development of Buddhism"
+        },
+        {
+          "title": "Medieval Buddhism",
+          "description": "The spread and evolution of Buddhism in medieval times"
+        },
+        {
+          "title": "Modern Buddhism",
+          "description": "Buddhism in the contemporary world"
+        }
+      ]
+    },
+    "hinduism": {
+      "title": "Hinduism",
+      "description": "Study Hindu traditions and spiritual practices",
+      "links": [
+        "Overview",
+        "History",
+        "Early Hinduism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Hinduism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Hinduism and Christianity",
+          "description": "Understanding the relationship between Hinduism and Christianity"
+        },
+        {
+          "title": "The Trimurti",
+          "description": "The three main deities of Hinduism"
+        },
+        {
+          "title": "Early Hinduism",
+          "description": "The origins and early development of Hinduism"
+        },
+        {
+          "title": "Medieval Hinduism",
+          "description": "The evolution of Hinduism in medieval times"
+        },
+        {
+          "title": "Modern Hinduism",
+          "description": "Hinduism in the contemporary world"
+        }
+      ]
+    },
+    "confucianism": {
+      "title": "Confucianism",
+      "description": "Explore Confucian philosophy and traditions",
+      "links": [
+        "Overview",
+        "History",
+        "Early Confucianism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Confucianism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Confucianism and Christianity",
+          "description": "Understanding the relationship between Confucianism and Christianity"
+        },
+        {
+          "title": "The Five Confucian Virtues",
+          "description": "The core ethical principles of Confucianism"
+        },
+        {
+          "title": "Early Confucianism",
+          "description": "The origins and early development of Confucianism"
+        },
+        {
+          "title": "Medieval Confucianism",
+          "description": "The evolution of Confucianism in medieval times"
+        },
+        {
+          "title": "Modern Confucianism",
+          "description": "Confucianism in the contemporary world"
+        }
+      ]
+    },
+    "jainism": {
+      "title": "Jainism",
+      "description": "Learn about Jain philosophy and practices",
+      "links": [
+        "Overview",
+        "History",
+        "Early Jainism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Jainism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Jainism and Christianity",
+          "description": "Understanding the relationship between Jainism and Christianity"
+        },
+        {
+          "title": "The Eight-Fold Path",
+          "description": "The core ethical principles of Jainism"
+        },
+        {
+          "title": "Early Jainism",
+          "description": "The origins and early development of Jainism"
+        },
+        {
+          "title": "Medieval Jainism",
+          "description": "The evolution of Jainism in medieval times"
+        },
+        {
+          "title": "Modern Jainism",
+          "description": "Jainism in the contemporary world"
+        }
+      ]
+    },
+    "judaism": {
+      "title": "Judaism",
+      "description": "Explore Jewish traditions and teachings",
+      "links": [
+        "Overview",
+        "History",
+        "Early Judaism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Judaism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Judaism and Christianity",
+          "description": "Understanding the relationship between Judaism and Christianity"
+        },
+        {
+          "title": "The Torah",
+          "description": "The foundational text of Judaism"
+        },
+        {
+          "title": "Early Judaism",
+          "description": "The origins and early development of Judaism"
+        },
+        {
+          "title": "Medieval Judaism",
+          "description": "The evolution of Judaism in medieval times"
+        },
+        {
+          "title": "Modern Judaism",
+          "description": "Judaism in the contemporary world"
+        }
+      ]
+    },
+    "sikhism": {
+      "title": "Sikhism",
+      "description": "Discover Sikh traditions and teachings",
+      "links": [
+        "Overview",
+        "History",
+        "Early Sikhism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Sikhism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Sikhism and Christianity",
+          "description": "Understanding the relationship between Sikhism and Christianity"
+        },
+        {
+          "title": "The Guru Granth Sahib",
+          "description": "The holy scripture of Sikhism"
+        },
+        {
+          "title": "Early Sikhism",
+          "description": "The origins and early development of Sikhism"
+        },
+        {
+          "title": "Medieval Sikhism",
+          "description": "The evolution of Sikhism in medieval times"
+        },
+        {
+          "title": "Modern Sikhism",
+          "description": "Sikhism in the contemporary world"
+        }
+      ]
+    },
+    "shinto": {
+      "title": "Shinto",
+      "description": "Explore Shinto traditions and practices",
+      "links": [
+        "Overview",
+        "History",
+        "Early Shinto",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Shinto Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Shinto and Christianity",
+          "description": "Understanding the relationship between Shinto and Christianity"
+        },
+        {
+          "title": "The Three Principles",
+          "description": "The core principles of Shinto"
+        },
+        {
+          "title": "Early Shinto",
+          "description": "The origins and early development of Shinto"
+        },
+        {
+          "title": "Medieval Shinto",
+          "description": "The evolution of Shinto in medieval times"
+        },
+        {
+          "title": "Modern Shinto",
+          "description": "Shinto in the contemporary world"
+        }
+      ]
+    },
+    "taoism": {
+      "title": "Taoism",
+      "description": "Discover Taoist philosophy and practices",
+      "links": [
+        "Overview",
+        "History",
+        "Early Taoism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Taoism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Taoism and Christianity",
+          "description": "Understanding the relationship between Taoism and Christianity"
+        },
+        {
+          "title": "The Tao",
+          "description": "The fundamental concept of Taoism"
+        },
+        {
+          "title": "Early Taoism",
+          "description": "The origins and early development of Taoism"
+        },
+        {
+          "title": "Medieval Taoism",
+          "description": "The evolution of Taoism in medieval times"
+        },
+        {
+          "title": "Modern Taoism",
+          "description": "Taoism in the contemporary world"
+        }
+      ]
+    },
+    "rastafarianism": {
+      "title": "Rastafarianism",
+      "description": "Learn about Rastafarian beliefs and culture",
+      "links": [
+        "Overview",
+        "History",
+        "Early Rastafarianism",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Rastafarianism Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Rastafarianism and Christianity",
+          "description": "Understanding the relationship between Rastafarianism and Christianity"
+        },
+        {
+          "title": "The Five Principles",
+          "description": "The core principles of Rastafarianism"
+        },
+        {
+          "title": "Early Rastafarianism",
+          "description": "The origins and early development of Rastafarianism"
+        },
+        {
+          "title": "Medieval Rastafarianism",
+          "description": "The evolution of Rastafarianism in medieval times"
+        },
+        {
+          "title": "Modern Rastafarianism",
+          "description": "Rastafarianism in the contemporary world"
+        }
+      ]
+    },
+    "bahai": {
+      "title": "Bahá'í Faith",
+      "description": "Explore Bahá'í teachings and principles",
+      "links": [
+        "Overview",
+        "History",
+        "Early Bahá'í",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Bahá'í Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Bahá'í and Christianity",
+          "description": "Understanding the relationship between Bahá'í and Christianity"
+        },
+        {
+          "title": "The Bahá'í Faith",
+          "description": "The core teachings of the Bahá'í Faith"
+        },
+        {
+          "title": "Early Bahá'í",
+          "description": "The origins and early development of the Bahá'í Faith"
+        },
+        {
+          "title": "Medieval Bahá'í",
+          "description": "The evolution of the Bahá'í Faith in medieval times"
+        },
+        {
+          "title": "Modern Bahá'í",
+          "description": "The Bahá'í Faith in the contemporary world"
+        }
+      ]
+    },
+    "ethics": {
+      "title": "Religious Ethics",
+      "description": "Study ethical principles across religious traditions",
+      "links": [
+        "Overview",
+        "History",
+        "Early Ethics",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Ethics Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Ethics and Christianity",
+          "description": "Understanding the relationship between ethics and Christianity"
+        },
+        {
+          "title": "The Golden Rule",
+          "description": "The universal ethical principle"
+        },
+        {
+          "title": "Early Ethics",
+          "description": "The origins and early development of religious ethics"
+        },
+        {
+          "title": "Medieval Ethics",
+          "description": "The evolution of ethics in medieval times"
+        },
+        {
+          "title": "Modern Ethics",
+          "description": "Religious ethics in the contemporary world"
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Religious Philosophy",
+      "description": "Explore philosophical aspects of religious thought",
+      "links": [
+        "Overview",
+        "History",
+        "Early Philosophy",
+        "Medieval",
+        "Modern",
+        "Impact",
+        "Art",
+        "Literature",
+        "Music",
+        "Science",
+        "Philosophy",
+        "All Philosophy Blog Posts"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Philosophy and Christianity",
+          "description": "Understanding the relationship between philosophy and Christianity"
+        },
+        {
+          "title": "The Nature of God",
+          "description": "Philosophical explorations of divine nature"
+        },
+        {
+          "title": "Early Philosophy",
+          "description": "The origins and early development of religious philosophy"
+        },
+        {
+          "title": "Medieval Philosophy",
+          "description": "The evolution of philosophy in medieval times"
+        },
+        {
+          "title": "Modern Philosophy",
+          "description": "Religious philosophy in the contemporary world"
+        }
+      ]
+    },
+    "history": {
+      "title": "Religious History",
+      "description": "Study the historical development of religions",
+      "links": [
+        "Overview",
+        "Early Religions",
+        "Medieval Religions",
+        "Modern Religions",
+        "Comparative Religions"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Early Religions",
+          "description": "The origins and early development of world religions"
+        },
+        {
+          "title": "Medieval Religions",
+          "description": "Religious developments in medieval times"
+        },
+        {
+          "title": "Modern Religions",
+          "description": "Religious developments in the modern era"
+        },
+        {
+          "title": "Comparative Religions",
+          "description": "Comparing religious traditions and practices"
+        }
+      ]
+    },
+    "comparative": {
+      "title": "Comparative Religion",
+      "description": "Compare and contrast different religious traditions",
+      "links": [
+        "Overview",
+        "History",
+        "Early Comparative",
+        "Medieval Comparative",
+        "Modern Comparative"
+      ],
+      "featuredPosts": [
+        {
+          "title": "Early Comparative Religions",
+          "description": "Early approaches to comparing religious traditions"
+        },
+        {
+          "title": "Medieval Comparative Religions",
+          "description": "Medieval approaches to religious comparison"
+        },
+        {
+          "title": "Modern Comparative Religions",
+          "description": "Modern approaches to comparing religious traditions"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "home": "home",
+    "readBible": "readBible",
+    "studies": "studies",
+    "teachings": "teachings",
+    "resources": "resources",
+    "meditation": "meditation",
+    "listenNow": "listenNow",
+    "sacredTexts": "sacredTexts",
+    "sacredTextsTitle": "Sacred Texts",
+    "sacredTextsDescription": "Explore sacred scriptures from various religions",
+    "bible": "Bible",
+    "bibleDescription": "Read the Christian Bible",
+    "quran": "Qur'an",
+    "quranDescription": "Read the Islamic Qur'an",
+    "torah": "Torah",
+    "torahDescription": "Read the Jewish Torah",
+    "blog": "blog",
+    "blogTitle": "Blog",
+    "blogDescription": "Latest articles, insights, and discussions on theological topics",
+    "hinduism": "Hinduism",
+    "hinduismDescription": "Study Hindu traditions and spiritual practices",
+    "buddhism": "Buddhism",
+    "buddhismDescription": "Learn about Buddhist philosophy and practices",
+    "islam": "Islam",
+    "islamDescription": "Discover Islamic studies, traditions, and teachings",
+    "about": "about",
+    "login": "login",
+    "register": "register",
+    "teachingsTitle": "Teachings",
+    "teachingsDescription": "Explore teachings, sermons, and devotionals",
+    "sermons": "Sermons",
+    "sermonsDescription": "Listen to or read Christian sermons",
+    "bibleTeachings": "Bible Teachings",
+    "bibleTeachingsDescription": "Study biblical teachings and lessons",
+    "devotionals": "Devotionals",
+    "devotionalsDescription": "Daily devotionals and reflections",
+    "studiesTitle": "Studies",
+    "studiesDescription": "Explore studies, theology, and church history",
+    "bibleStudies": "Bible Studies",
+    "bibleStudiesDescription": "In-depth studies of the Bible",
+    "theology": "Theology",
+    "theologyDescription": "Explore theological topics and doctrines",
+    "churchHistory": "Church History",
+    "churchHistoryDescription": "Learn about the history of the Christian church"
+  },
+  "common": {
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "sacredTexts": "Sacred Texts",
+      "studies": "Studies",
+      "teachings": "Teachings",
+      "blog": "Blog",
+      "resources": "Resources",
+      "meditation": "Meditation",
+      "sacredTextsTitle": "Sacred Texts",
+      "sacredTextsDescription": "Explore sacred scriptures from various religions",
+      "bible": "Bible",
+      "bibleDescription": "Read the Christian Bible",
+      "quran": "Qur'an",
+      "quranDescription": "Read the Islamic Qur'an",
+      "torah": "Torah",
+      "torahDescription": "Read the Jewish Torah",
+      "teachingsTitle": "Teachings",
+      "teachingsDescription": "Explore teachings, sermons, and devotionals",
+      "sermons": "Sermons",
+      "sermonsDescription": "Listen to or read Christian sermons",
+      "bibleTeachings": "Bible Teachings",
+      "bibleTeachingsDescription": "Study biblical teachings and lessons",
+      "devotionals": "Devotionals",
+      "devotionalsDescription": "Daily devotionals and reflections",
+      "studiesTitle": "Studies",
+      "studiesDescription": "Explore studies, theology, and church history",
+      "bibleStudies": "Bible Studies",
+      "bibleStudiesDescription": "In-depth studies of the Bible",
+      "theology": "Theology",
+      "theologyDescription": "Explore theological topics and doctrines",
+      "churchHistory": "Church History",
+      "churchHistoryDescription": "Learn about the history of the Christian church",
+      "blogTitle": "Blog",
+      "blogDescription": "Latest articles, insights, and discussions on theological topics",
+      "hinduism": "Hinduism",
+      "hinduismDescription": "Study Hindu traditions and spiritual practices",
+      "buddhism": "Buddhism",
+      "buddhismDescription": "Learn about Buddhist philosophy and practices",
+      "islam": "Islam",
+      "islamDescription": "Discover Islamic studies, traditions, and teachings"
+    }
+  },
+  "studies": {
+    "title": "Studies",
+    "description": "Deep dive into religious texts and theological studies"
+  },
+  "teachings": {
+    "title": "Teachings",
+    "description": "Learn from experienced teachers and spiritual guides"
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Access a comprehensive collection of religious resources, tools, and educational materials",
+    "studyMaterials": {
+      "title": "Study Materials",
+      "description": "Essential materials for religious study and learning",
+      "explore": "Explore Materials",
+      "sacredTexts": {
+        "title": "Sacred Texts",
+        "description": "Primary religious scriptures and holy books",
+        "items": {
+          "1": "Bible and Quran translations",
+          "2": "Buddhist sutras and commentaries",
+          "3": "Hindu scriptures and Vedas"
+        }
+      },
+      "commentaries": {
+        "title": "Commentaries",
+        "description": "Scholarly interpretations and explanations",
+        "items": {
+          "1": "Historical commentaries",
+          "2": "Modern interpretations",
+          "3": "Academic analysis"
+        }
+      },
+      "studyGuides": {
+        "title": "Study Guides",
+        "description": "Structured learning materials and guides",
+        "items": {
+          "1": "Beginner-friendly introductions",
+          "2": "Advanced theological studies",
+          "3": "Comparative religion guides"
+        }
+      }
+    },
+    "educationalTools": {
+      "title": "Educational Tools",
+      "description": "Interactive tools to enhance your learning experience",
+      "access": "Access Tools",
+      "languageTools": {
+        "title": "Language Tools",
+        "description": "Tools for studying religious texts in original languages",
+        "features": {
+          "1": "Ancient language dictionaries",
+          "2": "Text analysis tools",
+          "3": "Translation comparisons"
+        }
+      },
+      "historicalMaps": {
+        "title": "Historical Maps",
+        "description": "Interactive maps showing religious history and spread",
+        "features": {
+          "1": "Ancient religious sites",
+          "2": "Historical migration patterns",
+          "3": "Cultural exchange routes"
+        }
+      },
+      "timeline": {
+        "title": "Timeline",
+        "description": "Chronological view of religious developments",
+        "features": {
+          "1": "Major religious events",
+          "2": "Historical periods",
+          "3": "Key figures and movements"
+        }
+      }
+    },
+    "communityResources": {
+      "title": "Community Resources",
+      "description": "Connect with others and share knowledge",
+      "explore": "Explore Community",
+      "studyGroups": {
+        "title": "Study Groups",
+        "description": "Join or create study groups for collaborative learning",
+        "items": {
+          "1": "Online discussion forums",
+          "2": "Local study groups",
+          "3": "Expert-led sessions"
+        }
+      },
+      "videoLectures": {
+        "title": "Video Lectures",
+        "description": "Educational videos from religious scholars and teachers",
+        "items": {
+          "1": "Theological lectures",
+          "2": "Historical presentations",
+          "3": "Practical guidance"
+        }
+      },
+      "events": {
+        "title": "Events",
+        "description": "Religious events, conferences, and workshops",
+        "items": {
+          "1": "Academic conferences",
+          "2": "Spiritual retreats",
+          "3": "Community gatherings"
+        }
+      }
+    },
+    "contactSection": {
+      "title": "Need Help?",
+      "description": "Our team is here to help you find the right resources for your spiritual journey",
+      "button": "Contact Us"
+    }
+  },
+  "meditation": {
+    "title": "Meditation",
+    "description": "Find peace and connection through guided meditation practices",
+    "featuredSessions": {
+      "title": "Featured Sessions",
+      "description": "Curated meditation sessions for different experience levels",
+      "sessions": {
+        "1": {
+          "title": "Morning Mindfulness",
+          "description": "Start your day with clarity and intention",
+          "duration": "10 minutes",
+          "level": "Beginner"
+        },
+        "2": {
+          "title": "Loving-Kindness Practice",
+          "description": "Cultivate compassion for yourself and others",
+          "duration": "15 minutes",
+          "level": "Intermediate"
+        },
+        "3": {
+          "title": "Deep Contemplation",
+          "description": "Advanced meditation for spiritual growth",
+          "duration": "30 minutes",
+          "level": "Advanced"
+        },
+        "play": "Start Session"
+      }
+    },
+    "types": {
+      "title": "Meditation Types",
+      "description": "Explore different meditation techniques and practices",
+      "explore": "Learn More",
+      "mindfulness": {
+        "title": "Mindfulness Meditation",
+        "description": "Present-moment awareness and attention training",
+        "benefits": {
+          "1": "Reduced stress and anxiety",
+          "2": "Improved focus and concentration",
+          "3": "Greater emotional balance"
+        }
+      },
+      "lovingKindness": {
+        "title": "Loving-Kindness Meditation",
+        "description": "Cultivating compassion and goodwill",
+        "benefits": {
+          "1": "Increased empathy and compassion",
+          "2": "Better relationships",
+          "3": "Inner peace and contentment"
+        }
+      },
+      "breathAwareness": {
+        "title": "Breath Awareness",
+        "description": "Focusing on the breath for calm and clarity",
+        "benefits": {
+          "1": "Improved breathing patterns",
+          "2": "Reduced physical tension",
+          "3": "Enhanced mental clarity"
+        }
+      },
+      "bodyScan": {
+        "title": "Body Scan Meditation",
+        "description": "Systematic attention to body sensations",
+        "benefits": {
+          "1": "Better body awareness",
+          "2": "Reduced physical pain",
+          "3": "Improved sleep quality"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Meditation",
+      "description": "Discover the transformative effects of regular meditation practice",
+      "mental": {
+        "title": "Mental Benefits",
+        "description": "Improved focus, reduced stress, and enhanced cognitive function"
+      },
+      "physical": {
+        "title": "Physical Benefits",
+        "description": "Lower blood pressure, better sleep, and reduced inflammation"
+      },
+      "spiritual": {
+        "title": "Spiritual Benefits",
+        "description": "Deeper connection, inner peace, and spiritual growth"
+      }
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "description": "Begin your meditation journey with our guided resources",
+      "startButton": "Start Meditating",
+      "learnMoreButton": "Learn More"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest articles, insights, and discussions on theological topics",
+    "readMore": "Read More",
+    "viewAll": "View All Articles"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about our mission and commitment to spiritual education"
+  },
+  "sacredTextsDescription": "Explore sacred scriptures from various religions",
+  "footer": {
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}

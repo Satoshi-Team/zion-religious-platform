@@ -1,0 +1,12 @@
+{
+  "totalBooks": 66,
+  "totalChapters": 1189,
+  "totalVerses": 31001,
+  "successfulFetches": 0,
+  "failedFetches": 0,
+  "translations": {
+    "web": 31001,
+    "kjv": 6781,
+    "asv": 6781
+  }
+}

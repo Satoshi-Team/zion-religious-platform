@@ -1,0 +1,259 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "The Four Purusharthas: Dharma, Artha, Kama, Moksha in Hinduism | Religious Studies Blog",
+  description: "Explore the Four Purusharthas: Dharma (righteousness), Artha (prosperity), Kama (pleasure), and Moksha (liberation). These four aims of human life provide a framework for a balanced, ethical, and purposeful existence in Hinduism.",
+  openGraph: {
+    title: "The Four Purusharthas: Dharma, Artha, Kama, Moksha in Hinduism | Religious Studies Blog",
+    description: "A guide to the Four Purusharthas – Dharma, Artha, Kama, and Moksha – the essential goals for a fulfilling and spiritually progressive life in the Hindu tradition.",
+  type: "article",
+    images: [
+      {
+        url: "/images/four-purusharthas.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "The Four Purusharthas: Dharma, Artha, Kama, Moksha",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hinduism's Four Goals of Life: Dharma, Artha, Kama, Moksha",
+    description: "Understand the Four Purusharthas – righteousness, prosperity, pleasure, and liberation – and how they guide a balanced and purposeful life in Hinduism.",
+    images: ["/images/four-purusharthas.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function TheFourPurusharthas() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            The Four Purusharthas: Dharma, Artha, Kama, Moksha in Hinduism | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            The Four Purusharthas: Dharma, Artha, Kama, Moksha in Hinduism | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Blog Post
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Blog Post
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+                that gives ultimate meaning to the other three. A balanced pursuit of all four is considered ideal for holistic human development.
+              </p>
+            </Card>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              <Link href="/blog/concepts-of-dharma-and-karma" className="block">
+                <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                  <h3 className="text-lg font-semibold">Dharma & Karma</h3>
+                  <p className="text-sm text-muted-foreground">Ethical foundations of Purusharthas.</p>
+                </Card>
+              </Link>
+              <Link href="/blog/hindu-ethics" className="block">
+                <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                  <h3 className="text-lg font-semibold">Hindu Ethics</h3>
+                  <p className="text-sm text-muted-foreground">Moral principles guiding the goals.</p>
+                </Card>
+              </Link>
+              <Link href="/blog/yoga-paths-and-practices" className="block">
+                <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                  <h3 className="text-lg font-semibold">Paths to Moksha (Yoga)</h3>
+                  <p className="text-sm text-muted-foreground">Practices for ultimate liberation.</p>
+                </Card>
+              </Link>
+            </div>
+
+            <Card className="mt-8 bg-muted p-4">
+              <h3 className="text-lg font-semibold">Further Study</h3>
+              <p className="text-sm text-muted-foreground">
+                Explore how to{" "}
+                <Link href="/hinduism/living/balancing-purusharthas" className="hover:underline">
+                  Balance Artha and Kama with Dharma
+                </Link>
+                , understand the significance of{" "}
+                <Link href="/hinduism/philosophy/moksha-as-ultimate-goal" className="hover:underline">
+                  Moksha as the Ultimate Aim
+                </Link>
+                , or see how Purusharthas apply in different{" "}
+                <Link href="/hinduism/society/purusharthas-in-ashramas" className="hover:underline">
+                  Life Stages (Ashramas)
+                </Link>
+                .
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/hinduism/texts/dharma-shastras-purusharthas">Purusharthas in Dharma Shastras</Link>
+                </Button>
+                <Button variant="outline" asChild>
+                  <Link href="/hinduism/philosophy/vedanta-moksha">Vedanta on Moksha</Link>
+                </Button>
+              </div>
+            </Card>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

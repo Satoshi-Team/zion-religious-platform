@@ -1,0 +1,273 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Hindu Diaspora and Global Presence: Tradition Meets Modernity",
+  description: "Explore the global journey of Hinduism - from ancient trade routes to modern diaspora communities. Discover how Hindu traditions have adapted and flourished across continents while maintaining their spiritual essence.",
+  openGraph: {
+    title: "Hindu Diaspora and Global Presence: Tradition Meets Modernity",
+    description: "Explore the global journey of Hinduism - from ancient trade routes to modern diaspora communities. Discover how Hindu traditions have adapted and flourished across continents while maintaining their spiritual essence.",
+    type: "article",
+    url: "/blog/hindu-diaspora",
+    images: [
+      {
+        url: "/images/blog/hindu-diaspora.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hindu Diaspora and Global Presence: Tradition Meets Modernity"
+      }
+    ]
+  }
+}
+export default function HinduDiaspora() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Diaspora and Global Presence: Tradition Meets Modernity
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Diaspora and Global Presence: Tradition Meets Modernity
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+
+
+
+  return (
+    <article className="container mx-auto px-4 py-8">
+      <div className="space-y-8">
+        {/* Breadcrumb Navigation */}
+        <nav className="text-sm text-muted-foreground">
+          <ol className="flex items-center space-x-2">
+            <li>
+              <Link href="/" className="hover:underline">
+                Home
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href="/blog" className="hover:underline">
+                Blog
+              </Link>
+            </li>
+            <li>/</li>
+            <li>Hindu Diaspora and Global Presence: Tradition Meets Modernity</li>
+          </ol>
+        </nav>
+
+        {/* Main Content */}
+        <div className="prose prose-lg dark:prose-invert max-w-none">
+          <h1>Hindu Diaspora and Global Presence: Tradition Meets Modernity</h1>
+          
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Historical Migration</h2>
+              <li>
+                <strong>Ancient Trade Routes:</strong> The spread of Hindu culture through maritime trade, as documented in the Periplus of the Erythraean Sea and ancient Sanskrit texts
+              </li>
+              <li>
+                <strong>Colonial Period:</strong> The migration of indentured laborers, as recorded in colonial archives and preserved in oral histories
+              </li>
+              <li>
+                <strong>Modern Migration:</strong> The professional diaspora movement, as evidenced in contemporary demographic studies and immigration records
+              </li>
+              <li>
+                <strong>Cultural Exchange:</strong> The influence of Hindu thought on global philosophy, as seen in the works of Western scholars and Eastern wisdom traditions
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Global Communities</h2>
+              <li>
+                <strong>North America:</strong> The establishment of temples and cultural centers, as documented in the Hindu American Foundation archives
+              </li>
+              <li>
+                <strong>United Kingdom:</strong> The development of Hindu communities, as chronicled in the Hindu Forum of Britain records
+              </li>
+              <li>
+                <strong>Southeast Asia:</strong> The preservation of ancient Hindu traditions, as evidenced in temple architecture and cultural practices
+              </li>
+              <li>
+                <strong>Caribbean:</strong> The adaptation of Hindu practices, as preserved in local traditions and documented in academic studies
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Cultural Adaptation</h2>
+              <li>
+                <strong>Temple Architecture:</strong> The evolution of temple design, as seen in modern structures like the BAPS Shri Swaminarayan Mandir
+              </li>
+              <li>
+                <strong>Festival Celebrations:</strong> The adaptation of traditional festivals, as documented in community records and cultural studies
+              </li>
+              <li>
+                <strong>Language Preservation:</strong> The maintenance of Sanskrit and regional languages, as supported by educational institutions
+              </li>
+              <li>
+                <strong>Youth Engagement:</strong> The development of modern approaches to tradition, as evidenced in youth organizations and cultural programs
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Impact</h2>
+              <li>
+                <strong>Interfaith Dialogue:</strong> The contribution to global religious understanding, as demonstrated in international conferences
+              </li>
+              <li>
+                <strong>Cultural Diplomacy:</strong> The role in fostering international relations, as evidenced in cultural exchange programs
+              </li>
+              <li>
+                <strong>Social Service:</strong> The establishment of charitable organizations, as documented in community service records
+              </li>
+              <li>
+                <strong>Educational Initiatives:</strong> The development of Hindu studies programs, as seen in university curricula worldwide
+              </li>
+            </ul>
+          </section>
+
+          {/* Related Topics */}
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Related Topics</h2>
+              <li>
+                <Link href="/blog/hindu-festivals" className="hover:underline">
+                  Hindu Festivals and Celebrations: Sacred Time and Community
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/hindu-social-structure" className="hover:underline">
+                  Hindu Social Structure and Values: Dharma in Practice
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/hinduism-and-ecology" className="hover:underline">
+                  Hinduism and Ecology: Environmental Ethics and Practices
+                </Link>
+              </li>
+            </ul>
+          </section>
+
+          {/* Further Study */}
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <li>
+                <Link href="/religion/hinduism" className="hover:underline">
+                  Hinduism Learning Path
+                </Link>
+              </li>
+              <li>
+                <Link href="/religion/comparative" className="hover:underline">
+                  Comparative Religion
+                </Link>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

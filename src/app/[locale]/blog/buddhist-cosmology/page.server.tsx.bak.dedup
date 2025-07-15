@@ -1,0 +1,164 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhist Cosmology: Universe and Realms | Religious Studies Blog",
+  description: "Explore Buddhist cosmology, including the multiple realms of existence, cycles of time, and understanding of the universe. Learn about traditional Buddhist worldview and its modern interpretations.",
+  openGraph: {
+    title: "Buddhist Cosmology: Universe and Realms | Religious Studies Blog",
+    description: "Explore Buddhist cosmology, including the multiple realms of existence, cycles of time, and understanding of the universe. Learn about traditional Buddhist worldview and its modern interpretations.",
+    type: "article",
+    url: "/blog/buddhist-cosmology",
+    images: [
+      {
+        url: "/images/blog/buddhist-cosmology.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhist Cosmology: Universe and Realms | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function BuddhistCosmology() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhist Cosmology: Universe and Realms
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Cosmology</Badge>
+            <Badge variant="secondary">Metaphysics</Badge>
+            <Badge variant="secondary">Philosophy</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Buddhist cosmology presents a sophisticated understanding of the universe, encompassing multiple realms of existence, vast cycles of time, and the intricate relationship between consciousness and reality. This worldview combines metaphysical insights with practical implications for spiritual practice and understanding the nature of existence.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Structure of the Universe</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Mount Meru Cosmology:</h3>
+                  <ul>
+                    <li>Central axis (Mount Meru)</li>
+                    <li>Four great continents</li>
+                    <li>Seven concentric oceans</li>
+                    <li>Celestial realms above</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>World Systems:</h3>
+                  <ul>
+                    <li>Multiple world systems (lokadhātu)</li>
+                    <li>Infinite buddha-fields</li>
+                    <li>Three thousand great thousandfold world system</li>
+                    <li>Interconnected realms</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Realms of Existence</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Higher Realms (Sugati):</h3>
+                  <ul>
+                    <li>Form realms (rūpadhātu)</li>
+                    <li>Formless realms (arūpadhātu)</li>
+                    <li>Heavenly realms (devaloka)</li>
+                    <li>Pure abodes (suddhāvāsa)</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Middle Realms:</h3>
+                  <ul>
+                    <li>Human realm (manuṣyaloka)</li>
+                    <li>Asura realm</li>
+                    <li>Animal realm (tiryagloka)</li>
+                    <li>Hungry ghost realm (pretaloka)</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Lower Realms (Durgati):</h3>
+                  <ul>
+                    <li>Hell realms (naraka)</li>
+                    <li>Hot hells (uṣṇa naraka)</li>
+                    <li>Cold hells (śīta naraka)</li>
+                    <li>Temporary hells</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Temporal Cycles</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Cosmic Cycles:</h3>
+                  <ul>
+                    <li>Great eons (mahākalpa)</li>
+                    <li>Formation period (vivartakalpa)</li>
+                    <li>Duration period (vivartasthāyikalpa)</li>
+                    <li>Dissolution period (saṃvartakalpa)</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Time Measurements:</h3>
+                  <ul>
+                    <li>Kalpa system</li>
+                    <li>Buddhist ages</li>
+                    <li>Day of Brahma</li>
+                    <li>Cosmic cycles</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Metaphysical Principles</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Fundamental Concepts:</h3>
+                  <ul>
+                    <li>Dependent origination (pratītyasamutpāda)</li>
+                    <li>Emptiness (śūnyatā)</li>
+                    <li>Karma and rebirth</li>
+                    <li>Mind and consciousness</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Causal Relationships:</h3>
+                  <ul>
+                    <li>Karmic causation</li>
+                    <li>Mental formations</li>
+                    <li>Cosmic order (dharmatā)</li>
+                    <li>Natural laws</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

@@ -1,0 +1,225 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Hindu Cosmology & Time Cycles: Yugas, Kalpas, and Cosmic Creation | Religious Studies Blog",
+  description: "Delve into Hindu cosmology, exploring vast time cycles (Yugas, Kalpas), the process of cosmic creation (Srishti) and dissolution (Pralaya), and the concept of Brahman as the ultimate reality. Understand how these concepts shape the Hindu worldview.",
+  openGraph: {
+    title: "Hindu Cosmology & Time Cycles: Yugas, Kalpas, and Cosmic Creation | Religious Studies Blog",
+    description: "A comprehensive exploration of Hindu cosmological concepts, including the cyclical nature of time (Yugas, Manvantaras, Kalpas), the creation and dissolution of universes, and their philosophical implications.",
+  type: "article",
+    images: [
+      {
+        url: "/images/hindu-cosmology.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Hindu Cosmic Cycles and Yugas",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hindu Cosmology & Time Cycles: Yugas, Kalpas, and Cosmic Creation",
+    description: "Explore the vast time cycles (Yugas, Kalpas) and cosmic creation narratives within Hindu cosmology.",
+    images: ["/images/hindu-cosmology.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function HinduCosmology() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Cosmology & Time Cycles: Yugas, Kalpas, and Cosmic Creation | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Cosmology & Time Cycles: Yugas, Kalpas, and Cosmic Creation | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+                    </ul>
+                  </Card>
+                  <Card className="p-4">
+                    <h3 className="text-lg font-medium">4. Kali Yuga (Iron Age - Current Age)</h3>
+                    <Badge variant="outline">Duration: 432,000 human years</Badge>
+                    <ul className="mt-2 text-sm">
+                      <li>Dharma reduced to one-fourth (one pillar: truth, albeit diminished).</li>
+                      <li>Characterized by strife, ignorance, materialism, and spiritual decline.</li>
+                      <li>Short lifespans, widespread suffering.</li>
+                      <li>However, liberation is considered easier to attain through devotion.</li>
+                    </ul>
+                  </Card>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Cosmic Cycles: Srishti (Creation) and Pralaya (Dissolution)</h2>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Srishti (Creation)</h3>
+                    <p className="mt-2">
+                      At the beginning of each Kalpa (Brahma's day), creation emanates from Brahman, the ultimate source. Brahma, as the instrumental creator, brings forth the universe and its beings according to cosmic laws and karmic imprints from previous cycles.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Pralaya (Dissolution)</h3>
+                    <p className="mt-2">
+                      At the end of Brahma's day (Naimittika Pralaya), the three worlds (earth, atmosphere, heavens) are dissolved. At the end of Brahma's life (Prakritika Pralaya), the entire cosmos, including Brahma himself, merges back into the unmanifest Brahman, awaiting a new cycle of creation.
+                    </p>
+                    <ul className="mt-1 text-xs">
+                      <li><strong>Types of Pralaya:</strong> Nitya (constant individual), Naimittika (occasional, end of Brahma's day), Prakritika (elemental, end of Brahma's life), Atyantika (absolute, individual liberation).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Philosophical Implications
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Understanding Existence</h3>
+                    <ul className="mt-2">
+                      <li>The vastness of cosmic time relativizes human concerns.</li>
+                      <li>Emphasizes the impermanence of the material world.</li>
+                      <li>Highlights the cyclical nature of existence, driven by Karma.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Spiritual Goal: Moksha</h3>
+                    <ul className="mt-2">
+                      <li>The ultimate aim is Moksha (liberation) from the cycle of Samsara (birth and rebirth).</li>
+                      <li>Understanding cosmic cycles can inspire detachment and focus on spiritual pursuits.</li>
+                      <li>Divine grace and intervention (Avatars) play a role in guiding souls.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/avatars-of-vishnu" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Avatars of Vishnu</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Divine incarnations appearing across different Yugas.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-philosophy" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Philosophy</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Explore concepts like Brahman, Atman, Karma, and Moksha.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the concept of the{" "}
+                  <Link href="/hinduism/concepts/yugas" className="hover:underline">
+                    Yugas in detail
+                  </Link>
+                  , understand the nature of{" "}
+                  <Link href="/hinduism/concepts/brahman" className="hover:underline">
+                    Brahman (The Ultimate Reality)
+                  </Link>
+                  , or delve into the process of{" "}
+                  <Link href="/hinduism/concepts/pralaya" className="hover:underline">
+                    Pralaya (Cosmic Dissolution)
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/texts/puranas">The Puranas</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/concepts/karma-samsara">Karma and Samsara</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

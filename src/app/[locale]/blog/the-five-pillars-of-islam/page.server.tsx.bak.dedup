@@ -1,0 +1,305 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "The Five Pillars of Islam | Religious Studies Blog",
+  description: "Explore the fundamental practices of Islam through its Five Pillars: Declaration of Faith (Shahada), Prayer (Salah), Charity (Zakat), Fasting (Sawm), and Pilgrimage (Hajj).",
+  openGraph: {
+    title: "The Five Pillars of Islam | Religious Studies Blog",
+    description: "Explore the fundamental practices of Islam through its Five Pillars: Declaration of Faith (Shahada), Prayer (Salah), Charity (Zakat), Fasting (Sawm), and Pilgrimage (Hajj).",
+    type: "article",
+    url: "/blog/the-five-pillars-of-islam",
+    images: [
+      {
+        url: "/images/blog/the-five-pillars-of-islam.jpg",
+        width: 1200,
+        height: 630,
+        alt: "The Five Pillars of Islam | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function TheFivePillarsOfIslam() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            The Five Pillars of Islam | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            The Five Pillars of Islam | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Five Pillars</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            The Five Pillars of Islam: Foundation of Faith and Practice
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Fundamentals</Badge>
+            <Badge variant="secondary">Islamic Practice</Badge>
+            <Badge variant="secondary">Religious Duties</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            The Five Pillars of Islam form the foundation of Muslim life, representing the core
+            practices and obligations that every Muslim must fulfill. These pillars structure daily
+            life, annual observances, and lifetime spiritual development, creating a framework for
+            both individual devotion and community cohesion.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Declaration of Faith (Shahada)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Meaning and Significance</h3>
+                    <ul className="mt-2">
+                      <li>Testimony of faith</li>
+                      <li>Monotheistic affirmation</li>
+                      <li>Prophetic recognition</li>
+                      <li>Entry into Islam</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Implementation</h3>
+                    <ul className="mt-2">
+                      <li>Daily recitation</li>
+                      <li>Conscious affirmation</li>
+                      <li>Spiritual renewal</li>
+                      <li>Life orientation</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Prayer (Salah)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Daily Prayers</h3>
+                    <ul className="mt-2">
+                      <li>Five prescribed times</li>
+                      <li>Ritual purification</li>
+                      <li>Prayer direction (Qibla)</li>
+                      <li>Physical movements</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Spiritual Aspects</h3>
+                    <ul className="mt-2">
+                      <li>Divine connection</li>
+                      <li>Mindful presence</li>
+                      <li>Regular remembrance</li>
+                      <li>Community unity</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Charity (Zakat)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Financial Obligation</h3>
+                    <ul className="mt-2">
+                      <li>Annual calculation</li>
+                      <li>Eligible recipients</li>
+                      <li>Types of wealth</li>
+                      <li>Minimum threshold</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Social Impact</h3>
+                    <ul className="mt-2">
+                      <li>Wealth purification</li>
+                      <li>Community welfare</li>
+                      <li>Economic justice</li>
+                      <li>Social responsibility</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Fasting (Sawm)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Ramadan Observance</h3>
+                    <ul className="mt-2">
+                      <li>Dawn to sunset</li>
+                      <li>Lunar calendar</li>
+                      <li>Physical abstinence</li>
+                      <li>Spiritual focus</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Personal Development</h3>
+                    <ul className="mt-2">
+                      <li>Self-discipline</li>
+                      <li>Empathy building</li>
+                      <li>Spiritual reflection</li>
+                      <li>Community bonding</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Pilgrimage (Hajj)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Sacred Journey</h3>
+                    <ul className="mt-2">
+                      <li>Once in lifetime</li>
+                      <li>Specific rituals</li>
+                      <li>Sacred locations</li>
+                      <li>Historical connection</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Spiritual Impact</h3>
+                    <ul className="mt-2">
+                      <li>Universal brotherhood</li>
+                      <li>Divine presence</li>
+                      <li>Life transformation</li>
+                      <li>Spiritual renewal</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Deepen your understanding through our{" "}
+                  <Link href="/religion/islam/practices" className="hover:underline">
+                    Islamic Practices
+                  </Link>{" "}
+                  section. Explore devotional traditions in our{" "}
+                  <Link href="/religion/comparative-worship" className="hover:underline">
+                    Comparative Worship
+                  </Link>{" "}
+                  guide.
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/islam/practices">View Practices Guide</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/comparative-worship">Compare Traditions</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

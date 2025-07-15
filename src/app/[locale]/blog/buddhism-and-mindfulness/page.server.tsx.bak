@@ -1,0 +1,148 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Buddhism and Mindfulness: Ancient Wisdom in Modern Life | Religious Studies Blog",
+  description: "Explore the profound connection between Buddhism and mindfulness - from ancient meditation practices to contemporary applications in psychology, healthcare, and daily life. Discover how Buddhist wisdom enhances modern mindfulness.",
+  openGraph: {
+    title: "Buddhism and Mindfulness: Ancient Wisdom in Modern Life | Religious Studies Blog",
+    description: "Explore the profound connection between Buddhism and mindfulness - from ancient meditation practices to contemporary applications in psychology, healthcare, and daily life. Discover how Buddhist wisdom enhances modern mindfulness.",
+    type: "article",
+  },
+};
+
+export default function BuddhismAndMindfulness() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhism and Mindfulness: Ancient Wisdom in Modern Life
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Mindfulness</Badge>
+            <Badge variant="secondary">Meditation</Badge>
+            <Badge variant="secondary">Wisdom</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                The integration of Buddhist mindfulness practices into contemporary life represents a profound bridge between ancient wisdom and modern applications. This exploration examines how Buddhist mindfulness principles have been adapted and applied in various fields, from psychology and healthcare to education and personal development.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Historical Foundations</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Buddhist Origins:</h3>
+                  <ul>
+                    <li>Satipatthana Sutta</li>
+                    <li>Anapanasati Sutta</li>
+                    <li>Four Foundations of Mindfulness</li>
+                    <li>Mindfulness in Daily Life</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Modern Adaptation:</h3>
+                  <ul>
+                    <li>Secular Mindfulness</li>
+                    <li>Scientific Research</li>
+                    <li>Clinical Applications</li>
+                    <li>Educational Programs</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Core Principles</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Mindfulness Fundamentals:</h3>
+                  <ul>
+                    <li>Present Moment Awareness</li>
+                    <li>Non-judgmental Observation</li>
+                    <li>Acceptance and Equanimity</li>
+                    <li>Compassionate Attention</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Buddhist Integration:</h3>
+                  <ul>
+                    <li>Ethical Framework</li>
+                    <li>Wisdom Development</li>
+                    <li>Compassion Cultivation</li>
+                    <li>Spiritual Context</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Applications</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Healthcare and Wellness:</h3>
+                  <ul>
+                    <li>Mindfulness-Based Stress Reduction (MBSR)</li>
+                    <li>Mindfulness-Based Cognitive Therapy (MBCT)</li>
+                    <li>Pain Management</li>
+                    <li>Mental Health Treatment</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Education and Development:</h3>
+                  <ul>
+                    <li>School Programs</li>
+                    <li>Workplace Training</li>
+                    <li>Leadership Development</li>
+                    <li>Personal Growth</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Research and Evidence</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Scientific Studies:</h3>
+                  <ul>
+                    <li>Neuroscientific Research</li>
+                    <li>Psychological Benefits</li>
+                    <li>Physical Health Effects</li>
+                    <li>Social Impact Studies</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Clinical Applications:</h3>
+                  <ul>
+                    <li>Anxiety and Depression</li>
+                    <li>Chronic Pain</li>
+                    <li>Addiction Recovery</li>
+                    <li>Trauma Treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

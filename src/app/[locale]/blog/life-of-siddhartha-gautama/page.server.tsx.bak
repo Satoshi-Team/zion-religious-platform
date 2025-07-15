@@ -1,0 +1,298 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Life of Siddhartha Gautama: The Buddha's Journey to Enlightenment | Religious Studies Blog",
+  description: "Explore the transformative journey of Siddhartha Gautama - from his princely origins to his profound awakening. Discover how his life experiences shaped the core teachings of Buddhism and continue to inspire spiritual seekers worldwide.",
+  openGraph: {
+    title: "Life of Siddhartha Gautama: The Buddha's Journey to Enlightenment | Religious Studies Blog",
+    description: "Explore the transformative journey of Siddhartha Gautama - from his princely origins to his profound awakening. Discover how his life experiences shaped the core teachings of Buddhism and continue to inspire spiritual seekers worldwide.",
+  type: "article",
+}
+  },
+};
+
+export default function LifeOfSiddharthaGautama() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Life of Siddhartha Gautama: The Buddha's Journey to Enlightenment | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Life of Siddhartha Gautama: The Buddha's Journey to Enlightenment | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-4">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span>•</span>
+          <Link href="/religion/buddhism" className="hover:underline">
+            Buddhism
+          </Link>
+          <span>•</span>
+          <span>Foundations</span>
+        </div>
+
+        <h1>Life of Siddhartha Gautama: The Buddha's Journey to Enlightenment</h1>
+
+        <div className="space-y-6">
+          <p>
+            The life of Siddhartha Gautama, who would become the Buddha, represents
+            one of humanity's most profound spiritual journeys. This exploration
+            examines his path from privileged prince to enlightened teacher,
+            revealing how his experiences shaped the foundational teachings of
+            Buddhism.
+          </p></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Early Life</h2>
+            <div className="space-y-2">
+              <h3>Royal Origins:</h3>
+              <ul>
+                <li>Birth in Lumbini (563 BCE)</li>
+                <li>Shakya Clan Heritage</li>
+                <li>Prophetic Signs</li>
+                <li>Royal Upbringing</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Protected Youth:</h3>
+              <ul>
+                <li>Palace Life</li>
+                <li>Education and Training</li>
+                <li>Marriage and Family</li>
+                <li>Material Comforts</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">The Great Departure</h2>
+            <div className="space-y-2">
+              <h3>Four Sights:</h3>
+              <ul>
+                <li>Old Age</li>
+                <li>Sickness</li>
+                <li>Death</li>
+                <li>Spiritual Seeker</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Renunciation:</h3>
+              <ul>
+                <li>Leaving the Palace</li>
+                <li>Family Sacrifice</li>
+                <li>Spiritual Quest</li>
+                <li>New Beginning</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Spiritual Quest</h2>
+            <div className="space-y-2">
+              <h3>Ascetic Practices:</h3>
+              <ul>
+                <li>Forest Meditation</li>
+                <li>Severe Austerities</li>
+                <li>Physical Limits</li>
+                <li>Spiritual Insights</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Middle Way:</h3>
+              <ul>
+                <li>Balance Discovery</li>
+                <li>Moderate Path</li>
+                <li>Essential Truths</li>
+                <li>Practical Wisdom</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Enlightenment</h2>
+            <div className="space-y-2">
+              <h3>Bodhi Tree Experience:</h3>
+              <ul>
+                <li>Final Meditation</li>
+                <li>Mara's Temptations</li>
+                <li>Profound Realization</li>
+                <li>Complete Awakening</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Core Insights:</h3>
+              <ul>
+                <li>Four Noble Truths</li>
+                <li>Dependent Origination</li>
+                <li>Nirvana Realization</li>
+                <li>Universal Truths</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Teaching Mission</h2>
+            <div className="space-y-2">
+              <h3>First Teachings:</h3>
+              <ul>
+                <li>Dharma Wheel</li>
+                <li>First Disciples</li>
+                <li>Sangha Formation</li>
+                <li>Teaching Methods</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Lasting Legacy:</h3>
+              <ul>
+                <li>Monastic Community</li>
+                <li>Lay Followers</li>
+                <li>Spiritual Heritage</li>
+                <li>Global Impact</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Related Topics</h2>
+            <Link
+              href="/blog/the-four-noble-truths"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">The Four Noble Truths</h3>
+              <p className="text-sm text-muted-foreground">
+                Understanding the core teachings of Buddhism
+              </p>
+            </Link>
+            <Link
+              href="/blog/the-noble-eightfold-path"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">The Noble Eightfold Path</h3>
+              <p className="text-sm text-muted-foreground">
+                Exploring the path to enlightenment
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-8 rounded-lg bg-muted p-4">
+            <h3 className="text-lg font-semibold">Further Study</h3>
+            <p className="text-sm text-muted-foreground">
+              Continue your exploration of the Buddha's life and teachings through our comprehensive
+              learning path in the{" "}
+              <Link href="/religion/buddhism" className="hover:underline">
+                Buddhism section
+              </Link>
+              . Compare and contrast with other religious traditions in our{" "}
+              <Link href="/religion/comparative" className="hover:underline">
+                Comparative Religion
+              </Link>{" "}
+              section.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

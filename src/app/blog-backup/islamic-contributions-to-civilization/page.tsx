@@ -1,0 +1,243 @@
+import { Metadata } from "next"
+import Link from "next/link"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+export const metadata: Metadata = {
+  title: "Islamic Contributions to Civilization: Science, Arts, Philosophy & Culture | Religious Studies Blog",
+  description: "Explore Islamic civilization's vast contributions: algebra, medicine (Ibn Sina), astronomy, philosophy (Al-Farabi, Ibn Rushd), art, architecture (mosques, palaces), and societal innovations.",
+  openGraph: {
+    title: "Islamic Contributions to Civilization: Science, Arts, Philosophy & Culture | Religious Studies Blog",
+    description: "A comprehensive overview of the Golden Age of Islam and its lasting impact on mathematics, medicine, astronomy, philosophy, art, architecture, and global culture.",
+    type: "article",
+    images: [
+      {
+        url: "/images/islamic-contributions.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Islamic Contributions to Civilization",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Islamic Contributions to Civilization: Science, Arts, Philosophy & Culture",
+    description: "Explore Islamic civilization's vast contributions: algebra, medicine, astronomy, philosophy, art, architecture, and societal innovations.",
+    images: ["/images/islamic-contributions.jpg"], // Placeholder - ensure image exists
+  },
+}
+
+export default function IslamicContributionsToCivilizationPage() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Contributions to Civilization</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Contributions to Civilization: A Legacy of Innovation and Knowledge
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Golden Age of Islam</Badge>
+            <Badge variant="secondary">Scientific Advancements</Badge>
+            <Badge variant="secondary">Arts & Architecture</Badge>
+            <Badge variant="secondary">Philosophy & Learning</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            The Islamic Golden Age, spanning roughly from the 8th to the 14th centuries, was a period of extraordinary
+            intellectual, cultural, and scientific flourishing. Muslim scholars, thinkers, and artisans built upon
+            earlier traditions and forged new paths, leaving an indelible mark on global civilization. Their contributions
+            were pivotal in preserving classical knowledge and advancing numerous fields that shaped the modern world.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Mathematics and Astronomy
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Mathematics</h3>
+                    <ul className="mt-2">
+                      <li><strong>Algebra:</strong> Developed by Muhammad ibn Musa al-Khwarizmi (whose name gave us "algorithm" and book title "Kitab al-Jabr" gave us "algebra").</li>
+                      <li><strong>Arabic Numerals & Decimal System:</strong> Popularized the Hindu-Arabic numeral system, including zero, crucial for modern mathematics.</li>
+                      <li><strong>Trigonometry:</strong> Significant advancements by scholars like Al-Battani and Abu al-Wafa' al-Buzjani, including spherical trigonometry.</li>
+                      <li><strong>Geometry:</strong> Preservation and expansion of Euclidean geometry; advancements in geometric algebra.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Astronomy (Ilm al-Falak)</h3>
+                    <ul className="mt-2">
+                      <li><strong>Observatories:</strong> Establishment of advanced observatories (e.g., Maragheh, Samarkand).</li>
+                      <li><strong>Astronomical Instruments:</strong> Invention and refinement of astrolabes, quadrants, and armillary spheres.</li>
+                      <li><strong>Planetary Models:</strong> Critiques of Ptolemaic models and development of new models (e.g., by Ibn al-Shatir, the Maragha school) that influenced Copernicus.</li>
+                      <li><strong>Star Catalogs & Zij Tables:</strong> Accurate star charts and astronomical tables (Zij), such as those by Al-Sufi and Ulugh Beg.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Medicine and Health Sciences (Tibb)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Medical Knowledge & Practice</h3>
+                    <ul className="mt-2">
+                      <li><strong>Comprehensive Treatises:</strong> Al-Razi's (Rhazes) "Al-Hawi" (The Comprehensive Book) and Ibn Sina's (Avicenna) "Al-Qanun fi al-Tibb" (The Canon of Medicine) were standard medical texts in Europe for centuries.</li>
+                      <li><strong>Hospitals (Bimaristan):</strong> Establishment of public hospitals providing free care, with specialized wards and medical training.</li>
+                      <li><strong>Pharmacology & Pharmacies:</strong> Development of pharmacies (Saydanah) and extensive knowledge of medicinal plants and remedies.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Specialized Fields</h3>
+                    <ul className="mt-2">
+                      <li><strong>Surgery:</strong> Innovations by Al-Zahrawi (Albucasis), author of "Al-Tasrif," an illustrated surgical encyclopedia.</li>
+                      <li><strong>Ophthalmology:</strong> Significant advancements in understanding eye anatomy and diseases by scholars like Ibn al-Haytham (Alhazen) and Ali ibn Isa al-Kahhal.</li>
+                      <li><strong>Anatomy & Physiology:</strong> Ibn al-Nafis correctly described pulmonary circulation.</li>
+                      <li><strong>Public Health:</strong> Emphasis on hygiene and preventative medicine.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Philosophy, Learning, and Social Sciences
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Philosophy (Falsafa)</h3>
+                    <ul className="mt-2">
+                      <li><strong>Preservation & Synthesis:</strong> Translation and commentary on Greek philosophers (Aristotle, Plato, Plotinus).</li>
+                      <li><strong>Key Thinkers:</strong> Al-Kindi (philosopher of the Arabs), Al-Farabi (logic, political philosophy), Ibn Sina (metaphysics, epistemology), Ibn Rushd (Averroes - influential commentator on Aristotle).</li>
+                      <li><strong>Theological Philosophy (Kalam):</strong> Debates on reason, revelation, free will, and divine attributes.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Education & Scholarship</h3>
+                    <ul className="mt-2">
+                      <li><strong>House of Wisdom (Bayt al-Hikmah):</strong> Major intellectual center in Baghdad for translation, research, and scholarship.</li>
+                      <li><strong>Madrasas & Universities:</strong> Development of institutions of higher learning (e.g., Al-Azhar, Al-Qarawiyyin).</li>
+                      <li><strong>Libraries & Book Culture:</strong> Vast libraries and a flourishing book trade.</li>
+                      <li><strong>Historiography:</strong> Works by Al-Tabari, Ibn Khaldun (Muqaddimah - pioneering sociology and philosophy of history).</li>
+                      <li><strong>Geography & Cartography:</strong> Detailed maps and travelogues (e.g., Al-Idrisi, Ibn Battuta).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Arts, Architecture, and Technology
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Visual Arts & Crafts</h3>
+                    <ul className="mt-2">
+                      <li><strong>Calligraphy (Khatt):</strong> Elevated to a major art form, with various scripts.</li>
+                      <li><strong>Geometric Patterns & Arabesques:</strong> Intricate designs in various media.</li>
+                      <li><strong>Ceramics, Glassware, Metalwork, Textiles:</strong> High levels of craftsmanship.</li>
+                      <li><strong>Miniature Painting:</strong> Flourished in Persian, Ottoman, and Mughal traditions.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Architecture (Imarah)</h3>
+                    <ul className="mt-2">
+                      <li><strong>Mosques:</strong> Iconic structures with domes, minarets, courtyards (e.g., Great Mosque of Cordoba, Dome of the Rock).</li>
+                      <li><strong>Palaces & Forts:</strong> (e.g., Alhambra in Granada).</li>
+                      <li><strong>Urban Planning:</strong> Well-planned cities with infrastructure.</li>
+                      <li><strong>Engineering & Technology:</strong> Innovations in water management (aqueducts, irrigation), windmills, paper-making, and various mechanical devices (e.g., by Al-Jazari).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Cultural and Societal Impact
+                </h2>
+                <Separator className="my-4" />
+                <ul className="mt-2">
+                  <li><strong>Language:</strong> Arabic became a lingua franca for scholarship and trade. Many scientific terms in Western languages have Arabic roots.</li>
+                  <li><strong>Agriculture:</strong> Introduction of new crops and advanced irrigation techniques (Agricultural Revolution).</li>
+                  <li><strong>Commerce & Trade:</strong> Extensive trade networks fostering economic growth and cultural exchange.</li>
+                  <li><strong>Social Institutions:</strong> Development of charitable foundations (Waqf), legal systems, and market regulations.</li>
+                  <li><strong>Transmission of Knowledge:</strong> Islamic scholars played a crucial role in preserving and transmitting classical Greek knowledge to Europe, fueling the Renaissance.</li>
+                </ul>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-perspectives-on-science-and-knowledge" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Science & Knowledge in Islam</h3>
+                    <p className="text-sm text-muted-foreground">
+                      The ethos behind the scientific pursuits.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/islamic-art-and-architecture" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Art & Architecture</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Explore the aesthetic achievements in detail.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Delve into the intellectual hubs like the{" "}
+                  <Link href="/history/islamic-civilization/house-of-wisdom" className="hover:underline">
+                    House of Wisdom
+                  </Link>
+                  , or learn about specific figures in our biographies of{" "}
+                  <Link href="/scholars/ibn-sina" className="hover:underline">
+                    Ibn Sina (Avicenna)
+                  </Link>{" "}
+                  and{" "}
+                  <Link href="/scholars/al-khwarizmi" className="hover:underline">
+                    Al-Khwarizmi
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/history/islamic-civilization/golden-age">The Golden Age</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/scholars">Explore Scholars</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )
+} 

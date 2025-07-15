@@ -1,0 +1,157 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhist Ethics and Precepts | Religious Studies Blog",
+  description: "Explore Buddhist ethical principles, moral guidelines, and precepts. Learn about the foundations of Buddhist ethics, their practical application, and relevance in contemporary life.",
+  openGraph: {
+    title: "Buddhist Ethics and Precepts | Religious Studies Blog",
+    description: "Explore Buddhist ethical principles, moral guidelines, and precepts. Learn about the foundations of Buddhist ethics, their practical application, and relevance in contemporary life.",
+    type: "article",
+    url: "/blog/buddhist-ethics-and-precepts",
+    images: [
+      {
+        url: "/images/blog/buddhist-ethics-and-precepts.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhist Ethics and Precepts | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function BuddhistEthicsAndPrecepts() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhist Ethics and Precepts
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Ethics</Badge>
+            <Badge variant="secondary">Precepts</Badge>
+            <Badge variant="secondary">Morality</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Buddhist ethics provides a comprehensive framework for moral conduct, based on principles of non-harm, mindfulness, and compassion. These ethical guidelines, developed over centuries of practice and reflection, offer practical direction for both personal development and harmonious social relationships.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Foundations of Buddhist Ethics</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Core Principles:</h3>
+                  <ul>
+                    <li>Non-harm (ahiṃsā)</li>
+                    <li>Compassion (karuṇā)</li>
+                    <li>Mindfulness (sati)</li>
+                    <li>Wisdom (paññā)</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Ethical Framework:</h3>
+                  <ul>
+                    <li>Intention (cetanā)</li>
+                    <li>Karma and consequences</li>
+                    <li>Skillful action (kusala)</li>
+                    <li>Mental cultivation</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">The Five Precepts</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Basic Guidelines:</h3>
+                  <ul>
+                    <li>Abstaining from killing</li>
+                    <li>Avoiding stealing</li>
+                    <li>Sexual misconduct</li>
+                    <li>False speech</li>
+                    <li>Intoxicants</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Positive Aspects:</h3>
+                  <ul>
+                    <li>Protecting life</li>
+                    <li>Practicing generosity</li>
+                    <li>Maintaining relationships</li>
+                    <li>Speaking truthfully</li>
+                    <li>Mental clarity</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Advanced Ethical Training</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Eight Precepts:</h3>
+                  <ul>
+                    <li>Additional restraints</li>
+                    <li>Periodic observance</li>
+                    <li>Spiritual development</li>
+                    <li>Meditation support</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Ten Precepts:</h3>
+                  <ul>
+                    <li>Novice monastic rules</li>
+                    <li>Further refinements</li>
+                    <li>Preparatory training</li>
+                    <li>Ethical foundation</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Bodhisattva Ethics</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Mahāyāna Principles:</h3>
+                  <ul>
+                    <li>Universal compassion</li>
+                    <li>Benefiting others</li>
+                    <li>Skillful means (upāya)</li>
+                    <li>Six perfections (pāramitā)</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Advanced Vows:</h3>
+                  <ul>
+                    <li>Bodhisattva precepts</li>
+                    <li>Altruistic commitment</li>
+                    <li>Ethical flexibility</li>
+                    <li>Wisdom application</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

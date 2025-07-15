@@ -1,0 +1,302 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Islamic Perspectives on Peace (Salam) & Conflict Resolution (Sulh) | Religious Studies Blog",
+  description: "Explore Islam's approach to peace (Salam) and conflict resolution (Sulh). Understand Quranic principles, Prophetic examples (Treaty of Hudaybiyyah, Medina Charter), and methods like mediation (Wasata) and reconciliation.",
+  openGraph: {
+    title: "Islamic Perspectives on Peace (Salam) & Conflict Resolution (Sulh) | Religious Studies Blog",
+    description: "Explore Islam's approach to peace (Salam) and conflict resolution (Sulh). Understand Quranic principles, Prophetic examples (Treaty of Hudaybiyyah, Medina Charter), and methods like mediation (Wasata) and reconciliation.",
+    type: "article",
+    url: "/blog/islamic-perspectives-on-peace-and-conflict-resolution",
+    images: [
+      {
+        url: "/images/blog/islamic-perspectives-on-peace-and-conflict-resolution.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Islamic Perspectives on Peace (Salam) & Conflict Resolution (Sulh) | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function IslamicPerspectivesOnPeaceAndConflictResolution() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Peace (Salam) & Conflict Resolution (Sulh) | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Peace (Salam) & Conflict Resolution (Sulh) | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Peace & Conflict Resolution</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Peace (Salam) and Conflict Resolution (Sulh)
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Salam (Peace)</Badge>
+            <Badge variant="secondary">Sulh (Reconciliation)</Badge>
+            <Badge variant="secondary">Adl (Justice)</Badge>
+            <Badge variant="secondary">Rahma (Mercy)</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Islam, whose very name is derived from "Salam" (peace), provides a comprehensive framework for establishing
+            peace and resolving conflicts (Sulh). This framework is rooted in Quranic principles of justice (Adl),
+            mercy (Rahma), and forgiveness, and exemplified by the Prophet Muhammad ﷺ through diplomacy, mediation,
+            and reconciliation efforts.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Quranic Foundations for Peace and Reconciliation
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Core Principles of Peace (Salam)</h3>
+                    <ul className="mt-2">
+                      <li>Peace as a divine attribute and greeting (As-Salam).</li>
+                      <li>Call to enter into peace wholeheartedly (Al-Baqarah 2:208).</li>
+                      <li>Justice (Adl) as a prerequisite for sustainable peace.</li>
+                      <li>Forgiveness (Afw) and overlooking faults (Safh).</li>
+                      <li>Patience (Sabr) in adversity and during conflict.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Mechanisms for Conflict Resolution (Sulh)</h3>
+                    <ul className="mt-2">
+                      <li>Reconciliation between disputing parties (Al-Hujurat 49:9-10).</li>
+                      <li>Mediation (Wasata) and arbitration (Tahkim).</li>
+                      <li>Dialogue (Hiwar) and consultation (Shura).</li>
+                      <li>Prohibition of aggression (Udwan) and transgression.</li>
+                      <li>Responding to evil with good (Fussilat 41:34).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Prophetic Examples (Sunnah) in Peacemaking
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Diplomacy and Treaties</h3>
+                    <ul className="mt-2">
+                      <li><strong>Treaty of Hudaybiyyah:</strong> A pivotal peace agreement demonstrating strategic patience and long-term vision.</li>
+                      <li>Sending envoys and letters to rulers.</li>
+                      <li>Establishing covenants and alliances.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Mediation and Reconciliation</h3>
+                    <ul className="mt-2">
+                      <li><strong>Medina Charter (Sahifat al-Madinah):</strong> Established a framework for peaceful coexistence among diverse communities.</li>
+                      <li>Personally mediating disputes among companions and tribes.</li>
+                      <li>Emphasis on forgiveness during the Conquest of Mecca.</li>
+                      <li>The Farewell Sermon: Principles of justice, equality, and sanctity of life.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Islamic Jurisprudence (Fiqh) on War and Peace
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Conditions and Ethics of Warfare (Jihad)</h3>
+                    <ul className="mt-2">
+                      <li>Jihad as striving, including legitimate self-defense.</li>
+                      <li>Strict ethical conduct: Prohibition of targeting non-combatants, destruction of property, etc.</li>
+                      <li>War as a last resort, after all peaceful means are exhausted.</li>
+                      <li>Distinction between legitimate defensive struggle and prohibited aggression.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Principles of International Relations</h3>
+                    <ul className="mt-2">
+                      <li>Respect for treaties and agreements (Ahd).</li>
+                      <li>Offering peace before engaging in conflict.</li>
+                      <li>Rules for treatment of prisoners of war.</li>
+                      <li>Concept of Dar al-Salam (Abode of Peace) and Dar al-Ahd (Abode of Treaty).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Contemporary Challenges and Applications
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Modern Conflicts and Peacemaking</h3>
+                    <ul className="mt-2">
+                      <li>Applying Islamic principles to international conflicts.</li>
+                      <li>Role of Muslim organizations in peace-building and humanitarian aid.</li>
+                      <li>Countering extremist ideologies that misinterpret Islamic teachings on conflict.</li>
+                      <li>Interfaith dialogue for peace and understanding.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Community-Level Conflict Resolution</h3>
+                    <ul className="mt-2">
+                      <li>Utilizing traditional methods of Sulh in family and community disputes.</li>
+                      <li>Training Imams and community leaders in mediation skills.</li>
+                      <li>Promoting a culture of forgiveness and reconciliation.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-perspectives-on-social-justice-and-human-rights" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Social Justice & Human Rights in Islam</h3>
+                    <p className="text-sm text-muted-foreground">
+                      The inseparable link between justice and achieving true peace.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/islam-and-interfaith-relations" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islam & Interfaith Relations</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Building bridges for peaceful coexistence among different faiths.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the historical context of the{" "}
+                  <Link href="/islam/history/treaty-of-hudaybiyyah" className="hover:underline">
+                    Treaty of Hudaybiyyah
+                  </Link>
+                  , or the principles outlined in the{" "}
+                  <Link href="/islam/history/medina-charter" className="hover:underline">
+                    Medina Charter
+                  </Link>
+                  . Delve into the concept of{" "}
+                  <Link href="/islam/concepts/sulh" className="hover:underline">
+                    Sulh (Reconciliation) in Islam
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/ethics/jihad-ethics">Ethics of Jihad</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/contemporary-issues/peacebuilding">Islamic Peacebuilding</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

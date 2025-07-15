@@ -1,0 +1,340 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices | Religious Studies Blog",
+  description: "Explore core Hindu rituals and worship: Puja (devotional offerings), Homa/Yajna (fire ceremonies), and multifaceted Temple Worship. Understand their significance, procedures, and role in Hindu spiritual life.",
+  openGraph: {
+    title: "Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices | Religious Studies Blog",
+    description: "A detailed guide to Hindu worship, covering Puja, fire rituals like Homa and Yajna, Samskaras (life-cycle rites), and the vibrant practices of temple worship.",
+  type: "article",
+    images: [
+      {
+        url: "/images/hindu-rituals-worship.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Hindu Rituals: Puja, Homa, and Temple Worship",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices",
+    description: "Discover the depth of Hindu rituals including Puja, Homa, Yajna, and temple ceremonies.",
+    images: ["/images/hindu-rituals-worship.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function HinduRituals() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/hinduism" className="hover:underline">
+            Hinduism
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Rituals & Worship</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Rituals & Worship: Puja, Homa, Yajna & Temple Practices
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Puja</Badge>
+            <Badge variant="secondary">Homa</Badge>
+            <Badge variant="secondary">Yajna</Badge>
+            <Badge variant="secondary">Temple Worship</Badge>
+            <Badge variant="secondary">Samskara</Badge>
+            <Badge variant="secondary">Agamas</Badge>
+            <Badge variant="secondary">Vedas</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Hindu rituals (Karmakanda) and worship practices form a vibrant and integral part of Sanatana Dharma.
+            These diverse ceremonies, from intimate daily Pujas to elaborate temple Yajnas, serve to connect individuals
+            with the Divine, purify the mind, maintain cosmic order (Rta), and mark significant life events.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Puja: Devotional Worship</h2>
+                <p>
+                  Puja is a central act of worship involving offerings and prayers to a chosen deity (Ishta-devata).
+                  It can be performed at home or in temples and ranges from simple gestures to complex ceremonies.
+                </p>
+                <div className="grid gap-4 md:grid-cols-2 mt-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Key Elements:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li><strong>Avahana:</strong> Invocation of the deity.</li>
+                      <li><strong>Asana:</strong> Offering a seat to the deity.</li>
+                      <li><strong>Upacharas:</strong> Offerings (e.g., water, flowers, incense, light, food - Naivedya). Typically 5, 10, 16 or more.</li>
+                      <li><strong>Mantra Japa:</strong> Recitation of sacred hymns and mantras.</li>
+                      <li><strong>Arati:</strong> Waving of lighted camphor or ghee lamps.</li>
+                      <li><strong>Pradakshina:</strong> Circumambulation.</li>
+                      <li><strong>Prasada:</strong> Offering sanctified food back to devotees.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Purpose & Significance:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li>Expressing love and gratitude to the Divine.</li>
+                      <li>Cultivating Bhakti (devotion) and humility.</li>
+                      <li>Purifying the mind and environment.</li>
+                      <li>Seeking divine blessings and guidance.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Homa & Yajna: Fire Ceremonies</h2>
+                <p>
+                  Homa (or Havan) and Yajna are ancient Vedic fire rituals. Offerings (Ahuti) like ghee, grains, herbs,
+                  and wood are made into a consecrated fire (Agni), which is considered a divine messenger.
+                  Yajnas are generally larger, more complex, and often public, while Homas can be simpler and private.
+                </p>
+                <div className="grid gap-4 md:grid-cols-2 mt-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Core Components:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li><strong>Agni Kunda:</strong> Consecrated fire pit.</li>
+                      <li><strong>Priests (Ritviks):</strong> Qualified individuals who conduct the ceremony.</li>
+                      <li><strong>Mantras:</strong> Vedic hymns chanted to invoke deities and energize offerings.</li>
+                      <li><strong>Offerings (Samagri):</strong> Specific materials offered to the fire.</li>
+                      <li><strong>Sankalpa:</strong> The specific intention or purpose of the ritual.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Purpose & Significance:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li>Appeasing deities and seeking blessings for specific purposes (e.g., health, prosperity, peace).</li>
+                      <li>Purifying the atmosphere and individuals.</li>
+                      <li>Maintaining cosmic balance and fulfilling Dharma.</li>
+                      <li>Symbolic offering of ego and negative tendencies.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Temple Worship (Mandir Puja)</h2>
+                <p>
+                  Hindu temples are considered sacred abodes of deities, designed according to Agamic scriptures and Vastu Shastra.
+                  Worship in temples is often more elaborate, conducted by trained priests (Pujaris or Archakas).
+                </p>
+                <div className="grid gap-4 md:grid-cols-2 mt-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Key Aspects:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li><strong>Prana Pratishtha:</strong> Ceremony consecrating the murti (idol), infusing it with divine presence.</li>
+                      <li><strong>Daily Rituals (Nitya Puja):</strong> Regular services performed at specific times (e.g., Abhishekam, Alankaram, Arati).</li>
+                      <li><strong>Utsavas:</strong> Temple festivals celebrating specific deities or events, often involving processions (Rath Yatra).</li>
+                      <li><strong>Darshan:</strong> Auspicious viewing of the deity.</li>
+                      <li><strong>Archana:</strong> Special puja performed on behalf of devotees.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Significance:</h3>
+                    <ul className="mt-1 text-sm">
+                      <li>Provides a focal point for community worship and spiritual congregation.</li>
+                      <li>Believed to be powerful centers of spiritual energy.</li>
+                      <li>Preserves religious traditions, arts, and culture.</li>
+                      <li>Offers a space for devotion, solace, and guidance.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Samskaras: Life Cycle Rituals</h2>
+                <p>
+                  Samskaras are a series of sacraments or rites of passage that mark significant life stages, purifying
+                  and sanctifying the individual from conception to death. Traditionally, there are 16 major Samskaras.
+                </p>
+                <ul className="mt-2 text-sm list-disc pl-4">
+                  <li>Examples: Garbhadhana (conception), Namakarana (naming), Annaprashana (first feeding), Upanayana (sacred thread), Vivaha (marriage), Antyeshti (last rites).</li>
+                  <li>Purpose: To promote physical, mental, and spiritual well-being at each stage of life and integrate the individual within the social and cosmic order.</li>
+                </ul>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-3">
+                <Link href="/blog/hindu-temples" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Temples</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Architecture and significance.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/major-deities" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Major Hindu Deities</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Understanding the focus of worship.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-scriptures" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Scriptures</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Sources like Vedas and Agamas.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the detailed procedures of specific{" "}
+                  <Link href="/hinduism/rituals/panchamahayajna" className="hover:underline">
+                    Panchamahayajnas (Five Great Sacrifices)
+                  </Link>
+                  , the meaning behind various{" "}
+                  <Link href="/hinduism/rituals/samskaras" className="hover:underline">
+                    Samskaras
+                  </Link>
+                  , or the power of{" "}
+                  <Link href="/hinduism/concepts/mantras" className="hover:underline">
+                    Mantras in Ritual
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/texts/agamas">Agamic Texts</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/worship/home-puja-guide">Home Puja Guide</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

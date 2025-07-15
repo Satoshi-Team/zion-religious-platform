@@ -1,0 +1,178 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhist Art and Architecture | Religious Studies Blog",
+  description: "Explore the rich traditions of Buddhist art and architecture across Asia. Learn about stupas, temples, sculptures, paintings, and their symbolic meanings in Buddhist culture.",
+  openGraph: {
+    title: "Buddhist Art and Architecture | Religious Studies Blog",
+    description: "Explore the rich traditions of Buddhist art and architecture across Asia. Learn about stupas, temples, sculptures, paintings, and their symbolic meanings in Buddhist culture.",
+    type: "article",
+    url: "/blog/buddhist-art-and-architecture",
+    images: [
+      {
+        url: "/images/blog/buddhist-art-and-architecture.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhist Art and Architecture | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function BuddhistArtAndArchitecture() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhist Art and Architecture
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Art</Badge>
+            <Badge variant="secondary">Architecture</Badge>
+            <Badge variant="secondary">Symbolism</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Buddhist art and architecture represent the physical manifestation of Buddhist teachings, combining spiritual symbolism with aesthetic beauty. These sacred expressions have evolved across different cultures and time periods, creating a rich visual language that continues to inspire and educate.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Early Buddhist Art</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Aniconic Period:</h3>
+                  <ul>
+                    <li>Early symbols (Dharmachakra)</li>
+                    <li>Footprint representations</li>
+                    <li>Empty throne motifs</li>
+                    <li>Bodhi tree imagery</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Emergence of Buddha Images:</h3>
+                  <ul>
+                    <li>Gandhāran influence</li>
+                    <li>Mathura school</li>
+                    <li>Iconic representations</li>
+                    <li>Stylistic development</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Sacred Architecture</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Stūpa Development:</h3>
+                  <ul>
+                    <li>Structural elements</li>
+                    <li>Symbolic meanings</li>
+                    <li>Regional variations</li>
+                    <li>Ritual functions</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Temple Architecture:</h3>
+                  <ul>
+                    <li>Monastery layouts</li>
+                    <li>Cave temples</li>
+                    <li>Pagoda evolution</li>
+                    <li>Sacred geometry</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Regional Traditions</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>South Asian:</h3>
+                  <ul>
+                    <li>Ajanta caves</li>
+                    <li>Sāñcī stūpa</li>
+                    <li>Sri Lankan dagobas</li>
+                    <li>Nālandā complex</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>East Asian:</h3>
+                  <ul>
+                    <li>Chinese pagodas</li>
+                    <li>Japanese temples</li>
+                    <li>Korean architecture</li>
+                    <li>Vietnamese styles</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Artistic Traditions</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Sculptural Arts:</h3>
+                  <ul>
+                    <li>Buddha images</li>
+                    <li>Bodhisattva figures</li>
+                    <li>Relief carvings</li>
+                    <li>Bronze casting</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Painting Traditions:</h3>
+                  <ul>
+                    <li>Wall murals</li>
+                    <li>Thangka paintings</li>
+                    <li>Mandala designs</li>
+                    <li>Illuminated texts</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Symbolism and Iconography</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Sacred Symbols:</h3>
+                  <ul>
+                    <li>Lotus flower</li>
+                    <li>Dharma wheel</li>
+                    <li>Buddha footprints</li>
+                    <li>Sacred animals</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Iconographic Elements:</h3>
+                  <ul>
+                    <li>Mudras</li>
+                    <li>Asanas</li>
+                    <li>Attributes</li>
+                    <li>Color symbolism</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

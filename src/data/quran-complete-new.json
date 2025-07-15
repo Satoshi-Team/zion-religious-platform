@@ -1,0 +1,160 @@
+[
+  {
+    "surahNumber": 1,
+    "name": {
+      "arabic": "الفاتحة",
+      "english": "Al-Fatiha",
+      "transliteration": "Al-Fatiha"
+    },
+    "revelationType": "Meccan",
+    "versesCount": 7,
+    "description": "The Opening - The first chapter of the Quran, consisting of seven verses that are recited in every unit of prayer.",
+    "verses": [
+      {
+        "verseNumber": 1,
+        "arabicText": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        "englishTranslation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+        "transliteration": "Bismillahi ar-rahmani ar-raheem",
+        "tafsir": "This verse, known as the Basmala, is the opening of the Quran and is recited before every surah except Surah At-Tawbah. It establishes the fundamental principle that all actions should begin with the name of Allah, emphasizing His mercy and compassion."
+      },
+      {
+        "verseNumber": 2,
+        "arabicText": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "englishTranslation": "All praise is due to Allah, Lord of the worlds.",
+        "transliteration": "Al-hamdu lillahi rabbi al-alameen",
+        "tafsir": "This verse teaches us to begin with praise and gratitude to Allah, recognizing Him as the Creator and Sustainer of all existence, from the smallest atom to the vast universe."
+      },
+      {
+        "verseNumber": 3,
+        "arabicText": "الرَّحْمَٰنِ الرَّحِيمِ",
+        "englishTranslation": "The Entirely Merciful, the Especially Merciful.",
+        "transliteration": "Ar-rahmani ar-raheem",
+        "tafsir": "Allah's mercy is emphasized twice - once as a general mercy for all creation, and once as a special mercy for believers. This shows the comprehensive nature of divine compassion."
+      },
+      {
+        "verseNumber": 4,
+        "arabicText": "مَالِكِ يَوْمِ الدِّينِ",
+        "englishTranslation": "Sovereign of the Day of Recompense.",
+        "transliteration": "Maliki yawmi ad-deen",
+        "tafsir": "This verse reminds us of the Day of Judgment when all will be held accountable for their actions. It emphasizes Allah's absolute authority over that day."
+      },
+      {
+        "verseNumber": 5,
+        "arabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "englishTranslation": "It is You we worship and You we ask for help.",
+        "transliteration": "Iyyaka na'budu wa iyyaka nasta'een",
+        "tafsir": "This verse establishes the exclusive nature of worship - we worship only Allah and seek help only from Him. It's a declaration of monotheism and dependence on Allah."
+      },
+      {
+        "verseNumber": 6,
+        "arabicText": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+        "englishTranslation": "Guide us to the straight path.",
+        "transliteration": "Ihdina as-sirata al-mustaqeem",
+        "tafsir": "We ask Allah for guidance to the straight path - the path of truth, righteousness, and success in this life and the hereafter."
+      },
+      {
+        "verseNumber": 7,
+        "arabicText": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "englishTranslation": "The path of those upon whom You have bestowed favor, not of those who have evoked Your anger or of those who are astray.",
+        "transliteration": "Sirata allatheena an'amta alayhim ghayri al-maghdoobi alayhim wa la ad-dalleen",
+        "tafsir": "We ask to follow the path of the righteous - the prophets, truthful, martyrs, and righteous people - and to avoid the path of those who earned Allah's anger or went astray."
+      }
+    ]
+  },
+  {
+    "surahNumber": 2,
+    "name": {
+      "arabic": "البقرة",
+      "english": "Al-Baqarah",
+      "transliteration": "Al-Baqarah"
+    },
+    "revelationType": "Medinan",
+    "versesCount": 286,
+    "description": "The Cow - The longest chapter of the Quran, revealed in Medina. It contains comprehensive guidance on faith, law, and social conduct.",
+    "verses": [
+      {
+        "verseNumber": 1,
+        "arabicText": "الٓمٓ",
+        "englishTranslation": "Alif, Lam, Meem.",
+        "transliteration": "Alif-Lam-Meem",
+        "tafsir": "These are letters from the Arabic alphabet. Their meaning is known only to Allah. They serve as a reminder of the miraculous nature of the Quran and challenge those who doubt its divine origin."
+      },
+      {
+        "verseNumber": 2,
+        "arabicText": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+        "englishTranslation": "This is the Book about which there is no doubt, a guidance for those conscious of Allah.",
+        "transliteration": "Dhalika al-kitabu la rayba feehi hudal lil-muttaqeen",
+        "tafsir": "The Quran is described as the Book without doubt - its authenticity and divine origin are certain. It provides guidance for those who are conscious of Allah and seek to please Him."
+      },
+      {
+        "verseNumber": 3,
+        "arabicText": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ",
+        "englishTranslation": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them.",
+        "transliteration": "Allatheena yu'minoona bil-ghaybi wa yuqeemoona as-salata wa mimma razaqnahum yunfiqoon",
+        "tafsir": "The characteristics of the God-conscious are described: they believe in the unseen (Allah, angels, hereafter), establish prayer regularly, and give charity from what Allah has provided them."
+      },
+      {
+        "verseNumber": 4,
+        "arabicText": "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+        "englishTranslation": "And who believe in what has been revealed to you, and what was revealed before you, and of the Hereafter they are certain.",
+        "transliteration": "Wallatheena yu'minoona bima unzila ilayka wa ma unzila min qablika wa bil-akhirati hum yooqinoon",
+        "tafsir": "They believe in all divine revelations - the Quran revealed to Prophet Muhammad and previous scriptures. They have certainty about the hereafter and the Day of Judgment."
+      },
+      {
+        "verseNumber": 5,
+        "arabicText": "أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+        "englishTranslation": "Those are upon guidance from their Lord, and it is those who are the successful.",
+        "transliteration": "Ula-ika ala hudam min rabbihim wa ula-ika humu al-muflihoon",
+        "tafsir": "These people are on the straight path guided by Allah. They are the successful ones who will achieve salvation in this life and the hereafter."
+      }
+    ]
+  },
+  {
+    "surahNumber": 3,
+    "name": {
+      "arabic": "آل عمران",
+      "english": "Aal Imran",
+      "transliteration": "Aal Imran"
+    },
+    "revelationType": "Medinan",
+    "versesCount": 200,
+    "description": "The Family of Imran - This chapter discusses the family of Imran (Maryam's family) and contains important teachings about faith, unity, and the relationship between Muslims and People of the Book.",
+    "verses": [
+      {
+        "verseNumber": 1,
+        "arabicText": "الٓمٓ",
+        "englishTranslation": "Alif, Lam, Meem.",
+        "transliteration": "Alif-Lam-Meem",
+        "tafsir": "These are letters from the Arabic alphabet. Their meaning is known only to Allah. They serve as a reminder of the miraculous nature of the Quran and challenge those who doubt its divine origin."
+      },
+      {
+        "verseNumber": 2,
+        "arabicText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        "englishTranslation": "Allah - there is no deity except Him, the Ever-Living, the Self-Sustaining.",
+        "transliteration": "Allahu la ilaha illa huwal-hayyul-qayyoom",
+        "tafsir": "This verse establishes the fundamental principle of Islamic monotheism - there is no god but Allah. He is described as Ever-Living and Self-Sustaining, meaning He has always existed and will always exist, and everything depends on Him while He depends on nothing."
+      },
+      {
+        "verseNumber": 3,
+        "arabicText": "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ",
+        "englishTranslation": "He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel.",
+        "transliteration": "Nazzala alaykal-kitaba bil-haqqi musaddiqal-lima bayna yadayhi wa anzalat-tawrata wal-injeel",
+        "tafsir": "Allah has revealed the Quran to Prophet Muhammad as the final and complete revelation. It confirms the truth in previous scriptures like the Torah and Gospel, while correcting any distortions that may have occurred over time."
+      },
+      {
+        "verseNumber": 4,
+        "arabicText": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ الْفُرْقَانَ ۗ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَاللَّهُ عَزِيزٌ ذُو انتِقَامٍ",
+        "englishTranslation": "Before, as guidance for the people. And He revealed the criterion [of judgment between right and wrong]. Indeed, those who disbelieve in the verses of Allah will have a severe punishment, and Allah is exalted in Might, the Owner of Retribution.",
+        "transliteration": "Min qablu hudal-linnaasi wa anzalal-furqaan. Innal-ladheena kafaroo bi-ayaatillahi lahum azaabun shadeed. Wallahu azeezun dhu intiqam",
+        "tafsir": "The previous revelations were sent as guidance for humanity. The Quran serves as the criterion to distinguish between truth and falsehood. Those who reject Allah's signs will face severe punishment, for Allah is All-Powerful and capable of exacting retribution."
+      },
+      {
+        "verseNumber": 5,
+        "arabicText": "إِنَّ اللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ",
+        "englishTranslation": "Indeed, from Allah nothing is hidden in the earth or in the heaven.",
+        "transliteration": "Innallaha la yakhfaa alayhi shay-un fil-ardi wa la fis-samaa",
+        "tafsir": "Allah's knowledge is all-encompassing. Nothing in the heavens or on earth is hidden from Him. This emphasizes His omniscience and serves as a warning to those who think they can hide their actions from Allah."
+      }
+    ]
+  }
+] 

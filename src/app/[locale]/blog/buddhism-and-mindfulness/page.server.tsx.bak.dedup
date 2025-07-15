@@ -1,0 +1,24 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhism and Mindfulness: Ancient Wisdom in Modern Life | Religious Studies Blog",
+  description: "Explore the profound connection between Buddhism and mindfulness - from ancient meditation practices to contemporary applications in psychology, healthcare, and daily life. Discover how Buddhist wisdom enhances modern mindfulness.",
+  openGraph: {
+    title: "Buddhism and Mindfulness: Ancient Wisdom in Modern Life | Religious Studies Blog",
+    description: "Explore the profound connection between Buddhism and mindfulness - from ancient meditation practices to contemporary applications in psychology, healthcare, and daily life. Discover how Buddhist wisdom enhances modern mindfulness.",
+    type: "article",
+    url: "/blog/buddhism-and-mindfulness",
+    images: [
+      {
+        url: "/images/blog/buddhism-and-mindfulness.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhism and Mindfulness: Ancient Wisdom in Modern Life | Religious Studies Blog"
+      }
+    ]
+  }
+}
+

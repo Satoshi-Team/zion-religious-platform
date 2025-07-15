@@ -1,0 +1,325 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Islamic Law (Sharia) | Religious Studies Blog",
+  description: "Explore the principles, sources, and applications of Islamic Law (Sharia), including its historical development, main schools of thought, and contemporary relevance.",
+  openGraph: {
+    title: "Islamic Law (Sharia) | Religious Studies Blog",
+    description: "Explore the principles, sources, and applications of Islamic Law (Sharia), including its historical development, main schools of thought, and contemporary relevance.",
+    type: "article",
+    url: "/blog/islamic-law-sharia",
+    images: [
+      {
+        url: "/images/blog/islamic-law-sharia.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Islamic Law (Sharia) | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function IslamicLawSharia() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Law (Sharia) | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Law (Sharia) | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Islamic Law</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Law (Sharia): Divine Guidance for Life
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Legal System</Badge>
+            <Badge variant="secondary">Religious Law</Badge>
+            <Badge variant="secondary">Moral Guidance</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Islamic Law, known as Sharia, represents a comprehensive system of religious law and moral
+            guidance derived from Islamic sources. It encompasses personal religious observances,
+            moral principles, and legal frameworks that guide both individual conduct and societal
+            organization in accordance with Islamic principles.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Sources of Islamic Law
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Primary Sources</h3>
+                    <ul className="mt-2">
+                      <li>Quran (Divine revelation)</li>
+                      <li>Sunnah (Prophetic tradition)</li>
+                      <li>Hadith (Prophetic sayings)</li>
+                      <li>Prophetic actions</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Secondary Sources</h3>
+                    <ul className="mt-2">
+                      <li>Ijma (Scholarly consensus)</li>
+                      <li>Qiyas (Analogical reasoning)</li>
+                      <li>Ijtihad (Independent reasoning)</li>
+                      <li>Urf (Custom)</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Major Schools of Islamic Law
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Sunni Schools</h3>
+                    <ul className="mt-2">
+                      <li>Hanafi School</li>
+                      <li>Maliki School</li>
+                      <li>Shafi'i School</li>
+                      <li>Hanbali School</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Other Traditions</h3>
+                    <ul className="mt-2">
+                      <li>Ja'fari (Shia) School</li>
+                      <li>Zaidi School</li>
+                      <li>Ibadi School</li>
+                      <li>Historical schools</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Areas of Islamic Law
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Personal Law</h3>
+                    <ul className="mt-2">
+                      <li>Marriage and family</li>
+                      <li>Inheritance</li>
+                      <li>Personal conduct</li>
+                      <li>Religious obligations</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Social Law</h3>
+                    <ul className="mt-2">
+                      <li>Commercial transactions</li>
+                      <li>Criminal justice</li>
+                      <li>Public administration</li>
+                      <li>International relations</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Legal Principles
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Fundamental Concepts</h3>
+                    <ul className="mt-2">
+                      <li>Protection of faith</li>
+                      <li>Protection of life</li>
+                      <li>Protection of intellect</li>
+                      <li>Protection of lineage</li>
+                      <li>Protection of property</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Legal Maxims</h3>
+                    <ul className="mt-2">
+                      <li>Intention determines actions</li>
+                      <li>Harm must be eliminated</li>
+                      <li>Necessity permits prohibited</li>
+                      <li>Custom has legal authority</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Contemporary Applications
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Modern Contexts</h3>
+                    <ul className="mt-2">
+                      <li>Islamic banking</li>
+                      <li>Medical ethics</li>
+                      <li>Environmental law</li>
+                      <li>Digital transactions</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Adaptations</h3>
+                    <ul className="mt-2">
+                      <li>Legal reform</li>
+                      <li>Modern challenges</li>
+                      <li>Global integration</li>
+                      <li>Cultural contexts</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-ethics" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Ethics</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Explore moral principles and ethical guidelines in Islam
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/islamic-jurisprudence" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Jurisprudence</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Understanding the methodology of Islamic legal reasoning
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Deepen your understanding through our{" "}
+                  <Link href="/religion/islam/law" className="hover:underline">
+                    Islamic Legal Studies
+                  </Link>{" "}
+                  section. Compare legal systems in our{" "}
+                  <Link href="/religion/comparative-law" className="hover:underline">
+                    Comparative Religious Law
+                  </Link>{" "}
+                  guide.
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/islam/law">Explore Legal Studies</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/comparative-law">Compare Legal Systems</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

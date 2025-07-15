@@ -1,0 +1,2187 @@
+import { BuddhismTranslations, buddhistTranslations } from './buddhist-translations'
+
+export interface NavTranslations {
+  home: string
+  studies: string
+  teachings: string
+  resources: string
+  meditation: string
+  sacredTexts: string
+}
+
+export interface PageTranslations {
+  title: string
+  description: string
+}
+
+export interface SacredTextTranslations {
+  title: string
+  description: string
+  features: string[]
+  resources: {
+    translations: string[]
+    commentaries: string[]
+    studyGuides: string[]
+  }
+  onlineAccess: {
+    website: string
+    app?: string
+  }
+}
+
+export interface ResourcePageTranslations {
+  title: string
+  description: string
+  level: string
+  topics: string[]
+  materials: string[]
+  studyTips: string[]
+}
+
+export interface SacredTextsTranslations {
+  bible: SacredTextTranslations
+  quran: SacredTextTranslations
+  buddhist: SacredTextTranslations
+  hindu: SacredTextTranslations
+  sikh: SacredTextTranslations
+  zoroastrian: SacredTextTranslations
+}
+
+export interface LanguageTranslations {
+  home: PageTranslations
+  nav: NavTranslations
+  studies: PageTranslations
+  teachings: PageTranslations
+  resources: PageTranslations
+  meditation: PageTranslations
+  sacredTexts: SacredTextsTranslations
+  resourcePages: {
+    beginner: ResourcePageTranslations
+    intermediate: ResourcePageTranslations
+    advanced: ResourcePageTranslations
+  }
+  history: {
+    ancient: PageTranslations
+    medieval: PageTranslations
+    modern: PageTranslations
+  }
+  buddhist: BuddhismTranslations
+}
+
+export const translations: Record<string, LanguageTranslations> = {
+  en: {
+    home: {
+      title: "Welcome to ZION.FM",
+      description: "Your Faith, Your Music, Your Station"
+    },
+    nav: {
+      home: "Home",
+      studies: "Studies",
+      teachings: "Teachings",
+      resources: "Resources",
+      meditation: "Meditation",
+      sacredTexts: "Sacred Texts"
+    },
+    studies: {
+      title: "Bible Studies",
+      description: "Deepen your understanding of Scripture"
+    },
+    teachings: {
+      title: "Teachings",
+      description: "Learn from experienced teachers"
+    },
+    resources: {
+      title: "Resources",
+      description: "Tools to help you grow"
+    },
+    meditation: {
+      title: "Meditation",
+      description: "Find peace and connection"
+    },
+    sacredTexts: {
+      bible: {
+      title: "The Bible",
+        description: "A collection of sacred texts including the Old and New Testaments",
+        features: [
+          "Multiple translations",
+          "Study resources",
+          "Historical context",
+          "Commentary"
+        ],
+        resources: {
+          translations: [
+            "King James Version",
+            "New International Version",
+            "English Standard Version"
+          ],
+          commentaries: [
+            "Matthew Henry's Commentary",
+            "The IVP Bible Commentary",
+            "The New Bible Commentary"
+          ],
+          studyGuides: [
+            "Bible Study Methods",
+            "Biblical Interpretation Guide",
+            "Historical Context Studies"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "YouVersion Bible App"
+        }
+      },
+      quran: {
+      title: "The Quran",
+        description: "The central religious text of Islam",
+        features: [
+          "Arabic text",
+          "English translation",
+          "Tafsir (commentary)",
+          "Audio recitation"
+        ],
+        resources: {
+          translations: [
+            "Sahih International",
+            "Pickthall",
+            "Yusuf Ali"
+          ],
+          commentaries: [
+            "Tafsir Ibn Kathir",
+            "Tafsir al-Jalalayn",
+            "Tafsir al-Tabari"
+          ],
+          studyGuides: [
+            "Quranic Sciences",
+            "Tajweed Rules",
+            "Thematic Studies"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "Muslim Pro"
+        }
+      },
+      buddhist: {
+      title: "Buddhist Texts",
+        description: "Collection of Buddhist scriptures and teachings",
+        features: [
+          "Sutras",
+          "Commentaries",
+          "Meditation guides",
+          "Practice instructions"
+        ],
+        resources: {
+          translations: [
+            "Pali Canon",
+            "Chinese Canon",
+            "Tibetan Canon"
+          ],
+          commentaries: [
+            "Traditional commentaries",
+            "Modern interpretations",
+            "Scholarly analysis"
+          ],
+          studyGuides: [
+            "Buddhist Philosophy",
+            "Meditation Techniques",
+            "Ethical Guidelines"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net"
+        }
+      },
+      hindu: {
+      title: "Hindu Scriptures",
+        description: "Ancient texts of Hinduism",
+        features: [
+          "Vedas",
+          "Upanishads",
+          "Bhagavad Gita",
+          "Puranas"
+        ],
+        resources: {
+          translations: [
+            "Sanskrit texts",
+            "English translations",
+            "Regional translations"
+          ],
+          commentaries: [
+            "Traditional commentaries",
+            "Modern interpretations",
+            "Academic studies"
+          ],
+          studyGuides: [
+            "Vedic Studies",
+            "Philosophy guides",
+            "Practice manuals"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com"
+        }
+      },
+      sikh: {
+      title: "Sikh Scriptures",
+        description: "Sacred texts of Sikhism",
+        features: [
+          "Guru Granth Sahib",
+          "Historical texts",
+          "Commentaries",
+          "Devotional literature"
+        ],
+        resources: {
+          translations: [
+            "Gurmukhi script",
+            "English translations",
+            "Punjabi translations"
+          ],
+          commentaries: [
+            "Traditional exegesis",
+            "Modern interpretations",
+            "Academic studies"
+          ],
+          studyGuides: [
+            "Sikh Philosophy",
+            "Historical context",
+            "Practice guides"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhnet.com"
+        }
+      },
+      zoroastrian: {
+      title: "Zoroastrian Texts",
+        description: "Ancient scriptures of Zoroastrianism",
+        features: [
+          "Avesta",
+          "Gathas",
+          "Historical texts",
+          "Commentaries"
+        ],
+        resources: {
+          translations: [
+            "Avestan text",
+            "English translations",
+            "Persian translations"
+          ],
+          commentaries: [
+            "Traditional interpretations",
+            "Modern scholarship",
+            "Historical studies"
+          ],
+          studyGuides: [
+            "Zoroastrian Philosophy",
+            "Ritual practices",
+            "Historical context"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.avesta.org"
+        }
+      }
+    },
+    resourcePages: {
+      beginner: {
+      title: "Beginner Resources",
+        description: "Start your spiritual journey",
+        level: "Beginner",
+        topics: [
+          "Basic concepts",
+          "Introduction to practices",
+          "Getting started guide"
+        ],
+        materials: [
+          "Introductory texts",
+          "Simple guides",
+          "Basic tutorials"
+        ],
+        studyTips: [
+          "Start with fundamentals",
+          "Practice regularly",
+          "Join a study group",
+          "Ask questions"
+        ]
+      },
+      intermediate: {
+      title: "Intermediate Resources",
+        description: "Deepen your understanding",
+        level: "Intermediate",
+        topics: [
+          "Advanced concepts",
+          "Detailed practices",
+          "Historical context"
+        ],
+        materials: [
+          "Comprehensive texts",
+          "Detailed guides",
+          "Video lectures"
+        ],
+        studyTips: [
+          "Study systematically",
+          "Practice meditation",
+          "Attend workshops",
+          "Engage in discussions"
+        ]
+      },
+      advanced: {
+      title: "Advanced Resources",
+        description: "Master advanced concepts",
+        level: "Advanced",
+        topics: [
+          "Complex philosophy",
+          "Advanced practices",
+          "Scholarly research"
+        ],
+        materials: [
+          "Academic texts",
+          "Research papers",
+          "Expert lectures"
+        ],
+        studyTips: [
+          "Conduct research",
+          "Write papers",
+          "Attend conferences",
+          "Network with scholars"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "Ancient History",
+        description: "Explore the roots of faith"
+      },
+      medieval: {
+      title: "Medieval History",
+        description: "Discover historical developments"
+      },
+      modern: {
+      title: "Modern History",
+        description: "Understand contemporary context"
+      }
+    },
+    buddhist: buddhistTranslations.en
+  },
+  zh: {
+    home: {
+      title: "欢迎来到 ZION.FM",
+      description: "你的信仰，你的音乐，你的电台"
+    },
+    nav: {
+      home: "首页",
+      studies: "学习",
+      teachings: "教导",
+      resources: "资源",
+      meditation: "冥想",
+      sacredTexts: "圣典"
+    },
+    studies: {
+      title: "学习",
+      description: "深入学习宗教经典"
+    },
+    teachings: {
+      title: "教导",
+      description: "向有经验的老师学习"
+    },
+    resources: {
+      title: "资源",
+      description: "帮助你成长的工具"
+    },
+    meditation: {
+      title: "冥想",
+      description: "寻找平安与连接"
+    },
+    sacredTexts: {
+      bible: {
+      title: "圣经",
+        description: "包含旧约和新约的圣经文集",
+        features: [
+          "多种译本",
+          "学习资源",
+          "历史背景",
+          "注释"
+        ],
+        resources: {
+          translations: [
+            "和合本",
+            "新译本",
+            "现代中文译本"
+          ],
+          commentaries: [
+            "马太亨利注释",
+            "IVP圣经注释",
+            "新圣经注释"
+          ],
+          studyGuides: [
+            "圣经学习方法",
+            "圣经解释指南",
+            "历史背景研究"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "圣经APP"
+        }
+      },
+      quran: {
+      title: "古兰经",
+        description: "伊斯兰教的核心宗教经典",
+        features: [
+          "阿拉伯文原文",
+          "中文翻译",
+          "逐节学习",
+          "主题索引"
+        ],
+        resources: {
+          translations: [
+            "马坚译本",
+            "中国伊斯兰教协会译本",
+            "现代汉语译本"
+          ],
+          commentaries: [
+            "伊本·凯西尔注释",
+            "贾拉赖尼注释",
+            "马尔富勒·古兰经"
+          ],
+          studyGuides: [
+            "古兰经科学",
+            "主题研究",
+            "背景分析"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com/zh",
+          app: "古兰经APP"
+        }
+      },
+      buddhist: {
+      title: "佛教经典",
+        description: "佛教典籍和教义集合",
+        features: [
+          "经文",
+          "注释",
+          "禅修指南",
+          "修行指导"
+        ],
+        resources: {
+          translations: [
+            "巴利文圣典协会译本",
+            "佛光大藏经",
+            "84000译本"
+          ],
+          commentaries: [
+            "传统注释",
+            "现代诠释",
+            "学术研究"
+          ],
+          studyGuides: [
+            "经文学习指南",
+            "佛教文献阅读",
+            "比较研究"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net/zh",
+          app: "佛教经典阅读器"
+        }
+      },
+      hindu: {
+      title: "印度教经典",
+        description: "包括吠陀、奥义书和往世书等经典",
+        features: [
+          "吠陀经典",
+          "哲学论著",
+          "史诗文学",
+          "信仰著作"
+        ],
+        resources: {
+          translations: [
+            "穆勒版本",
+            "吉塔出版社版本",
+            "哈佛东方丛书"
+          ],
+          commentaries: [
+            "传统注释",
+            "现代诠释",
+            "学术研究"
+          ],
+          studyGuides: [
+            "吠陀学习指南",
+            "经典阅读方法",
+            "文本分析"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com/zh"
+        }
+      },
+      sikh: {
+      title: "锡克教经典",
+        description: "包括《格鲁·格兰特·萨希卜》在内的锡克教圣典",
+        features: [
+          "格鲁·格兰特·萨希卜",
+          "历史文献",
+          "信仰诗歌",
+          "哲学著作"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Gurbani Study Guide",
+            "Historical Context",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhitothemax.org",
+          app: "SikhiToTheMax"
+        }
+      },
+      zoroastrian: {
+      title: "琐罗亚斯德教经典",
+        description: "包括《阿维斯塔》在内的古老经典",
+        features: [
+          "Avesta",
+          "Gathas",
+          "Historical texts",
+          "Ritual instructions"
+        ],
+        resources: {
+          translations: [
+            "Sacred Books of the East",
+            "Modern Translations",
+            "Academic Editions"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Historical Studies"
+          ],
+          studyGuides: [
+            "Understanding Avesta",
+            "Historical Context",
+            "Study Methods"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org"
+        }
+      },
+      buddhist: buddhistTranslations.zh
+    },
+    resourcePages: {
+      beginner: {
+      title: "初学者之路",
+        description: "开始你的宗教学习之旅",
+        level: "初级",
+        topics: [
+          "世界宗教入门",
+          "基本宗教概念",
+          "圣典概览",
+          "祈祷与冥想"
+        ],
+        materials: [
+          "入门教材",
+          "学习指南",
+          "音频资源",
+          "视频讲座"
+        ],
+        studyTips: [
+          "从基础开始",
+          "循序渐进",
+          "参加学习小组",
+          "勇于提问"
+        ]
+      },
+      intermediate: {
+      title: "进阶学习",
+        description: "深入理解宗教传统",
+        level: "中级",
+        topics: [
+          "比较宗教学",
+          "宗教历史",
+          "圣典分析",
+          "宗教哲学"
+        ],
+        materials: [
+          "学术著作",
+          "研究论文",
+          "注释集",
+          "在线课程"
+        ],
+        studyTips: [
+          "比较不同观点",
+          "研究历史背景",
+          "培养批判思维",
+          "参与讨论"
+        ]
+      },
+      advanced: {
+      title: "高级研究",
+        description: "探索复杂的宗教主题和学术研究",
+        level: "高级",
+        topics: [
+          "宗教哲学",
+          "テキスト批評",
+          "神学研究",
+          "現代的課題"
+        ],
+        materials: [
+          "学術雑誌",
+          "研究データベース",
+          "一次資料",
+          "学術著作"
+        ],
+        studyTips: [
+          "独自の研究を行う",
+          "学術論文を書く",
+          "学会に参加する",
+          "学術ネットワークを構築する"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "古代宗教史",
+        description: "宗教的伝統の起源と初期の発展を探る"
+      },
+      medieval: {
+      title: "中世宗教史",
+        description: "研究中世纪时期宗教的演变"
+      },
+      modern: {
+      title: "現代宗教史",
+        description: "考察当代宗教发展与趋势"
+      }
+    },
+    buddhist: buddhistTranslations.zh
+  },
+  hi: {
+    home: {
+      title: "ZION.FM में आपका स्वागत है",
+      description: "आपका विश्वास, आपका संगीत, आपका स्टेशन"
+    },
+    nav: {
+      home: "होम",
+      studies: "अध्ययन",
+      teachings: "शिक्षाएं",
+      resources: "संसाधन",
+      meditation: "ध्यान",
+      sacredTexts: "पवित्र ग्रंथ"
+    },
+    studies: {
+      title: "अध्ययन",
+      description: "धार्मिक ग्रंथों का गहन अध्ययन"
+    },
+    teachings: {
+      title: "शिक्षाएं",
+      description: "अनुभवी गुरुओं से सीखें"
+    },
+    resources: {
+      title: "संसाधन",
+      description: "आपकी आध्यात्मिक यात्रा के लिए उपकरण"
+    },
+    meditation: {
+      title: "ध्यान",
+      description: "शांति और संबंध की खोज"
+    },
+    sacredTexts: {
+      bible: {
+      title: "बाइबल",
+        description: "पुराना और नया नियम सहित बाइबल संग्रह",
+        features: [
+          "विभिन्न अनुवाद",
+          "अध्ययन संसाधन",
+          "ऐतिहासिक पृष्ठभूमि",
+          "टिप्पणियाँ"
+        ],
+        resources: {
+          translations: [
+            "हिंदी बाइबल",
+            "आधुनिक हिंदी अनुवाद",
+            "मानक हिंदी बाइबल"
+          ],
+          commentaries: [
+            "मैथ्यू हेनरी की टीका",
+            "IVP बाइबल टीका",
+            "नई बाइबल टीका"
+          ],
+          studyGuides: [
+            "बाइबल अध्ययन विधि",
+            "व्याख्या मार्गदर्शिका",
+            "ऐतिहासिक अध्ययन"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com/hi",
+          app: "बाइबल ऐप"
+        }
+      },
+      quran: {
+      title: "The Quran",
+        description: "The central religious text of Islam, believed to be divine revelation",
+        features: [
+          "Arabic text",
+          "English translation",
+          "Verse by verse study",
+          "Thematic index"
+        ],
+        resources: {
+          translations: [
+            "Sahih International",
+            "Pickthall",
+            "Yusuf Ali"
+          ],
+          commentaries: [
+            "Tafsir Ibn Kathir",
+            "Tafsir al-Jalalayn",
+            "Maariful Quran"
+          ],
+          studyGuides: [
+            "Quranic Sciences",
+            "Thematic Studies",
+            "Contextual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "Quran App"
+        }
+      },
+      buddhist: {
+      title: "Buddhist Texts",
+        description: "Collection of Buddhist canonical texts and teachings",
+        features: [
+          "Sutras",
+          "Commentaries",
+          "Meditation guides",
+          "Practice instructions"
+        ],
+        resources: {
+          translations: [
+            "Pali Text Society",
+            "BDK English Tripitaka",
+            "84000 Translation"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Interpretations",
+            "Academic Analysis"
+          ],
+          studyGuides: [
+            "Sutra Study Guide",
+            "Buddhist Text Reading",
+            "Comparative Studies"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net",
+          app: "Buddhist Text Reader"
+        }
+      },
+      hindu: {
+      title: "Hindu Scriptures",
+        description: "Various sacred texts including Vedas, Upanishads, and Puranas",
+        features: [
+          "Vedic texts",
+          "Philosophical treatises",
+          "Epic literature",
+          "Devotional works"
+        ],
+        resources: {
+          translations: [
+            "Max Müller Edition",
+            "Gita Press",
+            "Harvard Oriental Series"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Interpretations",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Vedic Study Guide",
+            "Scripture Reading Methods",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com"
+        }
+      },
+      sikh: {
+      title: "Sikh Texts",
+        description: "Sacred texts of Sikhism including the Guru Granth Sahib",
+        features: [
+          "Guru Granth Sahib",
+          "Historical texts",
+          "Devotional poetry",
+          "Philosophical works"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Gurbani Study Guide",
+            "Historical Context",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhitothemax.org",
+          app: "SikhiToTheMax"
+        }
+      },
+      zoroastrian: {
+      title: "Zoroastrian Texts",
+        description: "Ancient texts of Zoroastrianism including the Avesta",
+        features: [
+          "Avesta",
+          "Gathas",
+          "Historical texts",
+          "Ritual instructions"
+        ],
+        resources: {
+          translations: [
+            "Sacred Books of the East",
+            "Modern Translations",
+            "Academic Editions"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Historical Studies"
+          ],
+          studyGuides: [
+            "Understanding Avesta",
+            "Historical Context",
+            "Study Methods"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org"
+        }
+      },
+      buddhist: buddhistTranslations.hi
+    },
+    resourcePages: {
+      beginner: {
+      title: "प्रारंभिक मार्ग",
+        description: "अपनी धार्मिक यात्रा शुरू करें",
+        level: "प्रारंभिक",
+        topics: [
+          "विश्व धर्मों का परिचय",
+          "आधारभूत धर्मी सोच",
+          "शिष्य ग्रंथों का अवलोकन",
+          "आयत्ता और मर्चदा"
+        ],
+        materials: [
+          "प्रवेश सामग्री",
+          "अध्ययन गाइड",
+          "ऑडियो संसाधन",
+          "वीडियो लेक्चर्स"
+        ],
+        studyTips: [
+          "आधार बातों से शुरू करें",
+          "ढीरे-ढीरे आगे बढ़ें",
+          "अध्ययन समूहों में शामिल हों",
+          "सवाल पूछने से डराएं"
+        ]
+      },
+      intermediate: {
+      title: "प्रमध्य अध्ययन",
+        description: "धर्मी विषयों को गहराई से समझने की कोशिश करें",
+        level: "मध्यम",
+        topics: [
+          "तुलनात्मक धर्मवेदी",
+          "धर्मी इतिहास",
+          "शिष्य विश्लेषण",
+          "धर्मी फिलस्फोरा"
+        ],
+        materials: [
+          "शैक्षिक टेक्स्ट",
+          "अन्वेषण लेख",
+          "टिप्पणी संग्रह",
+          "ऑनलाइन कोर्स"
+        ],
+        studyTips: [
+          "विभिन्न दृष्टिकोणों की तुलना करें",
+          "इतिहासी पृष्ठभूमि का अन्वेषण करें",
+          "क्रिटिकल विचार को अप्रयोग करें",
+          "चर्चा में भाग लें"
+        ]
+      },
+      advanced: {
+      title: "उन्नत अन्वेषण",
+        description: "जटिल धर्मी विषयों और शैक्षिक अन्वेषण का अन्वेषण करें",
+        level: "उन्नत",
+        topics: [
+          "धर्मी फिलस्फोरा",
+          "टेक्स्ट क्रिटिक",
+          "आलोचनात्मक अन्वेषण",
+          "आज्ञात समस्याएं"
+        ],
+        materials: [
+          "शैक्षिक जर्यद",
+          "अन्वेषण डेटा बेस",
+          "आधारभूत संसाधन",
+          "शैक्षिक काम"
+        ],
+        studyTips: [
+          "आतंकिक अन्वेषण करें",
+          "शैक्षिक लेख लिखें",
+          "कॉन्फ्रेंस में भाग लें",
+          "शैक्षिक नेटवर्क निर्माण करें"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "प्राचीन धर्मी इतिहास",
+        description: "धर्मी विषयों के आरम्भ और प्रारंभिक विकास का अन्वेषण करें"
+      },
+      medieval: {
+      title: "मध्यकालीन धर्मी इतिहास",
+        description: "मध्यकालीन अवधि में धर्मों के विकास का अध्ययन करें"
+      },
+      modern: {
+      title: "आधुनिक धर्मी इतिहास",
+        description: "आधुनिक धर्मी इतिहास का अन्वेषण करें"
+      }
+    },
+    buddhist: buddhistTranslations.hi
+  },
+  pt: {
+    home: {
+      title: "Bem-vindo ao ZION.FM",
+      description: "Sua Fé, Sua Música, Sua Estação"
+    },
+    nav: {
+      home: "Home",
+      studies: "Estudos",
+      teachings: "Ensino",
+      resources: "Recursos",
+      meditation: "Meditação",
+      sacredTexts: "Textos Sagrados"
+    },
+    studies: {
+      title: "Estudos Bíblicos",
+      description: "Aumente seu entendimento da Escritura"
+    },
+    teachings: {
+      title: "Ensino",
+      description: "Aprenda com professores experientes"
+    },
+    resources: {
+      title: "Recursos",
+      description: "Ferramentas para ajudá-lo a crescer"
+    },
+    meditation: {
+      title: "Meditação",
+      description: "Encontre paz e conexão"
+    },
+    sacredTexts: {
+      bible: {
+      title: "A Bíblia",
+        description: "Uma coleção de textos sagrados incluindo o Velho e o Novo Testamentos",
+        features: [
+          "Várias traduções",
+          "Recursos de estudo",
+          "Contexto histórico",
+          "Comentário"
+        ],
+        resources: {
+          translations: [
+            "Versão de King James",
+            "Nova Tradução Internacional",
+            "Versão Inglesa Padrão"
+          ],
+          commentaries: [
+            "Comentário de Matthew Henry",
+            "The IVP Bible Commentary",
+            "The New Bible Commentary"
+          ],
+          studyGuides: [
+            "Métodos de Estudo Bíblico",
+            "Guia de Interpretação Bíblica",
+            "Estudos de Contexto Histórico"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "YouVersion Bible App"
+        }
+      },
+      quran: {
+      title: "O Quran",
+        description: "O texto religioso central do Islamismo, acreditado ser uma revelação divina",
+        features: [
+          "Texto árabe",
+          "Tradução em inglês",
+          "Estudo versículo por versículo",
+          "Índice temático"
+        ],
+        resources: {
+          translations: [
+            "Sahih International",
+            "Pickthall",
+            "Yusuf Ali"
+          ],
+          commentaries: [
+            "Tafsir Ibn Kathir",
+            "Tafsir al-Jalalayn",
+            "Maariful Quran"
+          ],
+          studyGuides: [
+            "Ciências do Quran",
+            "Estudos Temáticos",
+            "Análise Contextual"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "Quran App"
+        }
+      },
+      buddhist: {
+      title: "Textos Budistas",
+        description: "Coleção de textos canônicos e ensinos budistas",
+        features: [
+          "Sutras",
+          "Comentários",
+          "Guias de meditação",
+          "Instruções práticas"
+        ],
+        resources: {
+          translations: [
+            "Pali Text Society",
+            "BDK English Tripitaka",
+            "84000 Translation"
+          ],
+          commentaries: [
+            "Comentários Tradicionais",
+            "Interpretações Modernas",
+            "Análise Acadêmica"
+          ],
+          studyGuides: [
+            "Guia de Estudo Sutra",
+            "Leitura de Texto Budista",
+            "Estudos Comparativos"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net",
+          app: "Buddhist Text Reader"
+        }
+      },
+      hindu: {
+      title: "Textos Vedas, Upanishads e Puranas",
+        description: "Vários textos sagrados incluindo Vedas, Upanishads e Puranas",
+        features: [
+          "Textos Vedas",
+          "Tratados filosóficos",
+          "Literatura épica",
+          "Trabalhos devocionais"
+        ],
+        resources: {
+          translations: [
+            "Max Müller Edition",
+            "Gita Press",
+            "Harvard Oriental Series"
+          ],
+          commentaries: [
+            "Comentários Tradicionais",
+            "Interpretações Modernas",
+            "Estudos Acadêmicos"
+          ],
+          studyGuides: [
+            "Guia de Estudo Vedas",
+            "Métodos de Leitura de Texto",
+            "Análise Textual"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com"
+        }
+      },
+      sikh: {
+      title: "Textos Sikh",
+        description: "Textos sagrados do Sikhismo incluindo o Guru Granth Sahib",
+        features: [
+          "Guru Granth Sahib",
+          "Textos históricos",
+          "Poemas devocionais",
+          "Trabalhos filosóficos"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Comentários Tradicionais",
+            "Análise Moderna",
+            "Estudos Acadêmicos"
+          ],
+          studyGuides: [
+            "Guia de Estudo Gurbani",
+            "Contexto Histórico",
+            "Análise Textual"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhitothemax.org",
+          app: "SikhiToTheMax"
+        }
+      },
+      zoroastrian: {
+      title: "Textos Zoroastrianos",
+        description: "Textos antigos do Zoroastrismo incluindo o Avesta",
+        features: [
+          "Avesta",
+          "Gathas",
+          "Textos históricos",
+          "Instruções Rituais"
+        ],
+        resources: {
+          translations: [
+            "Sacred Books of the East",
+            "Modern Translations",
+            "Edições Acadêmicas"
+          ],
+          commentaries: [
+            "Comentários Tradicionais",
+            "Análise Moderna",
+            "Estudos Históricos"
+          ],
+          studyGuides: [
+            "Understanding Avesta",
+            "Contexto Histórico",
+            "Methods of Study"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org"
+        }
+      },
+      buddhist: buddhistTranslations.pt
+    },
+    resourcePages: {
+      beginner: {
+      title: "Caminho Iniciante",
+        description: "Comece sua jornada de estudo religioso",
+        level: "Iniciante",
+        topics: [
+          "Introdução aos Religiosos",
+          "Conceitos Religiosos Básicos",
+          "Visão Geral dos Textos Sagrados",
+          "Orando e Meditação"
+        ],
+        materials: [
+          "Textos Introdutórios",
+          "Guias de Estudo",
+          "Recursos de Áudio",
+          "Aulas em Vídeo"
+        ],
+        studyTips: [
+          "Comece pelos fundamentos",
+          "Tome seu tempo",
+          "Participe de grupos de estudo",
+          "Faça perguntas"
+        ]
+      },
+      intermediate: {
+      title: "Estudos Intermediários",
+        description: "Aprofunde seu entendimento das tradições religiosas",
+        level: "Intermediário",
+        topics: [
+          "Religião Comparativa",
+          "História Religiosa",
+          "Análise de Textos Sagrados",
+          "Filosofia Religiosa"
+        ],
+        materials: [
+          "Textos Acadêmicos",
+          "Pesquisas",
+          "Coleções de Comentários",
+          "Cursos Online"
+        ],
+        studyTips: [
+          "Compare diferentes perspectivas",
+          "Pesquise o contexto histórico",
+          "Pratique o pensamento crítico",
+          "Participe de discussões"
+        ]
+      },
+      advanced: {
+      title: "Pesquisa Avançada",
+        description: "Explore tópicos religiosos complexos e pesquisa acadêmica",
+        level: "Avançado",
+        topics: [
+          "Filosofia Religiosa",
+          "Crítica Textual",
+          "Estudos Teológicos",
+          "Questões Contemporâneas"
+        ],
+        materials: [
+          "Revistas Acadêmicas",
+          "Bases de Dados de Pesquisa",
+          "Fontes Primárias",
+          "Trabalhos Acadêmicos"
+        ],
+        studyTips: [
+          "Conduza pesquisas originais",
+          "Escreva artigos acadêmicos",
+          "Participe de conferências",
+          "Construa uma rede acadêmica"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "História Religiosa Antiga",
+        description: "Explore as origens e o desenvolvimento inicial das tradições religiosas"
+      },
+      medieval: {
+      title: "História Religiosa Medieval",
+        description: "Estude o desenvolvimento das religiões durante a Idade Média"
+      },
+      modern: {
+      title: "História Religiosa Moderna",
+        description: "Examine o desenvolvimento religioso contemporâneo e tendências"
+      }
+    },
+    buddhist: buddhistTranslations.pt
+  },
+  ru: {
+    home: {
+      title: "Добро пожаловать на ZION.FM",
+      description: "Ваше верование, ваша музыка, ваш радиостанция"
+    },
+    nav: {
+      home: "Главная",
+      studies: "Исследования",
+      teachings: "Учения",
+      resources: "Ресурсы",
+      meditation: "Медитация",
+      sacredTexts: "Священные тексты"
+    },
+    studies: {
+      title: "Исследования Библии",
+      description: "Углубите свое понимание Священного Писания"
+    },
+    teachings: {
+      title: "Учения",
+      description: "Учитесь у опытных учителей"
+    },
+    resources: {
+      title: "Ресурсы",
+      description: "Инструменты для вашего роста"
+    },
+    meditation: {
+      title: "Медитация",
+      description: "Найдите покой и связь"
+    },
+    sacredTexts: {
+      bible: {
+      title: "Библия",
+        description: "Собрание священных текстов, включая Старый и Новый Заветы",
+        features: [
+          "Многоязычность",
+          "Ресурсы для изучения",
+          "Исторический контекст",
+          "Комментарий"
+        ],
+        resources: {
+          translations: [
+            "Версия Короля Якова",
+            "Новая международная версия",
+            "Английский стандартный перевод"
+          ],
+          commentaries: [
+            "Комментарий Матфея Генри",
+            "The IVP Bible Commentary",
+            "The New Bible Commentary"
+          ],
+          studyGuides: [
+            "Методы изучения Библии",
+            "Руководство по интерпретации Библии",
+            "Исследования исторического контекста"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "YouVersion Bible App"
+        }
+      },
+      quran: {
+      title: "Коран",
+        description: "Центральный религиозный текст ислама, считающийся божественным откровением",
+        features: [
+          "Арабский текст",
+          "Перевод на русский",
+          "Изучение стиха за стихом",
+          "Тематические индексы"
+        ],
+        resources: {
+          translations: [
+            "Маулуд Фтах Мухаммад Джаландахри",
+            "Тафсир Ибн Касир",
+            "Современный перевод"
+          ],
+          commentaries: [
+            "Тафсир Абн Касир",
+            "Тафсир аль-Джалалийн",
+            "Марафиль аль-Курран"
+          ],
+          studyGuides: [
+            "Науки Корана",
+            "Тематические исследования",
+            "Анализ контекста"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "Quran App"
+        }
+      },
+      buddhist: {
+      title: "Тексты Буддизма",
+        description: "Собрание канонических текстов и учение буддизма",
+        features: [
+          "Сутры",
+          "Комментарии",
+          "Руководства по медитации",
+          "Практические инструкции"
+        ],
+        resources: {
+          translations: [
+            "Pali Text Society",
+            "BDK English Tripitaka",
+            "84000 Translation"
+          ],
+          commentaries: [
+            "Традиционные комментарии",
+            "Современные интерпретации",
+            "Академический анализ"
+          ],
+          studyGuides: [
+            "Сутры исследования",
+            "Чтение буддистских текстов",
+            "Сравнительные исследования"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net",
+          app: "Buddhist Text Reader"
+        }
+      },
+      hindu: {
+      title: "Веды, Упанишады и Пурана",
+        description: "Различные священные тексты, включая Веды, Упанишады и Пурана",
+        features: [
+          "Тексты Вед",
+          "Философские трактаты",
+          "Эпическая литература",
+          "Труды поклонения"
+        ],
+        resources: {
+          translations: [
+            "Max Müller Edition",
+            "Gita Press",
+            "Harvard Oriental Series"
+          ],
+          commentaries: [
+            "Традиционные комментарии",
+            "Современные интерпретации",
+            "Академические исследования"
+          ],
+          studyGuides: [
+            "Исследование Вед",
+            "Методы чтения текста",
+            "Текстуальный анализ"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com"
+        }
+      },
+      sikh: {
+      title: "Секхские тексты",
+        description: "Священные тексты Сикхского государства, включая Гуру Грант Сахиб",
+        features: [
+          "Гуру Грант Сахиб",
+          "Исторические тексты",
+          "Поэзия поклонения",
+          "Философские трактаты"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Традиционные комментарии",
+            "Современный анализ",
+            "Академические исследования"
+          ],
+          studyGuides: [
+            "Исследование Гурбани",
+            "Исторический контекст",
+            "Текстуальный анализ"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhitothemax.org",
+          app: "SikhiToTheMax"
+        }
+      },
+      zoroastrian: {
+      title: "زرتشتی متون",
+        description: "اوستا سمیت زرتشتی مذہب کے قدیم متون",
+        features: [
+          "اوستا",
+          "گاتھا",
+          "تاریخی متون",
+          "رسومات کی ہدایات"
+        ],
+        resources: {
+          translations: [
+            "مشرق کی مقدس کتابیں",
+            "جدید تراجم",
+            "تعلیمی ایڈیشن"
+          ],
+          commentaries: [
+            "روایتی تفاسیر",
+            "جدید تجزیہ",
+            "تاریخی مطالعات"
+          ],
+          studyGuides: [
+            "اوستا کی تفہیم",
+            "تاریخی پس منظر",
+            "مطالعہ کے طریقے"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org/ur"
+        }
+      },
+      buddhist: buddhistTranslations.ru
+    },
+    resourcePages: {
+      beginner: {
+      title: "مبتدی کی راہ",
+        description: "اپنا مذہبی سفر شروع کریں",
+        level: "مبتدی",
+        topics: [
+          "عالمی مذاہب کا تعارف",
+          "بنیادی مذہبی تصورات",
+          "مقدس متون کا جائزہ",
+          "دعا اور مراقبہ"
+        ],
+        materials: [
+          "تعارفی مواد",
+          "مطالعہ رہنما",
+          "آڈیو وسائل",
+          "ویڈیو لیکچرز"
+        ],
+        studyTips: [
+          "بنیادی باتوں سے شروع کریں",
+          "آہستہ آہستہ آگے بڑھیں",
+          "مطالعہ گروپس میں شامل ہوں",
+          "سوال پوچھنے سے نہ ڈریں"
+        ]
+      },
+      intermediate: {
+      title: "وسطی مطالعہ",
+        description: "مذہبی روایات میں گہرائی سے جائیں",
+        level: "درمیانی",
+        topics: [
+          "تقابلی مذہب",
+          "مذہبی تاریخ",
+          "مقدس متون کا تجزیہ",
+          "مذہبی فلسفہ"
+        ],
+        materials: [
+          "ضوکی متون",
+          "تحقیقی مقالات",
+          "تفاسیر کے مجموعے",
+          "آن لائن کورسز"
+        ],
+        studyTips: [
+          "مختلف نظریات کا موازنہ کریں",
+          "تاریخی پس منظر کی تحقیق کریں",
+          "تنقیدی سوچ کی مشق کریں",
+          "مباحثوں میں حصہ لیں"
+        ]
+      },
+      advanced: {
+      title: "اعلیٰ تحقیق",
+        description: "پیچیدہ مذہبی موضوعات اور تعلیمی تحقیق کی تلاش کریں",
+        level: "ماہر",
+        topics: [
+          "مذہبی فلسفہ",
+          "متنی تنقید",
+          "الٰہیاتی مطالعات",
+          "معاصر مسائل"
+        ],
+        materials: [
+          "ضوکی جرائد",
+          "تحقیقی ڈیٹا بیس",
+          "بنیادی ذرائع",
+          "تعلیمی کام"
+        ],
+        studyTips: [
+          "اصل تحقیق کریں",
+          "تعلیمی مقالات لکھیں",
+          "کانفرنسوں میں شرکت کریں",
+          "تعلیمی نیٹ ورک بنائیں"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "قدیم مذہبی تاریخ",
+        description: "مذہبی روایات کی ابتدا اور ابتدائی نشوونما کی تلاش کریں"
+      },
+      medieval: {
+      title: "مذہبی تاریخ مدرن",
+        description: "مذہبی تاریخ کی تحقیق کریں جنہیں مدرن وسطیٰ میں روانہ کیا گیا ہے"
+      },
+      modern: {
+      title: "مذہبی تاریخ سمعی",
+        description: "معاصر مذہبی ترقیات اور رجحانات کا جائزہ لیں"
+      }
+    },
+    buddhist: buddhistTranslations.ru
+  },
+  ja: {
+    home: {
+      title: "ZION.FM へようこそ",
+      description: "あなたの信仰、音楽、ラジオステーション"
+    },
+    nav: {
+      home: "ホーム",
+      studies: "研究",
+      teachings: "教え",
+      resources: "リソース",
+      meditation: "瞑想",
+      sacredTexts: "聖典"
+    },
+    studies: {
+      title: "聖書研究",
+      description: "聖書の深い理解を深める"
+    },
+    teachings: {
+      title: "教え",
+      description: "経験豊かな先生から学ぶ"
+    },
+    resources: {
+      title: "リソース",
+      description: "あなたの成長を助けるツール"
+    },
+    meditation: {
+      title: "瞑想",
+      description: "平和とつながりを見つける"
+    },
+    sacredTexts: {
+      bible: {
+      title: "聖書",
+        description: "旧約と新約を含む聖書のコレクション",
+        features: [
+          "複数の翻訳",
+          "研究リソース",
+          "歴史的背景",
+          "コメンタリー"
+        ],
+        resources: {
+          translations: [
+            "キングジェームズ版",
+            "新国際版",
+            "英語標準版"
+          ],
+          commentaries: [
+            "マタイ・ヘンリーのコメンタリー",
+            "IVP聖書コメンタリー",
+            "新聖書コメンタリー"
+          ],
+          studyGuides: [
+            "聖書研究方法",
+            "聖書解釈ガイド",
+            "歴史的背景研究"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "YouVersion聖書アプリ"
+        }
+      },
+      quran: {
+      title: "クルアン",
+        description: "イスラム教の中心的な宗教的テキストであり、神の啓示と信じられている",
+        features: [
+          "アラブ語のテキスト",
+          "英語への翻訳",
+          "バージョンごとの研究",
+          "テーマティックインデックス"
+        ],
+        resources: {
+          translations: [
+            "サヒール・インターナショナル",
+            "ピクタル",
+            "ユスフ・アリ"
+          ],
+          commentaries: [
+            "イブン・カシルの注釈",
+            "ジャララインの注釈",
+            "マアリフル・クルアン"
+          ],
+          studyGuides: [
+            "クルアン科学",
+            "テーマスタディーズ",
+            "コンテキストアナリシス"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "クルアンアプリ"
+        }
+      },
+      buddhist: {
+      title: "仏教経典",
+        description: "仏教の戒律と教義のコレクション",
+        features: [
+          "ストリー",
+          "コメンタリー",
+          "瞑想ガイド",
+          "実践的な指示"
+        ],
+        resources: {
+          translations: [
+            "パリテキスト協会訳本",
+            "ファグダンマダパダ",
+            "84000訳本"
+          ],
+          commentaries: [
+            "伝統的コメンタリー",
+            "現代解釈",
+            "学術研究"
+          ],
+          studyGuides: [
+            "ストリー研究ガイド",
+            "仏教文献読み方",
+            "比較研究"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net/ja",
+          app: "仏教経典リーダー"
+        }
+      },
+      hindu: {
+      title: "ヴェーダ、ウパニシャド、パーン",
+        description: "ヴェーダ、ウパニシャド、パーンを含む様々な聖なるテキスト",
+        features: [
+          "ヴェーダテキスト",
+          "哲学論文",
+          "叙事詩",
+          "礼拝の作品"
+        ],
+        resources: {
+          translations: [
+            "マックス・ミュラー版",
+            "ジタ・プレス",
+            "ハーバード・オリエンタルシリーズ"
+          ],
+          commentaries: [
+            "伝統的コメンタリー",
+            "現代解釈",
+            "学術研究"
+          ],
+          studyGuides: [
+            "ヴェーダ研究ガイド",
+            "テキスト読み方",
+            "テキスト分析"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com/ja"
+        }
+      },
+      sikh: {
+      title: "シク教聖典",
+        description: "シク教の聖典、グル・グラント・サヒブを含む",
+        features: [
+          "グル・グラント・サヒブ",
+          "歴史的テキスト",
+          "礼拝の詩",
+          "哲学著作"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Gurbani Study Guide",
+            "Historical Context",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhitothemax.org",
+          app: "SikhiToTheMax"
+        }
+      },
+      zoroastrian: {
+      title: "ゾロアスタ教聖典",
+        description: "古代ゾロアスタ教の聖典、アヴェスタを含む",
+        features: [
+          "アヴェスタ",
+          "ガタス",
+          "歴史的テキスト",
+          "儀式の指示"
+        ],
+        resources: {
+          translations: [
+            "東方聖書のコレクション",
+            "最新の翻訳",
+            "学術版"
+          ],
+          commentaries: [
+            "伝統的コメンタリー",
+            "現代分析",
+            "歴史的研究"
+          ],
+          studyGuides: [
+            "アヴェスタの理解",
+            "歴史的背景",
+            "研究方法"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org/ja"
+        }
+      }
+    },
+    resourcePages: {
+      beginner: {
+      title: "初心者の道",
+        description: "宗教研究の旅を始めましょう",
+        level: "初心者",
+        topics: [
+          "世界宗教への紹介",
+          "基本的な宗教概念",
+          "聖典の概要",
+          "祈りと瞑想"
+        ],
+        materials: [
+          "紹介文",
+          "研究ガイド",
+          "オーディオリソース",
+          "ビデオレクチャー"
+        ],
+        studyTips: [
+          "基本から始める",
+          "時間をかけて",
+          "研究グループに参加する",
+          "質問する"
+        ]
+      },
+      intermediate: {
+      title: "中級者の研究",
+        description: "宗教伝統の深い理解を深める",
+        level: "中級",
+        topics: [
+          "比較宗教",
+          "宗教史",
+          "聖典分析",
+          "宗教哲学"
+        ],
+        materials: [
+          "学術論文",
+          "研究論文",
+          "コメンタリーコレクション",
+          "オンラインコース"
+        ],
+        studyTips: [
+          "異なる視点を比較する",
+          "歴史的背景を研究する",
+          "批判的思考を練習する",
+          "議論に参加する"
+        ]
+      },
+      advanced: {
+      title: "高度な研究",
+        description: "複雑な宗教トピックと学術的研究を探求する",
+        level: "上級",
+        topics: [
+          "宗教哲学",
+          "テキスト批評",
+          "神学研究",
+          "現代の課題"
+        ],
+        materials: [
+          "学術雑誌",
+          "研究データベース",
+          "一次資料",
+          "学術著作"
+        ],
+        studyTips: [
+          "独自の研究を行う",
+          "学術論文を書く",
+          "学会に参加する",
+          "学術ネットワークを構築する"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "古代宗教史",
+        description: "宗教の伝統の起源と初期の発展を探る"
+      },
+      medieval: {
+      title: "中世宗教史",
+        description: "研究中世纪时期宗教的演变"
+      },
+      modern: {
+      title: "現代宗教史",
+        description: "現代宗教の発展と傾向を調べる"
+      }
+    },
+    buddhist: buddhistTranslations.ja
+  },
+  ur: {
+    home: {
+      title: "ZION.FM پر خوش آمدید",
+      description: "آپ کا ایمان، آپ کا سنگاپ، آپ کا ایستیشن"
+    },
+    nav: {
+      home: "ہوم",
+      studies: "آدھی",
+      teachings: "تدریس",
+      resources: "مواد",
+      meditation: "مدنی",
+      sacredTexts: "سردار گرانٹ"
+    },
+    studies: {
+      title: "آدھی",
+      description: "دینی جاں کی جامع جلدی"
+    },
+    teachings: {
+      title: "تدریس",
+      description: "موجود خداوند کی خدمت سے سیں"
+    },
+    resources: {
+      title: "مواد",
+      description: "آپ کی ایستیشن کے لئے ڈالر"
+    },
+    meditation: {
+      title: "مدنی",
+      description: "سماجی آب و پیمائش کی جستجو"
+    },
+    sacredTexts: {
+      bible: {
+      title: "بیبل",
+        description: "پुرانی اور نوین نیوم پیمائش کے ساتھ بیبل سمائل",
+        features: [
+          "مختلف انوائی",
+          "استعلام کے مواد",
+          "تاریخی سمائل",
+          "تفاسیر"
+        ],
+        resources: {
+          translations: [
+            "ہندی بیبل",
+            "آب جدید بیبل",
+            "معیاری ہندی بیبل"
+          ],
+          commentaries: [
+            "ماتھی ہینری کی تیکا",
+            "ای وی پی بیبل تیکا",
+            "نئی بیبل تیکا"
+          ],
+          studyGuides: [
+            "بیبل استعلام کے طریقے",
+            "بیبل تفسیر کی مراد",
+            "تاریخی سمائل کی تحقیق"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.bible.com",
+          app: "بیبل ایپ"
+        }
+      },
+      quran: {
+      title: "القرآن",
+        title: "The Quran",
+        description: "The central religious text of Islam, believed to be divine revelation",
+        features: [
+          "Arabic text",
+          "English translation",
+          "Verse by verse study",
+          "Thematic index"
+        ],
+        resources: {
+          translations: [
+            "Sahih International",
+            "Pickthall",
+            "Yusuf Ali"
+          ],
+          commentaries: [
+            "Tafsir Ibn Kathir",
+            "Tafsir al-Jalalayn",
+            "Maariful Quran"
+          ],
+          studyGuides: [
+            "Quranic Sciences",
+            "Thematic Studies",
+            "Contextual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://quran.com",
+          app: "Quran App"
+        }
+      },
+      buddhist: {
+      title: "Buddhist Texts",
+        description: "Collection of Buddhist canonical texts and teachings",
+        features: [
+          "Sutras",
+          "Commentaries",
+          "Meditation guides",
+          "Practice instructions"
+        ],
+        resources: {
+          translations: [
+            "Pali Text Society",
+            "BDK English Tripitaka",
+            "84000 Translation"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Interpretations",
+            "Academic Analysis"
+          ],
+          studyGuides: [
+            "Sutra Study Guide",
+            "Buddhist Text Reading",
+            "Comparative Studies"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.buddhanet.net",
+          app: "Buddhist Text Reader"
+        }
+      },
+      hindu: {
+      title: "Hindu Scriptures",
+        description: "Various sacred texts including Vedas, Upanishads, and Puranas",
+        features: [
+          "Vedic texts",
+          "Philosophical treatises",
+          "Epic literature",
+          "Devotional works"
+        ],
+        resources: {
+          translations: [
+            "Max Müller Edition",
+            "Gita Press",
+            "Harvard Oriental Series"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Interpretations",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Vedic Study Guide",
+            "Scripture Reading Methods",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.vedabase.com"
+        }
+      },
+      sikh: {
+      title: "Sikh Texts",
+        description: "Sacred texts of Sikhism including the Guru Granth Sahib",
+        features: [
+          "Guru Granth Sahib",
+          "Historical texts",
+          "Devotional poetry",
+          "Philosophical works"
+        ],
+        resources: {
+          translations: [
+            "Sri Guru Granth Sahib Ji",
+            "English Translation",
+            "Modern Interpretations"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Academic Studies"
+          ],
+          studyGuides: [
+            "Gurbani Study Guide",
+            "Historical Context",
+            "Textual Analysis"
+          ]
+        },
+        onlineAccess: {
+          website: "https://www.sikhnet.com"
+        }
+      },
+      zoroastrian: {
+      title: "Zoroastrian Texts",
+        description: "Ancient texts of Zoroastrianism including the Avesta",
+        features: [
+          "Avesta",
+          "Gathas",
+          "Historical texts",
+          "Ritual instructions"
+        ],
+        resources: {
+          translations: [
+            "Sacred Books of the East",
+            "Modern Translations",
+            "Academic Editions"
+          ],
+          commentaries: [
+            "Traditional Commentaries",
+            "Modern Analysis",
+            "Historical Studies"
+          ],
+          studyGuides: [
+            "Understanding Avesta",
+            "Historical Context",
+            "Study Methods"
+          ]
+        },
+        onlineAccess: {
+          website: "http://www.avesta.org"
+        }
+      },
+      buddhist: buddhistTranslations.ur
+    },
+    resourcePages: {
+      beginner: {
+      title: "Beginner's Path",
+        description: "Start your journey of religious study",
+        level: "Beginner",
+        topics: [
+          "Introduction to World Religions",
+          "Basic Religious Concepts",
+          "Sacred Text Overview",
+          "Prayer and Meditation"
+        ],
+        materials: [
+          "Introductory Texts",
+          "Study Guides",
+          "Audio Resources",
+          "Video Lectures"
+        ],
+        studyTips: [
+          "Start with the basics",
+          "Take your time",
+          "Join study groups",
+          "Ask questions"
+        ]
+      },
+      intermediate: {
+      title: "Intermediate Studies",
+        description: "Deepen your understanding of religious traditions",
+        level: "Intermediate",
+        topics: [
+          "Comparative Religion",
+          "Religious History",
+          "Sacred Text Analysis",
+          "Religious Philosophy"
+        ],
+        materials: [
+          "Academic Texts",
+          "Research Papers",
+          "Commentary Collections",
+          "Online Courses"
+        ],
+        studyTips: [
+          "Compare different perspectives",
+          "Research historical context",
+          "Practice critical thinking",
+          "Engage in discussions"
+        ]
+      },
+      advanced: {
+      title: "Advanced Research",
+        description: "Explore complex religious topics and scholarly research",
+        level: "Advanced",
+        topics: [
+          "Religious Philosophy",
+          "Textual Criticism",
+          "Theological Studies",
+          "Contemporary Issues"
+        ],
+        materials: [
+          "Academic Journals",
+          "Research Databases",
+          "Primary Sources",
+          "Scholarly Works"
+        ],
+        studyTips: [
+          "Conduza pesquisas originais",
+          "Escreva artigos acadêmicos",
+          "Participe de conferências",
+          "Construa uma rede acadêmica"
+        ]
+      }
+    },
+    history: {
+      ancient: {
+      title: "Ancient Religious History",
+        description: "Explore the origins and early development of religious traditions"
+      },
+      medieval: {
+      title: "Medieval Religious History",
+        description: "Study the evolution of religions during the middle ages"
+      },
+      modern: {
+      title: "Modern Religious History",
+        description: "Examine contemporary religious developments and trends"
+      }
+    },
+    buddhist: buddhistTranslations.ur
+  }
+} as const 
+
+export type TranslationKey = keyof LanguageTranslations | 
+  `${keyof LanguageTranslations}.${string}` |
+  `${keyof LanguageTranslations}.${string}.${string}` 

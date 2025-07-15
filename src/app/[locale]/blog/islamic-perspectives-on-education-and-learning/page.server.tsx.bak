@@ -1,0 +1,331 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Islamic Perspectives on Education & Learning: Ilm, Tarbiyah & Adab | Religious Studies Blog",
+  description: "Explore the Islamic emphasis on education (Ta\'lim) and learning (Tarbiyah). Understand the value of knowledge (Ilm), manners (Adab) in seeking knowledge, historical institutions (Madrasas), and contemporary educational challenges.",
+  openGraph: {
+    title: "Islamic Perspectives on Education & Learning: Ilm, Tarbiyah & Adab | Religious Studies Blog",
+    description: "A comprehensive guide to Islamic educational philosophy, covering the importance of Ilm (knowledge), Tarbiyah (holistic upbringing/education), Adab (ethics of learning), historical learning centers, and modern educational practices.",
+  type: "article",
+    images: [
+      {
+        url: "/images/islamic-education-learning.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Islamic Perspectives on Education and Learning",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Islamic Perspectives on Education & Learning: Ilm, Tarbiyah & Adab",
+    description: "Explore the Islamic emphasis on education (Ta\'lim), learning (Tarbiyah), the value of knowledge (Ilm), and manners (Adab) in seeking knowledge.",
+    images: ["/images/islamic-education-learning.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function IslamicPerspectivesOnEducationAndLearning() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Education & Learning: Ilm, Tarbiyah & Adab | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Education & Learning: Ilm, Tarbiyah & Adab | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Education & Learning</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Perspectives on Education (Ta'lim) and Learning (Tarbiyah)
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Ilm (Knowledge)</Badge>
+            <Badge variant="secondary">Ta'lim (Education)</Badge>
+            <Badge variant="secondary">Tarbiyah (Upbringing/Development)</Badge>
+            <Badge variant="secondary">Adab (Manners/Ethics)</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Education (Ta'lim) and holistic development (Tarbiyah) are cornerstones of Islamic tradition, with a profound
+            emphasis on seeking beneficial knowledge (Ilm) throughout one's life. This pursuit is guided by ethical
+            principles (Adab) and aims to foster intellectual, spiritual, and moral growth for both individual and
+            societal well-being.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Core Principles: Ilm, Tarbiyah, and Adab
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                  <div>
+                    <h3 className="text-lg font-medium">The Pursuit of Knowledge (Ilm)</h3>
+                    <ul className="mt-2">
+                      <li>Religious obligation for both men and women.</li>
+                      <li>First Quranic revelation: "Iqra'" (Read!).</li>
+                      <li>Seeking beneficial knowledge that leads to good action.</li>
+                      <li>Knowledge of both religious (Din) and worldly (Dunya) sciences.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Holistic Development (Tarbiyah)</h3>
+                    <ul className="mt-2">
+                      <li>Comprehensive upbringing: intellectual, spiritual, moral, physical.</li>
+                      <li>Focus on character building alongside academic learning.</li>
+                      <li>Role of parents, teachers, and community.</li>
+                      <li>Continuous lifelong process.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Ethics and Manners (Adab) of Learning</h3>
+                    <ul className="mt-2">
+                      <li>Respect for teachers and knowledge.</li>
+                      <li>Humility, sincerity, and patience in learning.</li>
+                      <li>Importance of applying knowledge.</li>
+                      <li>Avoiding arrogance and argumentation for its own sake.</li>
+                      <li>Collaborative learning and sharing knowledge.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Historical Institutions and Methods of Learning
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Early Learning Centers</h3>
+                    <ul className="mt-2">
+                      <li><strong>Kuttab (Maktab):</strong> Elementary schools, often attached to mosques, focusing on Quran, reading, writing, basic arithmetic.</li>
+                      <li><strong>Halaqat (Circles of Knowledge):</strong> Study circles in mosques led by scholars.</li>
+                      <li><strong>Homes of Scholars:</strong> Served as important venues for learning.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Higher Education Institutions</h3>
+                    <ul className="mt-2">
+                      <li><strong>Madrasa:</strong> Formal institutions of higher learning, offering advanced studies in various Islamic sciences, law, theology, and often other disciplines. Examples: Al-Azhar (Cairo), Al-Qarawiyyin (Fez).</li>
+                      <li><strong>Bayt al-Hikmah (House of Wisdom):</strong> Major intellectual center in Baghdad for translation, research, and scholarship.</li>
+                      <li>Libraries and Observatories.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Pedagogical Methods</h3>
+                    <ul className="mt-2">
+                      <li>Memorization (Hifz) and oral transmission.</li>
+                      <li>Reading (Qira'a) and explication (Sharh) of texts.</li>
+                      <li>Questioning, debate (Munazara), and critical analysis.</li>
+                      <li>Mentorship (Suhbah) with scholars.</li>
+                      <li>Emphasis on Ijazah (license to teach).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Curriculum and Areas of Study in Traditional Islamic Education
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Religious Sciences (Ulum al-Din)</h3>
+                    <ul className="mt-2">
+                      <li>Quranic Studies (Tafsir, Tajwid)</li>
+                      <li>Hadith Studies (Ilm al-Hadith)</li>
+                      <li>Islamic Jurisprudence (Fiqh and Usul al-Fiqh)</li>
+                      <li>Theology (Aqidah/Kalam)</li>
+                      <li>Prophetic Biography (Sirah)</li>
+                      <li>Spirituality (Tasawwuf/Akhlaq)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Instrumental and Rational Sciences</h3>
+                    <ul className="mt-2">
+                      <li>Arabic Language and Literature (Grammar, Rhetoric, Poetry)</li>
+                      <li>Logic (Mantiq)</li>
+                      <li>Mathematics, Astronomy, Medicine, Philosophy (often integrated or studied alongside religious sciences).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Contemporary Islamic Education: Challenges and Adaptations
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Modern Challenges</h3>
+                    <ul className="mt-2">
+                      <li>Balancing tradition and modernity in curriculum.</li>
+                      <li>Integration of secular and religious education.</li>
+                      <li>Funding and quality control of Islamic educational institutions.</li>
+                      <li>Addressing extremism and promoting critical thinking.</li>
+                      <li>Teacher training and pedagogical development.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Innovations and Trends</h3>
+                    <ul className="mt-2">
+                      <li>Growth of Islamic schools and universities worldwide.</li>
+                      <li>Development of online Islamic studies programs.</li>
+                      <li>Focus on character education and applied ethics.</li>
+                      <li>Interdisciplinary approaches to Islamic studies.</li>
+                      <li>Efforts towards curriculum reform and relevance.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-perspectives-on-science-and-knowledge" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Science & Knowledge in Islam</h3>
+                    <p className="text-sm text-muted-foreground">
+                      The broader Islamic view on the pursuit of knowledge.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/role-of-women-in-islam" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Role of Women in Islam</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Including their historical and contemporary access to education.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the history of institutions like{" "}
+                  <Link href="/islam/institutions/al-azhar" className="hover:underline">
+                    Al-Azhar University
+                  </Link>
+                  , or the concept of{" "}
+                  <Link href="/islam/concepts/tarbiyah" className="hover:underline">
+                    Tarbiyah
+                  </Link>
+                  . Consider the importance of{" "}
+                  <Link href="/islam/concepts/adab" className="hover:underline">
+                    Adab al-Ta'lim (Ethics of Learning)
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/education/curriculum">Islamic Educational Curriculum</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/education/madrasa-history">History of Madrasas</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

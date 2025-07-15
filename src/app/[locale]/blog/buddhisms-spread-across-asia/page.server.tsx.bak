@@ -1,0 +1,148 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Buddhism's Spread Across Asia: A Journey of Transformation | Religious Studies Blog",
+  description: "Explore the remarkable journey of Buddhism across Asia - from its origins in India to its diverse expressions across the continent. Discover how Buddhist teachings adapted to different cultures while maintaining their core wisdom.",
+  openGraph: {
+    title: "Buddhism's Spread Across Asia: A Journey of Transformation | Religious Studies Blog",
+    description: "Explore the remarkable journey of Buddhism across Asia - from its origins in India to its diverse expressions across the continent. Discover how Buddhist teachings adapted to different cultures while maintaining their core wisdom.",
+    type: "article",
+  },
+};
+
+export default function BuddhismsSpreadAcrossAsia() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhism's Spread Across Asia: A Journey of Transformation
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Asia</Badge>
+            <Badge variant="secondary">Cultural Adaptation</Badge>
+            <Badge variant="secondary">History</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                The spread of Buddhism across Asia represents one of the most significant cultural and religious transformations in human history. This exploration examines how Buddhist teachings adapted to diverse cultures while maintaining their core wisdom, creating a rich tapestry of spiritual traditions across the continent.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Early Expansion</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Indian Origins:</h3>
+                  <ul>
+                    <li>Magadha Kingdom</li>
+                    <li>Mauryan Empire</li>
+                    <li>Ashoka's Mission</li>
+                    <li>Early Buddhist Councils</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Initial Spread:</h3>
+                  <ul>
+                    <li>Trade Routes</li>
+                    <li>Monastic Networks</li>
+                    <li>Royal Patronage</li>
+                    <li>Cultural Exchange</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Regional Development</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>South Asia:</h3>
+                  <ul>
+                    <li>Sri Lankan Buddhism</li>
+                    <li>Nepalese Traditions</li>
+                    <li>Bangladeshi Heritage</li>
+                    <li>Indian Revival</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Southeast Asia:</h3>
+                  <ul>
+                    <li>Thai Buddhism</li>
+                    <li>Burmese Traditions</li>
+                    <li>Cambodian Heritage</li>
+                    <li>Laotian Practices</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">East Asian Transmission</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Chinese Buddhism:</h3>
+                  <ul>
+                    <li>Silk Road Transmission</li>
+                    <li>Chan/Zen Development</li>
+                    <li>Pure Land Tradition</li>
+                    <li>Cultural Integration</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>East Asian Traditions:</h3>
+                  <ul>
+                    <li>Japanese Buddhism</li>
+                    <li>Korean Buddhism</li>
+                    <li>Vietnamese Traditions</li>
+                    <li>Mongolian Buddhism</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Cultural Adaptations</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Artistic Expressions:</h3>
+                  <ul>
+                    <li>Architectural Styles</li>
+                    <li>Visual Arts</li>
+                    <li>Literary Traditions</li>
+                    <li>Musical Heritage</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Social Integration:</h3>
+                  <ul>
+                    <li>Local Customs</li>
+                    <li>Folk Traditions</li>
+                    <li>Social Structures</li>
+                    <li>Political Systems</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

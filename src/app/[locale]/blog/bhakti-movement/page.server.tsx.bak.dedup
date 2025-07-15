@@ -1,0 +1,151 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Bhakti Movement",
+  description: "Explore the Bhakti Movement, its origins, key figures, and its profound impact on Hindu spirituality and culture.",
+  openGraph: {
+    title: "Bhakti Movement",
+    description: "Explore the Bhakti Movement, its origins, key figures, and its profound impact on Hindu spirituality and culture.",
+    type: "article",
+    url: "/blog/bhakti-movement",
+    images: [
+      {
+        url: "/images/blog/bhakti-movement.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bhakti Movement"
+      }
+    ]
+  }
+}
+export default function BhaktiMovement() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Bhakti Movement
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Bhakti</Badge>
+            <Badge variant="secondary">Devotion</Badge>
+            <Badge variant="secondary">Spirituality</Badge>
+            <Badge variant="secondary">Hinduism</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                The Bhakti Movement, which emerged in medieval India, represents a profound shift in Hindu spirituality. It emphasized personal devotion (bhakti) to a chosen deity, transcending rigid rituals and caste barriers. This movement brought spirituality closer to the common people, fostering a direct, emotional connection with the divine.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Origins and Historical Context</h2>
+              <p>
+                The Bhakti Movement emerged between the 7th and 17th centuries as a response to ritualism and social stratification in Hindu society. It began in South India with the Alvars (devotees of Vishnu) and Nayanars (devotees of Shiva), who composed devotional hymns in Tamil, and later spread across India, inspiring regional movements and vernacular literature.
+              </p>
+              <ul className="list-disc ml-6 mt-2 text-base">
+                <li><strong>Alvars & Nayanars:</strong> Early Tamil poet-saints who emphasized personal devotion.</li>
+                <li><strong>Spread to North India:</strong> Influenced by saints like Ramananda, Kabir, and Mirabai.</li>
+                <li><strong>Regional Diversity:</strong> Bhakti traditions flourished in Maharashtra, Bengal, Rajasthan, and beyond.</li>
+              </ul>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Key Figures and Saints</h2>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div>
+                  <h3 className="text-lg font-medium">Prominent Saints</h3>
+                  <ul className="list-disc ml-6 mt-2 text-base">
+                    <li><strong>Kabir:</strong> Mystic poet who preached unity of God and social equality.</li>
+                    <li><strong>Mirabai:</strong> Devotee of Krishna, known for her passionate bhajans and defiance of social norms.</li>
+                    <li><strong>Tulsidas:</strong> Author of the Ramcharitmanas, celebrated for his devotion to Rama.</li>
+                    <li><strong>Chaitanya Mahaprabhu:</strong> Proponent of ecstatic devotion (kirtan) to Krishna.</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-medium">Philosophical Schools</h3>
+                  <ul className="list-disc ml-6 mt-2 text-base">
+                    <li><strong>Vishishtadvaita:</strong> Qualified non-dualism (Ramanuja).</li>
+                    <li><strong>Advaita & Dvaita:</strong> Non-dualism (Shankara) and dualism (Madhva).</li>
+                    <li><strong>Universalism:</strong> Emphasis on love and surrender over dogma.</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Practices and Cultural Expressions</h2>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div>
+                  <h3 className="text-lg font-medium">Devotional Practices</h3>
+                  <ul className="list-disc ml-6 mt-2 text-base">
+                    <li>Kirtan (devotional singing)</li>
+                    <li>Bhajan (devotional songs)</li>
+                    <li>Japa (repetition of divine names)</li>
+                    <li>Community worship and festivals</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-lg font-medium">Cultural Impact</h3>
+                  <ul className="list-disc ml-6 mt-2 text-base">
+                    <li>Vernacular poetry and literature</li>
+                    <li>Temple architecture and art</li>
+                    <li>Music and dance traditions</li>
+                    <li>Social reform and inclusivity</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Legacy and Modern Relevance</h2>
+              <p>
+                The Bhakti Movement's legacy endures in contemporary devotional practices, music, and festivals. Its message of love, equality, and direct connection with the divine continues to inspire spiritual seekers and social reformers alike.
+              </p>
+              <ul className="list-disc ml-6 mt-2 text-base">
+                <li>Continued influence on Indian music, poetry, and art</li>
+                <li>Promotion of social equality and interfaith harmony</li>
+                <li>Global spread of Bhakti traditions (e.g., ISKCON)</li>
+              </ul>
+            </Card>
+            <div className="grid gap-4 md:grid-cols-2">
+              <Link href="/blog/hindu-philosophy" className="block">
+                <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                  <h3 className="text-lg font-semibold">Hindu Philosophy</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Explore the six schools of Hindu philosophy and their influence on Bhakti thought.
+                  </p>
+                </Card>
+              </Link>
+              <Link href="/blog/hindu-festivals" className="block">
+                <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                  <h3 className="text-lg font-semibold">Hindu Festivals</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Discover major Hindu festivals that celebrate devotion and community.
+                  </p>
+                </Card>
+              </Link>
+            </div>
+            <Card className="mt-8 bg-muted p-4">
+              <h3 className="text-lg font-semibold">Further Study</h3>
+              <p className="text-sm text-muted-foreground">
+                Continue your exploration of the Bhakti Movement and its impact on Indian spirituality and culture. Dive deeper into devotional poetry, music, and the lives of saints through our recommended resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog/hindu-scriptures">Hindu Scriptures</Link>
+                </Button>
+                <Button variant="outline" asChild>
+                  <Link href="/blog/hindu-music-and-dance">Music & Dance</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

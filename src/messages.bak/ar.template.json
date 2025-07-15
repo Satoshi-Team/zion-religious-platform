@@ -1,0 +1,1264 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "sacredTexts": "Sacred Texts",
+      "studies": "Studies",
+      "teachings": "Teachings",
+      "blog": "Blog",
+      "resources": "Resources",
+      "meditation": "Meditation",
+      "bible": "Bible",
+      "religion": "Religion"
+    },
+    "actions": {
+      "readMore": "Read More",
+      "learnMore": "Learn More",
+      "explore": "Explore",
+      "search": "Search",
+      "share": "Share"
+    },
+    "footer": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "contact": "Contact",
+      "about": "About"
+    },
+    "buttons": {
+      "learnMore": "اعرف المزيد",
+      "getStarted": "ابدأ الآن",
+      "contactUs": "تواصل معنا",
+      "readMore": "اقرأ المزيد",
+      "submit": "إرسال",
+      "cancel": "إلغاء",
+      "save": "حفظ",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "search": "بحث"
+    }
+  },
+  "blog": {
+    "categories": {
+      "hinduism": "Hinduism",
+      "buddhism": "Buddhism",
+      "islam": "Islam",
+      "christianity": "Christianity"
+    },
+    "tags": {
+      "philosophy": "Philosophy",
+      "spirituality": "Spirituality",
+      "meditation": "Meditation",
+      "ethics": "Ethics",
+      "history": "History",
+      "culture": "Culture",
+      "art": "Art",
+      "architecture": "Architecture",
+      "festivals": "Festivals",
+      "rituals": "Rituals",
+      "scriptures": "Scriptures",
+      "practices": "Practices",
+      "modern": "Modern Issues",
+      "science": "Science",
+      "education": "Education",
+      "social": "Social Issues",
+      "mythology": "",
+      "deities": "",
+      "monasticism": "",
+      "mindfulness": "",
+      "theology": "",
+      "law": "",
+      "society": ""
+    },
+    "posts": {
+      "hinduism": {
+        "introduction": "Introduction to Hinduism",
+        "philosophy": "Hindu Philosophy",
+        "cosmology": "Hindu Cosmology",
+        "art": "Hindu Art and Architecture",
+        "festivals": "Festivals in Hinduism",
+        "rituals": "Hindu Rituals and Worship",
+        "ethics": "Hindu Ethics",
+        "scriptures": "Hindu Scriptures",
+        "spiritual": "Hindu Spiritual Practices",
+        "modern": "Hinduism in the Modern World",
+        "ecology": "Hinduism and Ecology",
+        "diaspora": "Hindu Diaspora",
+        "music": "Hindu Music and Dance",
+        "temples": "Hindu Temples",
+        "social": "Hindu Social Structure",
+        "science": "Hindu Science and Mathematics",
+        "bhakti": "Bhakti Movement",
+        "avatars": "Avatars of Vishnu",
+        "purusharthas": "The Four Purusharthas",
+        "gita": "The Bhagavad Gita and its Teachings",
+        "avatars-of-vishnu": "",
+        "bhakti-movement": "",
+        "concepts-of-dharma-and-karma": "",
+        "concepts-of-karma-and-rebirth": "",
+        "festivals-in-hinduism": "",
+        "hindu-art": "",
+        "hindu-art-and-architecture": "",
+        "hindu-art-and-iconography": "",
+        "hindu-cosmology": "",
+        "hindu-diaspora": "",
+        "hindu-ethics": "",
+        "hindu-festivals": "",
+        "hindu-music-and-dance": "",
+        "hindu-philosophy": "",
+        "hindu-rituals": "",
+        "hindu-rituals-and-worship": "",
+        "hindu-science-and-mathematics": "",
+        "hindu-scriptures": "",
+        "hindu-social-structure": "",
+        "hindu-spiritual-practices": "",
+        "hindu-temples": "",
+        "hinduism-and-ecology": "",
+        "hinduism-in-the-modern-world": "",
+        "introduction-to-hinduism": "",
+        "origins-and-historical-development-of-hinduism": "",
+        "women-in-hinduism": ""
+      },
+      "buddhism": {
+        "introduction": "Introduction to Buddhism",
+        "buddha": "Life of Siddhartha Gautama",
+        "four_truths": "The Four Noble Truths",
+        "eightfold_path": "The Noble Eightfold Path",
+        "ethics": "Buddhist Ethics and Precepts",
+        "meditation": "Buddhist Meditation Techniques",
+        "philosophy": "Buddhist Philosophy and Logic",
+        "psychology": "Buddhist Psychology and Mind Training",
+        "schools": "Buddhist Schools and Traditions",
+        "scriptures": "Buddhist Scriptures and Texts",
+        "art": "Buddhist Art and Architecture",
+        "festivals": "Buddhist Festivals and Celebrations",
+        "monasticism": "Buddhist Monasticism",
+        "pilgrimage": "Buddhist Sacred Sites and Pilgrimage",
+        "engaged": "Engaged Buddhism and Social Action",
+        "modern": "Buddhism in the Modern World",
+        "mindfulness": "Buddhism and Mindfulness",
+        "spread": "Buddhism's Spread Across Asia",
+        "mahayana": "Mahayana Buddhism Beliefs and Practices",
+        "contemporary": "Contemporary Issues in Buddhism",
+        "buddhism-and-mindfulness": "",
+        "buddhism-in-the-modern-world": "",
+        "buddhisms-spread-across-asia": "",
+        "buddhist-art-and-architecture": "",
+        "buddhist-cosmology": "",
+        "buddhist-ethics-and-moral-philosophy": "",
+        "buddhist-ethics-and-morality": "",
+        "buddhist-ethics-and-precepts": "",
+        "buddhist-festivals-and-celebrations": "",
+        "buddhist-festivals-and-rituals": "",
+        "buddhist-meditation-techniques": "",
+        "buddhist-monasticism": "",
+        "buddhist-philosophy-and-logic": "",
+        "buddhist-psychology-and-mind-training": "",
+        "buddhist-sacred-sites-and-pilgrimage": "",
+        "buddhist-schools-and-traditions": "",
+        "buddhist-scriptures-and-texts": "",
+        "buddhist-social-ethics-and-engaged-buddhism": "",
+        "contemporary-issues-in-buddhism": "",
+        "engaged-buddhism-and-social-action": "",
+        "islamic-zen": "",
+        "life-of-siddhartha-gautama": "",
+        "mahayana-buddhism-beliefs-and-practices": "",
+        "role-of-monasticism-in-buddhism": "",
+        "theravada-buddhism-beliefs-and-practices": "",
+        "vajrayana-buddhism-beliefs-and-practices": ""
+      },
+      "islam": {
+        "introduction": "Introduction to Islam",
+        "prophet": "The Life and Teachings of Prophet Muhammad",
+        "quran": "The Quran: Structure, Themes and Interpretation",
+        "hadith": "Hadith Literature and its Significance",
+        "pillars": "The Five Pillars of Islam",
+        "ethics": "Islamic Ethics",
+        "spirituality": "Islamic Spirituality",
+        "law": "Islamic Law (Sharia)",
+        "theology": "Islamic Theology (Aqidah)",
+        "worship": "Islamic Worship",
+        "festivals": "Islamic Festivals",
+        "calendar": "Islamic Calendar and Festivals",
+        "art": "Islamic Art and Architecture",
+        "science": "Islamic Perspectives on Science and Knowledge",
+        "education": "Islamic Perspectives on Education and Learning",
+        "peace": "Islamic Perspectives on Peace and Conflict Resolution",
+        "justice": "Islamic Perspectives on Social Justice and Human Rights",
+        "technology": "Islamic Perspectives on Technology and Innovation",
+        "environment": "Islamic Environmental Ethics",
+        "economics": "Islamic Economic Principles",
+        "civilization": "Islamic Contributions to Civilization",
+        "astronomy": "Islamic Astronomy",
+        "medicine": "Islamic Medicine",
+        "mysticism": "Islamic Mysticism (Sufism) and its Practices",
+        "modern": "Islam in the Modern World",
+        "interfaith": "Islam and Interfaith Relations",
+        "women": "Role of Women in Islam",
+        "youth": "Islamic Youth",
+        "zen": "Islamic Zen",
+        "denominations": "Sunni and Shia Islam: Differences and Commonalities",
+        "contemporary-issues-in-the-muslim-world": "",
+        "hadith-literature-and-its-significance": "",
+        "introduction-to-islam": "",
+        "islam-and-interfaith-relations": "",
+        "islam-in-the-modern-world": "",
+        "islamic-art-and-architecture": "",
+        "islamic-astronomy": "",
+        "islamic-calendar": "",
+        "islamic-calendar-and-festivals": "",
+        "islamic-contributions-to-civilization": "",
+        "islamic-economic-principles": "",
+        "islamic-environmental-ethics": "",
+        "islamic-ethics": "",
+        "islamic-festivals": "",
+        "islamic-law-sharia": "",
+        "islamic-law-sharia-sources-and-applications": "",
+        "islamic-medicine": "",
+        "islamic-mysticism": "",
+        "islamic-mysticism-sufism-and-its-practices": "",
+        "islamic-perspectives-on-education-and-learning": "",
+        "islamic-perspectives-on-peace-and-conflict-resolution": "",
+        "islamic-perspectives-on-science-and-knowledge": "",
+        "islamic-perspectives-on-social-justice-and-human-rights": "",
+        "islamic-perspectives-on-technology-and-innovation": "",
+        "islamic-philosophy": "",
+        "islamic-science": "",
+        "islamic-social-justice": "",
+        "islamic-spirituality": "",
+        "islamic-technology": "",
+        "islamic-theology-aqidah": "",
+        "islamic-views-on-ethics-and-morality": "",
+        "islamic-women": "",
+        "islamic-worship": "",
+        "islamic-youth": "",
+        "role-of-women-in-islam": "",
+        "sunni-and-shia-islam-differences-and-commonalities": "",
+        "the-five-pillars-of-islam": "",
+        "the-life-and-teachings-of-prophet-muhammad": "",
+        "the-quran-structure-themes-and-interpretation": ""
+      },
+      "christianity": {
+        "bible": "How to Read the Bible",
+        "prayer": "Prayer 101: Talking with God",
+        "trinity": "The Holy Trinity",
+        "creeds": "Christian Creeds and Confessions",
+        "christian-creeds-and-confessions": "",
+        "how-to-read-the-bible": "",
+        "what-does-it-mean-to-be-saved": "",
+        "what-is-the-gospel": "",
+        "who-is-jesus-christ": "",
+        "who-is-the-holy-spirit": ""
+      },
+      "uncategorized": {
+        "major-deities": "",
+        "prayer-101-talking-with-god": "",
+        "temples-and-sacred-spaces": "",
+        "the-bhagavad-gita-and-its-teachings": "",
+        "the-five-precepts-and-ethical-conduct": "",
+        "the-four-noble-truths": "",
+        "the-four-purusharthas": "",
+        "the-holy-trinity": "",
+        "the-noble-eightfold-path": "",
+        "the-six-articles-of-faith": "",
+        "the-three-marks-of-existence": "",
+        "the-vedas-and-upanishads": "",
+        "yoga-paths-and-practices": ""
+      }
+    },
+    "hero": {
+      "title": "Religious Education Blog",
+      "description": "Explore our latest articles, insights, and updates about religious education and learning."
+    },
+    "search": {
+      "placeholder": "Search articles..."
+    },
+    "readMore": "Read More",
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Stay updated with the latest articles, resources, and news about religious education.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
+  "bible": {
+    "navigation": {
+      "oldTestament": "Old Testament",
+      "newTestament": "New Testament",
+      "search": "Search Bible",
+      "audio": "Audio Bible"
+    },
+    "actions": {
+      "read": "Read",
+      "listen": "Listen",
+      "share": "Share Verse",
+      "bookmark": "Bookmark"
+    }
+  },
+  "Navigation": {
+    "title": "Religious Texts",
+    "home": "Home",
+    "hinduism": "Hinduism",
+    "hinduism.title": "Hinduism",
+    "hinduism.description": "Explore the ancient wisdom of Hinduism through its sacred texts and teachings.",
+    "hinduism.overview": "Overview",
+    "hinduism.scriptures": "Scriptures",
+    "hinduism.deities": "Deities",
+    "hinduism.practices": "Practices",
+    "buddhism": "Buddhism",
+    "buddhism.title": "Buddhism",
+    "buddhism.description": "Discover the path to enlightenment through Buddhist teachings and practices.",
+    "buddhism.overview": "Overview",
+    "buddhism.scriptures": "Scriptures",
+    "buddhism.teachings": "Teachings",
+    "buddhism.practices": "Practices",
+    "jainism": "Jainism",
+    "jainism.title": "Jainism",
+    "jainism.description": "Learn about the principles of non-violence and spiritual liberation in Jainism.",
+    "jainism.overview": "Overview",
+    "jainism.scriptures": "Scriptures",
+    "jainism.principles": "Principles",
+    "jainism.practices": "Practices",
+    "blog": "Blog",
+    "about": "About Us",
+    "hinduism.vedas": "الفيدا",
+    "hinduism.vedasDescription": "أقدم وأكثر النصوص الهندوسية سلطة.",
+    "hinduism.upanishads": "الأوبنشاد",
+    "hinduism.upanishadsDescription": "نصوص فلسفية تشكل أساس الفكر الهندوسي.",
+    "hinduism.bhagavadGita": "بهاغافاد غيتا",
+    "hinduism.bhagavadGitaDescription": "حوار مقدس بين كريشنا وأرجونا حول الواجب والاستقامة.",
+    "buddhism.tripitaka": "تريبيتاكا",
+    "buddhism.tripitakaDescription": "الثلاث سلال من النصوص البوذية.",
+    "buddhism.dhammapada": "دامابادا",
+    "buddhism.dhammapadaDescription": "مجموعة من أقوال بوذا في شكل شعر.",
+    "buddhism.sutras": "السوترا",
+    "buddhism.sutrasDescription": "خطب نسبت إلى بوذا وأقرب تلاميذه.",
+    "jainism.agamas": "الأجاما",
+    "jainism.agamasDescription": "النصوص الكنسية للجاينية التي تحتوي على تعاليم ماهافيرا.",
+    "jainism.tattvarthaSutra": "تاتفارثا سوترا",
+    "jainism.tattvarthaSutraDescription": "نص شامل عن فلسفة وميتافيزيقا الجاينية.",
+    "jainism.acarangaSutra": "أكارانغا سوترا",
+    "jainism.acarangaSutraDescription": "الأول من الأحد عشر أنغا، يحتوي على قواعد للرهبان الجاينيين."
+  },
+  "Footer": {
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved."
+  },
+  "listen": {
+    "title": "Religious Radio Stations",
+    "description": "Listen to verified religious radio stations from around the world",
+    "christianStations": "Christian Radio Stations",
+    "christianDescription": "Listen to Christian radio stations featuring worship music, sermons, and biblical teachings",
+    "islamicStations": "Islamic Radio Stations",
+    "islamicDescription": "Tune in to Islamic radio stations with Quran recitations, Islamic lectures, and spiritual guidance",
+    "buddhistStations": "Buddhist Radio Stations",
+    "buddhistDescription": "Experience Buddhist radio stations offering meditation guidance, dharma talks, and peaceful music",
+    "hinduStations": "Hindu Radio Stations",
+    "hinduDescription": "Listen to Hindu radio stations featuring bhajans, spiritual discourses, and cultural programs",
+    "jewishStations": "Jewish Radio Stations",
+    "jewishDescription": "Access Jewish radio stations with Torah teachings, Jewish music, and cultural content",
+    "interfaithStations": "Interfaith Radio Stations",
+    "interfaithDescription": "Explore interfaith radio stations promoting dialogue and understanding between different religions",
+    "aboutSection": {
+      "title": "About Our Radio Stations",
+      "description": "We carefully select and verify each radio station to ensure quality content and reliable streaming",
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "All stations are regularly monitored for audio quality and content appropriateness"
+      },
+      "verification": {
+        "title": "Verified Sources",
+        "description": "Each station is verified for authenticity and proper licensing"
+      }
+    },
+    "contactSection": {
+      "title": "Suggest a Station",
+      "description": "Know a religious radio station that should be included? Let us know!",
+      "button": "Contact Us"
+    }
+  },
+  "meditation": {
+    "title": "Guided Meditation",
+    "description": "Explore various meditation practices and guided sessions for spiritual growth",
+    "featuredSessions": {
+      "title": "Featured Sessions",
+      "description": "Start your meditation journey with these carefully selected sessions",
+      "sessions": {
+        "1": {
+          "title": "Morning Mindfulness",
+          "description": "Begin your day with clarity and purpose",
+          "duration": "10 minutes",
+          "level": "Beginner"
+        },
+        "2": {
+          "title": "Deep Relaxation",
+          "description": "Release tension and find inner peace",
+          "duration": "20 minutes",
+          "level": "Intermediate"
+        },
+        "3": {
+          "title": "Spiritual Connection",
+          "description": "Deepen your connection with the divine",
+          "duration": "30 minutes",
+          "level": "Advanced"
+        },
+        "play": "Play Session"
+      }
+    },
+    "types": {
+      "title": "Meditation Types",
+      "description": "Explore different meditation practices to find what resonates with you",
+      "mindfulness": {
+        "title": "Mindfulness Meditation",
+        "description": "Cultivate present-moment awareness and mental clarity",
+        "benefits": {
+          "1": "Reduces stress and anxiety",
+          "2": "Improves focus and concentration",
+          "3": "Enhances emotional well-being"
+        }
+      },
+      "lovingKindness": {
+        "title": "Loving-Kindness Meditation",
+        "description": "Develop compassion and positive emotions",
+        "benefits": {
+          "1": "Increases empathy and compassion",
+          "2": "Strengthens relationships",
+          "3": "Promotes inner peace"
+        }
+      },
+      "breathAwareness": {
+        "title": "Breath Awareness",
+        "description": "Focus on the breath to calm the mind",
+        "benefits": {
+          "1": "Calms the nervous system",
+          "2": "Improves respiratory function",
+          "3": "Enhances mental clarity"
+        }
+      },
+      "bodyScan": {
+        "title": "Body Scan Meditation",
+        "description": "Develop body awareness and release tension",
+        "benefits": {
+          "1": "Reduces physical tension",
+          "2": "Improves body awareness",
+          "3": "Promotes relaxation"
+        }
+      },
+      "explore": "Explore Practice"
+    },
+    "benefits": {
+      "title": "Benefits of Meditation",
+      "description": "Discover how regular meditation practice can transform your life",
+      "mental": {
+        "title": "Mental Benefits",
+        "description": "Improve focus, reduce stress, and enhance emotional well-being"
+      },
+      "physical": {
+        "title": "Physical Benefits",
+        "description": "Lower blood pressure, improve sleep, and reduce chronic pain"
+      },
+      "spiritual": {
+        "title": "Spiritual Benefits",
+        "description": "Deepen your spiritual connection and find inner peace"
+      }
+    },
+    "gettingStarted": {
+      "title": "Begin Your Journey",
+      "description": "Start your meditation practice today and experience the transformative power of mindfulness",
+      "startButton": "Start Meditating",
+      "learnMoreButton": "Learn More"
+    }
+  },
+  "resources": {
+    "title": "Religious Resources",
+    "description": "Access a comprehensive collection of religious resources, tools, and educational materials",
+    "studyMaterials": {
+      "title": "Study Materials",
+      "description": "Explore our collection of religious texts, commentaries, and study guides",
+      "sacredTexts": {
+        "title": "Sacred Texts",
+        "description": "Access original texts and translations from various religious traditions",
+        "items": {
+          "1": "Original language texts with translations",
+          "2": "Historical context and background",
+          "3": "Cross-reference tools and concordances"
+        }
+      },
+      "commentaries": {
+        "title": "Commentaries",
+        "description": "Expert interpretations and analysis of religious texts",
+        "items": {
+          "1": "Historical and modern commentaries",
+          "2": "Theological analysis and insights",
+          "3": "Comparative religious perspectives"
+        }
+      },
+      "studyGuides": {
+        "title": "Study Guides",
+        "description": "Comprehensive guides for religious study and practice",
+        "items": {
+          "1": "Step-by-step study programs",
+          "2": "Practice exercises and reflections",
+          "3": "Discussion questions and activities"
+        }
+      },
+      "explore": "Explore Materials"
+    },
+    "educationalTools": {
+      "title": "Educational Tools",
+      "description": "Interactive tools to enhance your religious studies",
+      "languageTools": {
+        "title": "Language Tools",
+        "description": "Resources for studying religious languages",
+        "features": {
+          "1": "Original language dictionaries",
+          "2": "Pronunciation guides",
+          "3": "Grammar and syntax resources"
+        }
+      },
+      "historicalMaps": {
+        "title": "Historical Maps",
+        "description": "Interactive maps of religious history",
+        "features": {
+          "1": "Ancient religious sites",
+          "2": "Historical migration patterns",
+          "3": "Cultural and religious boundaries"
+        }
+      },
+      "timeline": {
+        "title": "Religious Timeline",
+        "description": "Comprehensive timeline of religious history",
+        "features": {
+          "1": "Major religious events",
+          "2": "Historical figures and movements",
+          "3": "Cultural and social context"
+        }
+      },
+      "access": "Access Tools"
+    },
+    "communityResources": {
+      "title": "Community Resources",
+      "description": "Connect with others and participate in religious study",
+      "studyGroups": {
+        "title": "Study Groups",
+        "description": "Join or create study groups for religious learning",
+        "items": {
+          "1": "Local and online study groups",
+          "2": "Expert-led discussions",
+          "3": "Peer learning opportunities"
+        }
+      },
+      "videoLectures": {
+        "title": "Video Lectures",
+        "description": "Expert lectures on religious topics",
+        "items": {
+          "1": "Recorded lectures and seminars",
+          "2": "Live streaming events",
+          "3": "Q&A sessions with experts"
+        }
+      },
+      "events": {
+        "title": "Events",
+        "description": "Religious study events and workshops",
+        "items": {
+          "1": "Conferences and seminars",
+          "2": "Workshops and retreats",
+          "3": "Cultural celebrations"
+        }
+      },
+      "explore": "Explore Resources"
+    },
+    "contactSection": {
+      "title": "Need Help?",
+      "description": "Our team is here to help you find the resources you need",
+      "button": "Contact Support"
+    },
+    "hero": {
+      "title": "الموارد التعليمية",
+      "description": "استكشف مجموعتنا الشاملة من مواد التعليم الديني."
+    },
+    "categories": {
+      "studyMaterials": {
+        "title": "المواد الدراسية",
+        "description": "الكتب والمقالات والأدلة الدراسية."
+      },
+      "educationalTools": {
+        "title": "الأدوات التعليمية",
+        "description": "التطبيقات والموارد التعليمية الرقمية."
+      },
+      "communityResources": {
+        "title": "موارد المجتمع",
+        "description": "المواد لمجموعات الدراسة وفعاليات المجتمع."
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Empowering Religious Education Through Technology",
+      "description": "We're on a mission to make religious education accessible, engaging, and meaningful for everyone."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe that religious education should be accessible to everyone, regardless of their background or location. Our platform combines traditional wisdom with modern technology to create an engaging learning experience.",
+      "imageAlt": "Team members collaborating on religious education projects",
+      "values": [
+        {
+          "title": "Accessibility",
+          "description": "Making religious education available to everyone, anywhere in the world."
+        },
+        {
+          "title": "Authenticity",
+          "description": "Preserving the integrity and depth of religious teachings while making them accessible."
+        },
+        {
+          "title": "Innovation",
+          "description": "Using technology to enhance the learning experience without compromising tradition."
+        },
+        {
+          "title": "Community",
+          "description": "Building a global community of learners and educators."
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "Our diverse team brings together expertise in religious studies, education, and technology.",
+      "members": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "Founder & Religious Studies Director",
+          "image": "/images/team/sarah.jpg",
+          "bio": "Ph.D. in Comparative Religion with 15 years of experience in religious education."
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "Head of Technology",
+          "image": "/images/team/michael.jpg",
+          "bio": "Former tech lead at major edtech companies, passionate about making education accessible."
+        },
+        {
+          "name": "Dr. Aisha Patel",
+          "role": "Content Director",
+          "image": "/images/team/aisha.jpg",
+          "bio": "Expert in religious texts and digital education with a focus on cultural sensitivity."
+        }
+      ]
+    },
+    "impact": {
+      "title": "Our Impact",
+      "description": "We're proud of the positive impact we've made in religious education worldwide.",
+      "imageAlt": "Students engaging with our platform in a classroom setting",
+      "stats": [
+        {
+          "value": "50K+",
+          "label": "Active Learners"
+        },
+        {
+          "value": "100+",
+          "label": "Countries Reached"
+        },
+        {
+          "value": "95%",
+          "label": "User Satisfaction"
+        },
+        {
+          "value": "24/7",
+          "label": "Support Available"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join Our Mission",
+      "description": "Be part of our journey to transform religious education through technology.",
+      "primaryButton": "Get in Touch",
+      "secondaryButton": "Explore Resources"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "description": "Have questions about our religious education platform? We're here to help."
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Choose the most convenient way to reach us",
+      "email": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ب",
+        "3": "ر",
+        "4": "ي",
+        "5": "د",
+        "6": " ",
+        "7": "ا",
+        "8": "ل",
+        "9": "إ",
+        "10": "ل",
+        "11": "ك",
+        "12": "ت",
+        "13": "ر",
+        "14": "و",
+        "15": "ن",
+        "16": "ي",
+        "title": "Email",
+        "value": "team@zion.fm"
+      },
+      "phone": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ه",
+        "3": "ا",
+        "4": "ت",
+        "5": "ف",
+        "title": "Phone",
+        "value": "+1 (555) 123-4567"
+      },
+      "address": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ع",
+        "3": "ن",
+        "4": "و",
+        "5": "ا",
+        "6": "ن",
+        "title": "Address",
+        "value": "123 Education Street, Learning City, 12345"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find quick answers to common questions",
+      "items": [
+        {
+          "question": "How can I get started with the platform?",
+          "answer": "You can sign up for a free account and explore our basic resources. For full access, choose a subscription plan that suits your needs."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, PayPal, and bank transfers. All payments are secure and encrypted."
+        },
+        {
+          "question": "Can I cancel my subscription anytime?",
+          "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period."
+        }
+      ]
+    },
+    "form": {
+      "title": "Send us a Message",
+      "description": "Fill out the form below and we'll get back to you as soon as possible",
+      "name": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ا",
+        "3": "س",
+        "4": "م",
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ب",
+        "3": "ر",
+        "4": "ي",
+        "5": "د",
+        "6": " ",
+        "7": "ا",
+        "8": "ل",
+        "9": "إ",
+        "10": "ل",
+        "11": "ك",
+        "12": "ت",
+        "13": "ر",
+        "14": "و",
+        "15": "ن",
+        "16": "ي",
+        "label": "Email",
+        "placeholder": "your.email@example.com"
+      },
+      "subject": {
+        "0": "ا",
+        "1": "ل",
+        "2": "م",
+        "3": "و",
+        "4": "ض",
+        "5": "و",
+        "6": "ع",
+        "label": "Subject",
+        "placeholder": "What is this regarding?"
+      },
+      "message": {
+        "0": "ا",
+        "1": "ل",
+        "2": "ر",
+        "3": "س",
+        "4": "ا",
+        "5": "ل",
+        "6": "ة",
+        "label": "Message",
+        "placeholder": "Your message here..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Message sent successfully! We'll get back to you soon.",
+      "errorMessage": "Failed to send message. Please try again later."
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "description": "Comprehensive religious education solutions for individuals, institutions, and communities."
+    },
+    "mainServices": [
+      {
+        "icon": "book",
+        "title": "Religious Education Platform",
+        "description": "Access our comprehensive digital learning platform for religious studies.",
+        "features": [
+          "Interactive course materials",
+          "Progress tracking",
+          "Certification programs",
+          "Mobile learning support"
+        ],
+        "link": "/resources"
+      },
+      {
+        "icon": "users",
+        "title": "Community Learning",
+        "description": "Join our global community of religious learners and educators.",
+        "features": [
+          "Study groups",
+          "Discussion forums",
+          "Expert-led sessions",
+          "Peer learning opportunities"
+        ],
+        "link": "/community"
+      },
+      {
+        "icon": "globe",
+        "title": "Multilingual Support",
+        "description": "Access religious education in multiple languages and cultural contexts.",
+        "features": [
+          "22 language support",
+          "Cultural adaptation",
+          "Local content",
+          "Regional expertise"
+        ],
+        "link": "/languages"
+      },
+      {
+        "icon": "shield",
+        "title": "Institutional Solutions",
+        "description": "Customized religious education solutions for institutions.",
+        "features": [
+          "Custom curriculum",
+          "Administrative tools",
+          "Analytics dashboard",
+          "Integration support"
+        ],
+        "link": "/institutions"
+      },
+      {
+        "icon": "sparkles",
+        "title": "Professional Development",
+        "description": "Enhance your religious education teaching skills.",
+        "features": [
+          "Teacher training",
+          "Methodology workshops",
+          "Resource development",
+          "Certification programs"
+        ],
+        "link": "/professional-development"
+      }
+    ],
+    "additionalServices": {
+      "title": "Additional Services",
+      "description": "Specialized services to meet your specific religious education needs.",
+      "items": [
+        {
+          "title": "Content Development",
+          "description": "Custom religious education content creation and adaptation.",
+          "features": [
+            "Curriculum design",
+            "Material adaptation",
+            "Multimedia content",
+            "Quality assurance"
+          ]
+        },
+        {
+          "title": "Technical Support",
+          "description": "Comprehensive technical assistance for our platform.",
+          "features": [
+            "24/7 support",
+            "Platform training",
+            "Troubleshooting",
+            "System updates"
+          ]
+        }
+      ]
+    },
+    "learnMore": "Learn More",
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Join thousands of learners and educators in our religious education community.",
+      "primaryButton": "Contact Us",
+      "secondaryButton": "Explore Resources"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about our religious education platform."
+    },
+    "categories": [
+      {
+        "title": "Getting Started",
+        "questions": [
+          {
+            "question": "How do I create an account?",
+            "answer": "You can create an account by clicking the 'Sign Up' button in the top right corner. You'll need to provide your email address and create a password. After verification, you'll have access to our basic resources."
+          },
+          {
+            "question": "What are the system requirements?",
+            "answer": "Our platform works on any modern web browser (Chrome, Firefox, Safari, Edge) and is optimized for both desktop and mobile devices. You'll need a stable internet connection for the best experience."
+          },
+          {
+            "question": "Is there a mobile app?",
+            "answer": "Yes, we have mobile apps available for both iOS and Android devices. You can download them from the App Store or Google Play Store."
+          }
+        ]
+      },
+      {
+        "title": "Pricing and Subscriptions",
+        "questions": [
+          {
+            "question": "What subscription plans are available?",
+            "answer": "We offer several subscription plans: Free (basic access), Standard (full access to resources), and Premium (includes additional features and priority support). Visit our pricing page for detailed information."
+          },
+          {
+            "question": "Can I cancel my subscription?",
+            "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period. No refunds are provided for partial months."
+          },
+          {
+            "question": "Do you offer discounts for institutions?",
+            "answer": "Yes, we offer special pricing for educational institutions, religious organizations, and group subscriptions. Contact our sales team for more information."
+          }
+        ]
+      },
+      {
+        "title": "Content and Resources",
+        "questions": [
+          {
+            "question": "What languages are supported?",
+            "answer": "Our platform currently supports 22 languages, including English, Spanish, French, German, Arabic, Chinese, and more. We're continuously adding new languages."
+          },
+          {
+            "question": "Can I download content for offline use?",
+            "answer": "Yes, most of our content can be downloaded for offline use. This feature is available on both desktop and mobile platforms."
+          },
+          {
+            "question": "How often is new content added?",
+            "answer": "We regularly update our content library with new materials, courses, and resources. Major updates occur monthly, with smaller additions throughout the week."
+          }
+        ]
+      },
+      {
+        "title": "Technical Support",
+        "questions": [
+          {
+            "question": "How can I get technical support?",
+            "answer": "You can reach our technical support team through the 'Help' section in your account, email us at support@zion.fm, or use our live chat feature during business hours."
+          },
+          {
+            "question": "What is your response time for support requests?",
+            "answer": "We aim to respond to all support requests within 24 hours. Premium subscribers receive priority support with faster response times."
+          },
+          {
+            "question": "Do you offer training for new users?",
+            "answer": "Yes, we offer comprehensive training sessions for new users and institutions. These can be scheduled through your account dashboard or by contacting our support team."
+          }
+        ]
+      }
+    ],
+    "stillHaveQuestions": {
+      "title": "Still Have Questions?",
+      "description": "Can't find what you're looking for? Our team is here to help.",
+      "primaryButton": "Contact Support",
+      "secondaryButton": "Browse Resources"
+    }
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "We are committed to protecting your privacy and ensuring the security of your personal information. This policy outlines how we collect, use, and safeguard your data."
+    },
+    "lastUpdated": "Last Updated: {date}",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "personalInfo": {
+          "title": "Personal Information",
+          "items": [
+            "Name and contact information",
+            "Email address",
+            "Account credentials",
+            "Profile information",
+            "Payment details (processed securely through our payment providers)"
+          ]
+        },
+        "usageData": {
+          "title": "Usage Data",
+          "items": [
+            "Device information",
+            "IP address",
+            "Browser type and version",
+            "Time and date of access",
+            "Pages visited and features used",
+            "Learning progress and preferences"
+          ]
+        }
+      },
+      "usage": {
+        "title": "Information Usage",
+        "description": "We use your information to provide and improve our services, including:",
+        "purposes": [
+          "Delivering personalized educational content",
+          "Processing your transactions",
+          "Sending important updates and notifications",
+          "Improving our platform and user experience",
+          "Providing customer support",
+          "Analyzing usage patterns to enhance our services"
+        ]
+      },
+      "protection": {
+        "title": "Data Protection",
+        "description": "We implement robust security measures to protect your information:",
+        "measures": [
+          "Encryption of sensitive data",
+          "Regular security audits",
+          "Access controls and authentication",
+          "Secure data storage and transmission",
+          "Employee training on data protection",
+          "Regular backups and disaster recovery procedures"
+        ]
+      },
+      "rights": {
+        "title": "Your Rights",
+        "description": "You have the following rights regarding your personal information:",
+        "list": [
+          "Access your personal data",
+          "Correct inaccurate information",
+          "Request deletion of your data",
+          "Object to data processing",
+          "Data portability",
+          "Withdraw consent at any time"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies and Tracking",
+        "description": "We use cookies and similar tracking technologies to enhance your experience:",
+        "types": {
+          "title": "Types of Cookies We Use",
+          "list": [
+            "Essential cookies for basic functionality",
+            "Performance cookies to analyze site usage",
+            "Functionality cookies to remember your preferences",
+            "Targeting cookies for personalized content"
+          ]
+        }
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions about this Privacy Policy, please contact us:",
+        "email": "Email",
+        "address": "Address",
+        "addressValue": "123 Privacy Street, Security City, 12345"
+      }
+    }
+  },
+  "terms": {
+    "hero": {
+      "title": "Terms of Service",
+      "description": "Please read these terms carefully before using our religious education platform. By accessing or using our services, you agree to be bound by these terms."
+    },
+    "lastUpdated": "Last Updated: {date}",
+    "sections": {
+      "agreement": {
+        "title": "Agreement to Terms",
+        "description": "By accessing or using our platform, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this platform.",
+        "points": [
+          "You must be at least 13 years old to use this platform",
+          "You are responsible for maintaining the confidentiality of your account",
+          "You agree to provide accurate and complete information",
+          "You will not use the platform for any illegal or unauthorized purpose"
+        ]
+      },
+      "accounts": {
+        "title": "User Accounts",
+        "registration": {
+          "title": "Registration Requirements",
+          "requirements": [
+            "Valid email address",
+            "Strong password",
+            "Accurate personal information",
+            "Agreement to these terms"
+          ]
+        },
+        "responsibilities": {
+          "title": "Account Responsibilities",
+          "list": [
+            "Maintain the security of your account",
+            "Notify us immediately of any unauthorized access",
+            "Keep your contact information up to date",
+            "Comply with all applicable laws and regulations"
+          ]
+        }
+      },
+      "conduct": {
+        "title": "Content and Conduct",
+        "description": "Our platform is dedicated to religious education and respectful discourse. Users must adhere to our community guidelines and standards of conduct.",
+        "prohibited": {
+          "title": "Prohibited Activities",
+          "items": [
+            "Posting offensive or inappropriate content",
+            "Harassing or bullying other users",
+            "Sharing false or misleading information",
+            "Attempting to impersonate others",
+            "Using the platform for commercial purposes without permission",
+            "Violating intellectual property rights"
+          ]
+        }
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "description": "All content, features, and functionality of our platform are owned by us or our licensors and are protected by international copyright, trademark, and other intellectual property laws.",
+        "rights": {
+          "title": "Your Rights and Restrictions",
+          "list": [
+            "You may access and use the platform for personal, non-commercial purposes",
+            "You may not copy, modify, or distribute our content without permission",
+            "You retain rights to content you create and share",
+            "You grant us a license to use your content for platform purposes"
+          ]
+        }
+      },
+      "termination": {
+        "title": "Termination",
+        "description": "We reserve the right to terminate or suspend your account and access to the platform at our sole discretion, without notice, for any reason.",
+        "reasons": [
+          "Violation of these terms",
+          "Fraudulent or illegal activity",
+          "Abuse of platform features",
+          "Inappropriate conduct",
+          "Extended period of inactivity"
+        ]
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "description": "To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages.",
+        "disclaimers": [
+          "We do not guarantee uninterrupted or error-free service",
+          "We are not responsible for any content posted by users",
+          "We do not guarantee the accuracy of educational materials",
+          "We are not liable for any loss of data or content"
+        ]
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "description": "We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new terms on this page and updating the 'Last Updated' date."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions about these Terms of Service, please contact us:",
+        "email": "Email",
+        "address": "Address",
+        "addressValue": "123 Legal Street, Compliance City, 12345"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "ZION.FM | Christian Theology & Studies Portal",
+      "description": "Comprehensive resource for Christian theology, studies, teachings, and spiritual practices",
+      "ctaStartLearning": "Start Learning",
+      "ctaBrowseResources": "Browse Resources"
+    },
+    "quickAccess": {
+      "title": "Quick Access",
+      "studyGuides": {
+        "title": "Study Guides",
+        "description": "Structured learning paths for theological education"
+      },
+      "resources": {
+        "title": "Resources",
+        "description": "Access to theological texts, commentaries, and study materials"
+      },
+      "blog": {
+        "title": "Blog",
+        "description": "Latest articles, insights, and discussions on theological topics"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Connect with other learners and share insights"
+      },
+      "sacredTexts": {
+        "title": "Sacred Texts",
+        "description": "Biblical and religious text studies"
+      },
+      "teachings": {
+        "title": "Teachings",
+        "description": "Core Christian doctrines and beliefs"
+      },
+      "meditation": {
+        "title": "Meditation",
+        "description": "Spiritual practices and guidance"
+      },
+      "explore": {
+        "title": "Explore",
+        "description": "Discover new topics and insights"
+      }
+    },
+    "religions": {
+      "christianity": {
+        "title": "Christianity",
+        "description": "Explore Christian theology, history, and practices"
+      },
+      "islam": {
+        "title": "Islam",
+        "description": "Discover Islamic studies, traditions, and teachings"
+      },
+      "buddhism": {
+        "title": "Buddhism",
+        "description": "Learn about Buddhist philosophy and practices"
+      },
+      "hinduism": {
+        "title": "Hinduism",
+        "description": "Study Hindu traditions and spiritual practices"
+      }
+    },
+    "blog": {
+      "title": "Latest Articles",
+      "description": "Explore our latest articles and insights",
+      "viewAll": "View All Articles"
+    },
+    "filterButtons": {
+      "browseByCategory": "Browse by Category",
+      "christianity": "Christianity",
+      "islam": "Islam",
+      "buddhism": "Buddhism",
+      "hinduism": "Hinduism",
+      "judaism": "Judaism",
+      "sikhism": "Sikhism",
+      "shinto": "Shinto",
+      "taoism": "Taoism",
+      "bahai": "Bahá'í Faith",
+      "confucianism": "Confucianism",
+      "rastafarianism": "Rastafarianism",
+      "jainism": "Jainism",
+      "viewArticles": "View Articles"
+    }
+  }
+}

@@ -1,0 +1,587 @@
+--- Context for line 134 ---
+   132:         {
+   133:           "reference": "Bereshit 1:8",
+   134:           "hebrewText": "וַיִּקְרָ֧א אֱ[[FIXME]]ֹהִ֛ים לָֽרָקִ֖יעַ שָׁמָ֑יִם וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שֵׁנִֽי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+   135:           "englishText": "God called the expanse Sky. And there was evening and there was morning, a second day.",
+   136:           "transliteration": "vַyִּkְrָ֧a aֱ[[FIXME]]ֹhִ֛yם lָֽrָkִ֖yaַ shָׁmָ֑yִם vַֽyְhִy־aֶ֥rֶb vַֽyְhִy־bֹ֖kֶr y֥vֹם shֵׁnִֽy׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+
+--- Context for line 136 ---
+   134:           "hebrewText": "וַיִּקְרָ֧א אֱ[[FIXME]]ֹהִ֛ים לָֽרָקִ֖יעַ שָׁמָ֑יִם וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שֵׁנִֽי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+   135:           "englishText": "God called the expanse Sky. And there was evening and there was morning, a second day.",
+   136:           "transliteration": "vַyִּkְrָ֧a aֱ[[FIXME]]ֹhִ֛yם lָֽrָkִ֖yaַ shָׁmָ֑yִם vַֽyְhִy־aֶ֥rֶb vַֽyְhִy־bֹ֖kֶr y֥vֹם shֵׁnִֽy׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+   137:           "commentary": "Commentary on Bereshit 1:8",
+   138:           "rashi": "Rashi on Bereshit 1:8",
+
+--- Context for line 329 ---
+   327:         {
+   328:           "reference": "Bereshit 1:21",
+   329:           "hebrewText": "וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כׇּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה&thinsp;<small>׀</small>&thinsp;הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽי[[FIXME]]ֵהֶ֗ם וְאֵ֨ת כׇּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+   330:           "englishText": "God created the great sea monsters, and all the living creatures of every kind that creep, which the waters brought forth in swarms, and all the winged birds of every kind. And God saw that this was good.",
+   331:           "transliteration": "vַyִּbְrָ֣a aֱlֹhִ֔yם aֶt־hַtַּnִּynִ֖ם hַgְּdֹlִ֑yם vְaֵ֣t kׇּl־nֶ֣pֶshׁ hַֽchַyָּ֣h&thinsp;<small>׀</small>&thinsp;hָֽrֹmֶ֡shֶׂt aֲshֶׁr֩ shָׁrְts֨vּ hַmַּ֜yִם lְmִֽy[[FIXME]]ֵhֶ֗ם vְaֵ֨t kׇּl־a֤vֹף kָּnָף֙ lְmִynֵ֔hvּ vַyַּ֥rְa aֱlֹhִ֖yם kִּy־tֽvֹb׃",
+
+--- Context for line 331 ---
+   329:           "hebrewText": "וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כׇּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה&thinsp;<small>׀</small>&thinsp;הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽי[[FIXME]]ֵהֶ֗ם וְאֵ֨ת כׇּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+   330:           "englishText": "God created the great sea monsters, and all the living creatures of every kind that creep, which the waters brought forth in swarms, and all the winged birds of every kind. And God saw that this was good.",
+   331:           "transliteration": "vַyִּbְrָ֣a aֱlֹhִ֔yם aֶt־hַtַּnִּynִ֖ם hַgְּdֹlִ֑yם vְaֵ֣t kׇּl־nֶ֣pֶshׁ hַֽchַyָּ֣h&thinsp;<small>׀</small>&thinsp;hָֽrֹmֶ֡shֶׂt aֲshֶׁr֩ shָׁrְts֨vּ hַmַּ֜yִם lְmִֽy[[FIXME]]ֵhֶ֗ם vְaֵ֨t kׇּl־a֤vֹף kָּnָף֙ lְmִynֵ֔hvּ vַyַּ֥rְa aֱlֹhִ֖yם kִּy־tֽvֹb׃",
+   332:           "commentary": "Commentary on Bereshit 1:21",
+   333:           "rashi": "Rashi on Bereshit 1:21",
+
+--- Context for line 404 ---
+   402:         {
+   403:           "reference": "Bereshit 1:26",
+   404:           "hebrewText": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔ר[[FIXME]]ץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+   405:           "englishText": "And God said, “Let us make humankind in our image, after our likeness. They shall rule the fish of the sea, the birds of the sky, the cattle, the whole earth, and all the creeping things that creep on earth.”<br>",
+   406:           "transliteration": "vַyֹּ֣amֶr aֱlֹhִ֔yם nַֽaֲshֶׂ֥h aָdָ֛ם bְּtsַlְmֵ֖nvּ kִּdְmvּtֵ֑nvּ vְyִrְdּvּ֩ bִdְgַ֨t hַyָּ֜ם vּbְa֣vֹף hַshָּׁmַ֗yִם vּbַbְּhֵmָh֙ vּbְkׇl־hָaָ֔r[[FIXME]]ץ vּbְkׇl־hָrֶ֖mֶshׂ hָֽrֹmֵ֥shׂ aַl־hָaָֽrֶץ׃",
+
+--- Context for line 406 ---
+   404:           "hebrewText": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔ר[[FIXME]]ץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+   405:           "englishText": "And God said, “Let us make humankind in our image, after our likeness. They shall rule the fish of the sea, the birds of the sky, the cattle, the whole earth, and all the creeping things that creep on earth.”<br>",
+   406:           "transliteration": "vַyֹּ֣amֶr aֱlֹhִ֔yם nַֽaֲshֶׂ֥h aָdָ֛ם bְּtsַlְmֵ֖nvּ kִּdְmvּtֵ֑nvּ vְyִrְdּvּ֩ bִdְgַ֨t hַyָּ֜ם vּbְa֣vֹף hַshָּׁmַ֗yִם vּbַbְּhֵmָh֙ vּbְkׇl־hָaָ֔r[[FIXME]]ץ vּbְkׇl־hָrֶ֖mֶshׂ hָֽrֹmֵ֥shׂ aַl־hָaָֽrֶץ׃",
+   407:           "commentary": "Commentary on Bereshit 1:26",
+   408:           "rashi": "Rashi on Bereshit 1:26",
+
+--- Context for line 6535 ---
+  6533:         {
+  6534:           "reference": "Bereshit 17:9",
+  6535:           "hebrewText": "וַיֹּ֤אמֶר אֱלֹהִים֙ אֶל־אַ[[FIXME]]ְרָהָ֔ם וְאַתָּ֖ה אֶת־בְּרִיתִ֣י תִשְׁמֹ֑ר אַתָּ֛ה וְזַרְעֲךָ֥ אַֽחֲרֶ֖יךָ לְדֹרֹתָֽם׃",
+  6536:           "englishText": "God further said to Abraham, “As for you, you and your offspring to come throughout the ages shall keep My covenant.",
+  6537:           "transliteration": "vַyֹּ֤amֶr aֱlֹhִyם֙ aֶl־aַ[[FIXME]]ְrָhָ֔ם vְaַtָּ֖h aֶt־bְּrִytִ֣y tִshְׁmֹ֑r aַtָּ֛h vְzַrְaֲךָ֥ aַֽchֲrֶ֖yךָ lְdֹrֹtָֽם׃",
+
+--- Context for line 6537 ---
+  6535:           "hebrewText": "וַיֹּ֤אמֶר אֱלֹהִים֙ אֶל־אַ[[FIXME]]ְרָהָ֔ם וְאַתָּ֖ה אֶת־בְּרִיתִ֣י תִשְׁמֹ֑ר אַתָּ֛ה וְזַרְעֲךָ֥ אַֽחֲרֶ֖יךָ לְדֹרֹתָֽם׃",
+  6536:           "englishText": "God further said to Abraham, “As for you, you and your offspring to come throughout the ages shall keep My covenant.",
+  6537:           "transliteration": "vַyֹּ֤amֶr aֱlֹhִyם֙ aֶl־aַ[[FIXME]]ְrָhָ֔ם vְaַtָּ֖h aֶt־bְּrִytִ֣y tִshְׁmֹ֑r aַtָּ֛h vְzַrְaֲךָ֥ aַֽchֲrֶ֖yךָ lְdֹrֹtָֽם׃",
+  6538:           "commentary": "Commentary on Bereshit 17:9",
+  6539:           "rashi": "Rashi on Bereshit 17:9",
+
+--- Context for line 14914 ---
+ 14912:         {
+ 14913:           "reference": "Bereshit 31:27",
+ 14914:           "hebrewText": "לָ֤מָּה נַחְבֵּ֙אתָ֙ לִבְרֹ֔חַ וַתִּגְנֹ֖ב אֹתִ֑י וְלֹא־הִגַּ֣דְתָּ לִּ֔י וָֽאֲשַׁלֵּחֲךָ֛ בְּשִׂמְחָ֥ה וּבְשִׁרִ֖ים בְּתֹ֥ף [[FIXME]]ּבְכִנּֽוֹר׃",
+ 14915:           "englishText": "Why did you flee in secrecy and mislead me and not tell me? I would have sent you off with festive music, with timbrel and lyre.",
+ 14916:           "transliteration": "lָ֤mָּh nַchְbֵּ֙atָ֙ lִbְrֹ֔chַ vַtִּgְnֹ֖b aֹtִ֑y vְlֹa־hִgַּ֣dְtָּ lִּ֔y vָֽaֲshַׁlֵּchֲךָ֛ bְּshִׂmְchָ֥h vּbְshִׁrִ֖yם bְּtֹ֥ף [[FIXME]]ּbְkִnּֽvֹr׃",
+
+--- Context for line 14916 ---
+ 14914:           "hebrewText": "לָ֤מָּה נַחְבֵּ֙אתָ֙ לִבְרֹ֔חַ וַתִּגְנֹ֖ב אֹתִ֑י וְלֹא־הִגַּ֣דְתָּ לִּ֔י וָֽאֲשַׁלֵּחֲךָ֛ בְּשִׂמְחָ֥ה וּבְשִׁרִ֖ים בְּתֹ֥ף [[FIXME]]ּבְכִנּֽוֹר׃",
+ 14915:           "englishText": "Why did you flee in secrecy and mislead me and not tell me? I would have sent you off with festive music, with timbrel and lyre.",
+ 14916:           "transliteration": "lָ֤mָּh nַchְbֵּ֙atָ֙ lִbְrֹ֔chַ vַtִּgְnֹ֖b aֹtִ֑y vְlֹa־hִgַּ֣dְtָּ lִּ֔y vָֽaֲshַׁlֵּchֲךָ֛ bְּshִׂmְchָ֥h vּbְshִׁrִ֖yם bְּtֹ֥ף [[FIXME]]ּbְkִnּֽvֹr׃",
+ 14917:           "commentary": "Commentary on Bereshit 31:27",
+ 14918:           "rashi": "Rashi on Bereshit 31:27",
+
+--- Context for line 20649 ---
+ 20647:         {
+ 20648:           "reference": "Bereshit 41:48",
+ 20649:           "hebrewText": "וַיִּקְבֹּ֞ץ אֶת־כׇּל־אֹ֣כֶל&thinsp;<b>׀</b> שֶׁ֣בַע שָׁנִ֗ים אֲשֶׁ֤ר הָיוּ֙ בְּאֶ֣רֶץ מִצְרַ֔יִם וַיִּתֶּן־אֹ֖כֶל בֶּעָרִ֑ים אֹ֧כֶל שְׂדֵה־הָעִ֛יר אֲשֶׁ֥ר סְ[[FIXME]]ִיבֹתֶ֖יהָ נָתַ֥ן בְּתוֹכָֽהּ׃",
+ 20650:           "englishText": "And he gathered all the grain of the seven years that the land of Egypt was enjoying,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>the seven years that the land of Egypt was enjoying </b>Lit. “the seven years that were in the land of Egypt.”</i> and stored the grain in the cities; he put in each city the grain of the fields around it.",
+ 20651:           "transliteration": "vַyִּkְbֹּ֞ץ aֶt־kׇּl־aֹ֣kֶl&thinsp;<b>׀</b> shֶׁ֣bַa shָׁnִ֗yם aֲshֶׁ֤r hָyvּ֙ bְּaֶ֣rֶץ mִtsְrַ֔yִם vַyִּtֶּן־aֹ֖kֶl bֶּaָrִ֑yם aֹ֧kֶl shְׂdֵh־hָaִ֛yr aֲshֶׁ֥r sְ[[FIXME]]ִybֹtֶ֖yhָ nָtַ֥ן bְּtvֹkָֽhּ׃",
+
+--- Context for line 20651 ---
+ 20649:           "hebrewText": "וַיִּקְבֹּ֞ץ אֶת־כׇּל־אֹ֣כֶל&thinsp;<b>׀</b> שֶׁ֣בַע שָׁנִ֗ים אֲשֶׁ֤ר הָיוּ֙ בְּאֶ֣רֶץ מִצְרַ֔יִם וַיִּתֶּן־אֹ֖כֶל בֶּעָרִ֑ים אֹ֧כֶל שְׂדֵה־הָעִ֛יר אֲשֶׁ֥ר סְ[[FIXME]]ִיבֹתֶ֖יהָ נָתַ֥ן בְּתוֹכָֽהּ׃",
+ 20650:           "englishText": "And he gathered all the grain of the seven years that the land of Egypt was enjoying,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>the seven years that the land of Egypt was enjoying </b>Lit. “the seven years that were in the land of Egypt.”</i> and stored the grain in the cities; he put in each city the grain of the fields around it.",
+ 20651:           "transliteration": "vַyִּkְbֹּ֞ץ aֶt־kׇּl־aֹ֣kֶl&thinsp;<b>׀</b> shֶׁ֣bַa shָׁnִ֗yם aֲshֶׁ֤r hָyvּ֙ bְּaֶ֣rֶץ mִtsְrַ֔yִם vַyִּtֶּן־aֹ֖kֶl bֶּaָrִ֑yם aֹ֧kֶl shְׂdֵh־hָaִ֛yr aֲshֶׁ֥r sְ[[FIXME]]ִybֹtֶ֖yhָ nָtַ֥ן bְּtvֹkָֽhּ׃",
+ 20652:           "commentary": "Commentary on Bereshit 41:48",
+ 20653:           "rashi": "Rashi on Bereshit 41:48",
+
+--- Context for line 23415 ---
+ 23413:         {
+ 23414:           "reference": "Bereshit 46:5",
+ 23415:           "hebrewText": "וַיָּ֥קׇם יַעֲקֹ֖ב מִבְּאֵ֣ר שָׁ֑בַע וַיִּשְׂא֨וּ בְנֵֽי־יִשְׂרָאֵ֜ל אֶת־יַעֲקֹ֣ב אֲבִיהֶ֗ם וְאֶת־[[FIXME]]ַפָּם֙ וְאֶת־נְשֵׁיהֶ֔ם בָּעֲגָל֕וֹת אֲשֶׁר־שָׁלַ֥ח פַּרְעֹ֖ה לָשֵׂ֥את אֹתֽוֹ׃",
+ 23416:           "englishText": "So Jacob set out from Beer-sheba. The sons of Israel put their father Jacob and their children and their wives in the wagons that Pharaoh had sent to transport him;",
+ 23417:           "transliteration": "vַyָּ֥kׇם yַaֲkֹ֖b mִbְּaֵ֣r shָׁ֑bַa vַyִּshְׂa֨vּ bְnֵֽy־yִshְׂrָaֵ֜l aֶt־yַaֲkֹ֣b aֲbִyhֶ֗ם vְaֶt־[[FIXME]]ַpָּם֙ vְaֶt־nְshֵׁyhֶ֔ם bָּaֲgָl֕vֹt aֲshֶׁr־shָׁlַ֥ch pַּrְaֹ֖h lָshֵׂ֥at aֹtֽvֹ׃",
+
+--- Context for line 23417 ---
+ 23415:           "hebrewText": "וַיָּ֥קׇם יַעֲקֹ֖ב מִבְּאֵ֣ר שָׁ֑בַע וַיִּשְׂא֨וּ בְנֵֽי־יִשְׂרָאֵ֜ל אֶת־יַעֲקֹ֣ב אֲבִיהֶ֗ם וְאֶת־[[FIXME]]ַפָּם֙ וְאֶת־נְשֵׁיהֶ֔ם בָּעֲגָל֕וֹת אֲשֶׁר־שָׁלַ֥ח פַּרְעֹ֖ה לָשֵׂ֥את אֹתֽוֹ׃",
+ 23416:           "englishText": "So Jacob set out from Beer-sheba. The sons of Israel put their father Jacob and their children and their wives in the wagons that Pharaoh had sent to transport him;",
+ 23417:           "transliteration": "vַyָּ֥kׇם yַaֲkֹ֖b mִbְּaֵ֣r shָׁ֑bַa vַyִּshְׂa֨vּ bְnֵֽy־yִshְׂrָaֵ֜l aֶt־yַaֲkֹ֣b aֲbִyhֶ֗ם vְaֶt־[[FIXME]]ַpָּם֙ vְaֶt־nְshֵׁyhֶ֔ם bָּaֲgָl֕vֹt aֲshֶׁr־shָׁlַ֥ch pַּrְaֹ֖h lָshֵׂ֥at aֹtֽvֹ׃",
+ 23418:           "commentary": "Commentary on Bereshit 46:5",
+ 23419:           "rashi": "Rashi on Bereshit 46:5",
+
+--- Context for line 33679 ---
+ 33677:         {
+ 33678:           "reference": "Shemot 16:34",
+ 33679:           "hebrewText": "[[FIXME]]ַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶל־מֹשֶׁ֑ה וַיַּנִּיחֵ֧הוּ אַהֲרֹ֛ן לִפְנֵ֥י הָעֵדֻ֖ת לְמִשְׁמָֽרֶת׃",
+ 33680:           "englishText": "As יהוה had commanded Moses, Aaron placed it before the Pact,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>Pact </b>Others “Testimony.”</i> to be kept.",
+ 33681:           "transliteration": "[[FIXME]]ַּaֲshֶׁ֛r tsִvָּ֥h yְhֹvָ֖h aֶl־mֹshֶׁ֑h vַyַּnִּychֵ֧hvּ aַhֲrֹ֛ן lִpְnֵ֥y hָaֵdֻ֖t lְmִshְׁmָֽrֶt׃",
+
+--- Context for line 33681 ---
+ 33679:           "hebrewText": "[[FIXME]]ַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶל־מֹשֶׁ֑ה וַיַּנִּיחֵ֧הוּ אַהֲרֹ֛ן לִפְנֵ֥י הָעֵדֻ֖ת לְמִשְׁמָֽרֶת׃",
+ 33680:           "englishText": "As יהוה had commanded Moses, Aaron placed it before the Pact,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>Pact </b>Others “Testimony.”</i> to be kept.",
+ 33681:           "transliteration": "[[FIXME]]ַּaֲshֶׁ֛r tsִvָּ֥h yְhֹvָ֖h aֶl־mֹshֶׁ֑h vַyַּnִּychֵ֧hvּ aַhֲrֹ֛ן lִpְnֵ֥y hָaֵdֻ֖t lְmִshְׁmָֽrֶt׃",
+ 33682:           "commentary": "Commentary on Shemot 16:34",
+ 33683:           "rashi": "Rashi on Shemot 16:34",
+
+--- Context for line 34503 ---
+ 34501:         {
+ 34502:           "reference": "Shemot 19:8",
+ 34503:           "hebrewText": "וַיַּעֲנ֨וּ כׇל־הָעָ֤ם יַחְדָּו֙ וַיֹּ֣אמְר֔וּ כֹּ֛ל אֲשֶׁר־ד[[FIXME]]ִבֶּ֥ר יְהֹוָ֖ה נַעֲשֶׂ֑ה וַיָּ֧שֶׁב מֹשֶׁ֛ה אֶת־דִּבְרֵ֥י הָעָ֖ם אֶל־יְהֹוָֽה׃",
+ 34504:           "englishText": "All those assembled answered as one, saying, “All that יהוה has spoken we will do!” And Moses brought back the people’s words to יהוה.",
+ 34505:           "transliteration": "vַyַּaֲn֨vּ kׇl־hָaָ֤ם yַchְdָּv֙ vַyֹּ֣amְr֔vּ kֹּ֛l aֲshֶׁr־d[[FIXME]]ִbֶּ֥r yְhֹvָ֖h nַaֲshֶׂ֑h vַyָּ֧shֶׁb mֹshֶׁ֛h aֶt־dִּbְrֵ֥y hָaָ֖ם aֶl־yְhֹvָֽh׃",
+
+--- Context for line 34505 ---
+ 34503:           "hebrewText": "וַיַּעֲנ֨וּ כׇל־הָעָ֤ם יַחְדָּו֙ וַיֹּ֣אמְר֔וּ כֹּ֛ל אֲשֶׁר־ד[[FIXME]]ִבֶּ֥ר יְהֹוָ֖ה נַעֲשֶׂ֑ה וַיָּ֧שֶׁב מֹשֶׁ֛ה אֶת־דִּבְרֵ֥י הָעָ֖ם אֶל־יְהֹוָֽה׃",
+ 34504:           "englishText": "All those assembled answered as one, saying, “All that יהוה has spoken we will do!” And Moses brought back the people’s words to יהוה.",
+ 34505:           "transliteration": "vַyַּaֲn֨vּ kׇl־hָaָ֤ם yַchְdָּv֙ vַyֹּ֣amְr֔vּ kֹּ֛l aֲshֶׁr־d[[FIXME]]ִbֶּ֥r yְhֹvָ֖h nַaֲshֶׂ֑h vַyָּ֧shֶׁb mֹshֶׁ֛h aֶt־dִּbְrֵ֥y hָaָ֖ם aֶl־yְhֹvָֽh׃",
+ 34506:           "commentary": "Commentary on Shemot 19:8",
+ 34507:           "rashi": "Rashi on Shemot 19:8",
+
+--- Context for line 34850 ---
+ 34848:         {
+ 34849:           "reference": "Shemot 20:6",
+ 34850:           "hebrewText": "וְעֹ֥֤שֶׂה חֶ֖֙סֶד֙ לַאֲלָפִ֑֔[[FIXME]]ם לְאֹהֲבַ֖י וּלְשֹׁמְרֵ֥י מִצְוֺתָֽי׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 34851:           "englishText": "but showing kindness to the thousandth generation of those who love Me and keep My commandments.",
+ 34852:           "transliteration": "vְaֹ֥֤shֶׂh chֶ֖֙sֶd֙ lַaֲlָpִ֑֔[[FIXME]]ם lְaֹhֲbַ֖y vּlְshֹׁmְrֵ֥y mִtsְvֺtָֽy׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 34852 ---
+ 34850:           "hebrewText": "וְעֹ֥֤שֶׂה חֶ֖֙סֶד֙ לַאֲלָפִ֑֔[[FIXME]]ם לְאֹהֲבַ֖י וּלְשֹׁמְרֵ֥י מִצְוֺתָֽי׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 34851:           "englishText": "but showing kindness to the thousandth generation of those who love Me and keep My commandments.",
+ 34852:           "transliteration": "vְaֹ֥֤shֶׂh chֶ֖֙sֶd֙ lַaֲlָpִ֑֔[[FIXME]]ם lְaֹhֲbַ֖y vּlְshֹׁmְrֵ֥y mִtsְvֺtָֽy׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 34853:           "commentary": "Commentary on Shemot 20:6",
+ 34854:           "rashi": "Rashi on Shemot 20:6",
+
+--- Context for line 37579 ---
+ 37577:         {
+ 37578:           "reference": "Shemot 26:3",
+ 37579:           "hebrewText": "חֲמֵ֣שׁ הַיְרִיעֹ֗ת תִּֽהְיֶ֙יןָ֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָ֑הּ וְח[[FIXME]]מֵ֤שׁ יְרִיעֹת֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃",
+ 37580:           "englishText": "Five of the cloths shall be joined to one another, and the other five cloths shall be joined to one another.",
+ 37581:           "transliteration": "chֲmֵ֣shׁ hַyְrִyaֹ֗t tִּֽhְyֶ֙yןָ֙ chֹֽbְrֹ֔t aִshָּׁ֖h aֶl־aֲchֹtָ֑hּ vְch[[FIXME]]mֵ֤shׁ yְrִyaֹt֙ chֹֽbְrֹ֔t aִshָּׁ֖h aֶl־aֲchֹtָֽhּ׃",
+
+--- Context for line 37581 ---
+ 37579:           "hebrewText": "חֲמֵ֣שׁ הַיְרִיעֹ֗ת תִּֽהְיֶ֙יןָ֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָ֑הּ וְח[[FIXME]]מֵ֤שׁ יְרִיעֹת֙ חֹֽבְרֹ֔ת אִשָּׁ֖ה אֶל־אֲחֹתָֽהּ׃",
+ 37580:           "englishText": "Five of the cloths shall be joined to one another, and the other five cloths shall be joined to one another.",
+ 37581:           "transliteration": "chֲmֵ֣shׁ hַyְrִyaֹ֗t tִּֽhְyֶ֙yןָ֙ chֹֽbְrֹ֔t aִshָּׁ֖h aֶl־aֲchֹtָ֑hּ vְch[[FIXME]]mֵ֤shׁ yְrִyaֹt֙ chֹֽbְrֹ֔t aִshָּׁ֖h aֶl־aֲchֹtָֽhּ׃",
+ 37582:           "commentary": "Commentary on Shemot 26:3",
+ 37583:           "rashi": "Rashi on Shemot 26:3",
+
+--- Context for line 39244 ---
+ 39242:         {
+ 39243:           "reference": "Shemot 28:33",
+ 39244:           "hebrewText": "וְעָשִׂ֣יתָ עַל־שׁוּלָ֗יו רִמֹּנֵי֙ תְּכֵ֤לֶת וְאַרְגָּמָן֙ וְתוֹלַ֣עַת שָׁנִ֔י עַל־[[FIXME]]ׁוּלָ֖יו סָבִ֑יב וּפַעֲמֹנֵ֥י זָהָ֛ב בְּתוֹכָ֖ם סָבִֽיב׃",
+ 39245:           "englishText": "On its hem make pomegranates of blue, purple, and crimson yarns, all around the hem, with bells of gold between them all around:",
+ 39246:           "transliteration": "vְaָshִׂ֣ytָ aַl־shׁvּlָ֗yv rִmֹּnֵy֙ tְּkֵ֤lֶt vְaַrְgָּmָן֙ vְtvֹlַ֣aַt shָׁnִ֔y aַl־[[FIXME]]ׁvּlָ֖yv sָbִ֑yb vּpַaֲmֹnֵ֥y zָhָ֛b bְּtvֹkָ֖ם sָbִֽyb׃",
+
+--- Context for line 39246 ---
+ 39244:           "hebrewText": "וְעָשִׂ֣יתָ עַל־שׁוּלָ֗יו רִמֹּנֵי֙ תְּכֵ֤לֶת וְאַרְגָּמָן֙ וְתוֹלַ֣עַת שָׁנִ֔י עַל־[[FIXME]]ׁוּלָ֖יו סָבִ֑יב וּפַעֲמֹנֵ֥י זָהָ֛ב בְּתוֹכָ֖ם סָבִֽיב׃",
+ 39245:           "englishText": "On its hem make pomegranates of blue, purple, and crimson yarns, all around the hem, with bells of gold between them all around:",
+ 39246:           "transliteration": "vְaָshִׂ֣ytָ aַl־shׁvּlָ֗yv rִmֹּnֵy֙ tְּkֵ֤lֶt vְaַrְgָּmָן֙ vְtvֹlַ֣aַt shָׁnִ֔y aַl־[[FIXME]]ׁvּlָ֖yv sָbִ֑yb vּpַaֲmֹnֵ֥y zָhָ֛b bְּtvֹkָ֖ם sָbִֽyb׃",
+ 39247:           "commentary": "Commentary on Shemot 28:33",
+ 39248:           "rashi": "Rashi on Shemot 28:33",
+
+--- Context for line 42928 ---
+ 42926:         {
+ 42927:           "reference": "Shemot 34:35",
+ 42928:           "hebrewText": "וְרָא֤וּ בְנֵֽי־יִשְׂרָאֵל֙ אֶת־פְּנֵ֣י מֹשֶׁ֔ה כִּ֣י קָרַ֔ן ע֖וֹר פְּנֵ֣י מֹשֶׁ֑ה וְהֵשִׁ֨יב מֹשֶׁ֤ה אֶת־הַמַּסְוֶה֙ עַל־פָּנָ֔יו עַד־בֹּ[[FIXME]]֖וֹ לְדַבֵּ֥ר אִתּֽוֹ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 42929:           "englishText": "the Israelites would see how radiant the skin of Moses’ face was. Moses would then put the veil back over his face until he went in to speak with God.",
+ 42930:           "transliteration": "vְrָa֤vּ bְnֵֽy־yִshְׂrָaֵl֙ aֶt־pְּnֵ֣y mֹshֶׁ֔h kִּ֣y kָrַ֔ן a֖vֹr pְּnֵ֣y mֹshֶׁ֑h vְhֵshִׁ֨yb mֹshֶׁ֤h aֶt־hַmַּsְvֶh֙ aַl־pָּnָ֔yv aַd־bֹּ[[FIXME]]֖vֹ lְdַbֵּ֥r aִtּֽvֹ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 42930 ---
+ 42928:           "hebrewText": "וְרָא֤וּ בְנֵֽי־יִשְׂרָאֵל֙ אֶת־פְּנֵ֣י מֹשֶׁ֔ה כִּ֣י קָרַ֔ן ע֖וֹר פְּנֵ֣י מֹשֶׁ֑ה וְהֵשִׁ֨יב מֹשֶׁ֤ה אֶת־הַמַּסְוֶה֙ עַל־פָּנָ֔יו עַד־בֹּ[[FIXME]]֖וֹ לְדַבֵּ֥ר אִתּֽוֹ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 42929:           "englishText": "the Israelites would see how radiant the skin of Moses’ face was. Moses would then put the veil back over his face until he went in to speak with God.",
+ 42930:           "transliteration": "vְrָa֤vּ bְnֵֽy־yִshְׂrָaֵl֙ aֶt־pְּnֵ֣y mֹshֶׁ֔h kִּ֣y kָrַ֔ן a֖vֹr pְּnֵ֣y mֹshֶׁ֑h vְhֵshִׁ֨yb mֹshֶׁ֤h aֶt־hַmַּsְvֶh֙ aַl־pָּnָ֔yv aַd־bֹּ[[FIXME]]֖vֹ lְdַbֵּ֥r aִtּֽvֹ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 42931:           "commentary": "Commentary on Shemot 34:35",
+ 42932:           "rashi": "Rashi on Shemot 34:35",
+
+--- Context for line 45055 ---
+ 45053:         {
+ 45054:           "reference": "Shemot 38:5",
+ 45055:           "hebrewText": "וַיִּצֹ֞ק אַרְבַּ֧ע טַבָּעֹ֛ת בְּ[[FIXME]]ַרְבַּ֥ע הַקְּצָוֺ֖ת לְמִכְבַּ֣ר הַנְּחֹ֑שֶׁת בָּתִּ֖ים לַבַּדִּֽים׃",
+ 45056:           "englishText": "He cast four rings, at the four corners of the copper grating, as holders for the poles.",
+ 45057:           "transliteration": "vַyִּtsֹ֞k aַrְbַּ֧a tַbָּaֹ֛t bְּ[[FIXME]]ַrְbַּ֥a hַkְּtsָvֺ֖t lְmִkְbַּ֣r hַnְּchֹ֑shֶׁt bָּtִּ֖yם lַbַּdִּֽyם׃",
+
+--- Context for line 45057 ---
+ 45055:           "hebrewText": "וַיִּצֹ֞ק אַרְבַּ֧ע טַבָּעֹ֛ת בְּ[[FIXME]]ַרְבַּ֥ע הַקְּצָוֺ֖ת לְמִכְבַּ֣ר הַנְּחֹ֑שֶׁת בָּתִּ֖ים לַבַּדִּֽים׃",
+ 45056:           "englishText": "He cast four rings, at the four corners of the copper grating, as holders for the poles.",
+ 45057:           "transliteration": "vַyִּtsֹ֞k aַrְbַּ֧a tַbָּaֹ֛t bְּ[[FIXME]]ַrְbַּ֥a hַkְּtsָvֺ֖t lְmִkְbַּ֣r hַnְּchֹ֑shֶׁt bָּtִּ֖yם lַbַּdִּֽyם׃",
+ 45058:           "commentary": "Commentary on Shemot 38:5",
+ 45059:           "rashi": "Rashi on Shemot 38:5",
+
+--- Context for line 46782 ---
+ 46780:         {
+ 46781:           "reference": "Vayikra 1:6",
+ 46782:           "hebrewText": "וְהִפְשִׁ֖יט אֶת־הָעֹלָ֑ה וְנִתַּ֥ח אֹתָ֖[[FIXME]]ּ לִנְתָחֶֽיהָ׃",
+ 46783:           "englishText": "The burnt offering shall be flayed and cut up into sections.",
+ 46784:           "transliteration": "vְhִpְshִׁ֖yt aֶt־hָaֹlָ֑h vְnִtַּ֥ch aֹtָ֖[[FIXME]]ּ lִnְtָchֶֽyhָ׃",
+
+--- Context for line 46784 ---
+ 46782:           "hebrewText": "וְהִפְשִׁ֖יט אֶת־הָעֹלָ֑ה וְנִתַּ֥ח אֹתָ֖[[FIXME]]ּ לִנְתָחֶֽיהָ׃",
+ 46783:           "englishText": "The burnt offering shall be flayed and cut up into sections.",
+ 46784:           "transliteration": "vְhִpְshִׁ֖yt aֶt־hָaֹlָ֑h vְnִtַּ֥ch aֹtָ֖[[FIXME]]ּ lִnְtָchֶֽyhָ׃",
+ 46785:           "commentary": "",
+ 46786:           "rashi": "",
+
+--- Context for line 46947 ---
+ 46945:         {
+ 46946:           "reference": "Vayikra 1:17",
+ 46947:           "hebrewText": "וְ[[FIXME]]ִׁסַּ֨ע אֹת֣וֹ בִכְנָפָיו֮ לֹ֣א יַבְדִּיל֒ וְהִקְטִ֨יר אֹת֤וֹ הַכֹּהֵן֙ הַמִּזְבֵּ֔חָה עַל־הָעֵצִ֖ים אֲשֶׁ֣ר עַל־הָאֵ֑שׁ עֹלָ֣ה ה֗וּא אִשֵּׁ֛ה רֵ֥יחַ נִיחֹ֖חַ לַיהֹוָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 46948:           "englishText": "The priest shall tear it open by its wings, without severing it, and turn it into smoke on the altar, upon the wood that is on the fire. It is a burnt offering, an offering by fire, of pleasing odor to יהוה.",
+ 46949:           "transliteration": "vְ[[FIXME]]ִׁsַּ֨a aֹt֣vֹ bִkְnָpָyv֮ lֹ֣a yַbְdִּyl֒ vְhִkְtִ֨yr aֹt֤vֹ hַkֹּhֵן֙ hַmִּzְbֵּ֔chָh aַl־hָaֵtsִ֖yם aֲshֶׁ֣r aַl־hָaֵ֑shׁ aֹlָ֣h h֗vּa aִshֵּׁ֛h rֵ֥ychַ nִychֹ֖chַ lַyhֹvָֽh׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 46949 ---
+ 46947:           "hebrewText": "וְ[[FIXME]]ִׁסַּ֨ע אֹת֣וֹ בִכְנָפָיו֮ לֹ֣א יַבְדִּיל֒ וְהִקְטִ֨יר אֹת֤וֹ הַכֹּהֵן֙ הַמִּזְבֵּ֔חָה עַל־הָעֵצִ֖ים אֲשֶׁ֣ר עַל־הָאֵ֑שׁ עֹלָ֣ה ה֗וּא אִשֵּׁ֛ה רֵ֥יחַ נִיחֹ֖חַ לַיהֹוָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 46948:           "englishText": "The priest shall tear it open by its wings, without severing it, and turn it into smoke on the altar, upon the wood that is on the fire. It is a burnt offering, an offering by fire, of pleasing odor to יהוה.",
+ 46949:           "transliteration": "vְ[[FIXME]]ִׁsַּ֨a aֹt֣vֹ bִkְnָpָyv֮ lֹ֣a yַbְdִּyl֒ vְhִkְtִ֨yr aֹt֤vֹ hַkֹּhֵן֙ hַmִּzְbֵּ֔chָh aַl־hָaֵtsִ֖yם aֲshֶׁ֣r aַl־hָaֵ֑shׁ aֹlָ֣h h֗vּa aִshֵּׁ֛h rֵ֥ychַ nִychֹ֖chַ lַyhֹvָֽh׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 46950:           "commentary": "",
+ 46951:           "rashi": "",
+
+--- Context for line 47159 ---
+ 47157:         {
+ 47158:           "reference": "Vayikra 2:14",
+ 47159:           "hebrewText": "[[FIXME]]ְאִם־תַּקְרִ֛יב מִנְחַ֥ת בִּכּוּרִ֖ים לַיהֹוָ֑ה אָבִ֞יב קָל֤וּי בָּאֵשׁ֙ גֶּ֣רֶשׂ כַּרְמֶ֔ל תַּקְרִ֕יב אֵ֖ת מִנְחַ֥ת בִּכּוּרֶֽיךָ׃",
+ 47160:           "englishText": "If you bring a meal offering of first fruits to יהוה, you shall bring new ears parched with fire, grits of the fresh grain, as your meal offering of first fruits.",
+ 47161:           "transliteration": "[[FIXME]]ְaִם־tַּkְrִ֛yb mִnְchַ֥t bִּkּvּrִ֖yם lַyhֹvָ֑h aָbִ֞yb kָl֤vּy bָּaֵshׁ֙ gֶּ֣rֶshׂ kַּrְmֶ֔l tַּkְrִ֕yb aֵ֖t mִnְchַ֥t bִּkּvּrֶֽyךָ׃",
+
+--- Context for line 47161 ---
+ 47159:           "hebrewText": "[[FIXME]]ְאִם־תַּקְרִ֛יב מִנְחַ֥ת בִּכּוּרִ֖ים לַיהֹוָ֑ה אָבִ֞יב קָל֤וּי בָּאֵשׁ֙ גֶּ֣רֶשׂ כַּרְמֶ֔ל תַּקְרִ֕יב אֵ֖ת מִנְחַ֥ת בִּכּוּרֶֽיךָ׃",
+ 47160:           "englishText": "If you bring a meal offering of first fruits to יהוה, you shall bring new ears parched with fire, grits of the fresh grain, as your meal offering of first fruits.",
+ 47161:           "transliteration": "[[FIXME]]ְaִם־tַּkְrִ֛yb mִnְchַ֥t bִּkּvּrִ֖yם lַyhֹvָ֑h aָbִ֞yb kָl֤vּy bָּaֵshׁ֙ gֶּ֣rֶshׂ kַּrְmֶ֔l tַּkְrִ֕yb aֵ֖t mִnְchַ֥t bִּkּvּrֶֽyךָ׃",
+ 47162:           "commentary": "",
+ 47163:           "rashi": "",
+
+--- Context for line 50673 ---
+ 50671:         {
+ 50672:           "reference": "Vayikra 10:6",
+ 50673:           "hebrewText": "וַיֹּ֣אמֶר מֹשֶׁ֣ה אֶֽל־אַהֲרֹ֡ן וּלְאֶלְעָזָר֩ וּלְאִֽיתָמָ֨ר&thinsp;<small>׀</small>&thinsp;בָּנָ֜יו רָֽאשֵׁיכֶ֥ם אַל־תִּפְרָ֣עוּ&thinsp;<b>׀</b> וּבִגְדֵיכֶ֤ם לֹֽא־תִפְרֹ֙מוּ֙ וְלֹ֣א תָמֻ֔תוּ וְעַ֥ל כׇּל־הָעֵדָ֖ה יִקְצֹ֑ף וַאֲחֵיכֶם֙ כׇּל־בֵּ֣ית יִשְׂרָאֵ֔ל יִבְכּוּ֙ אֶת־הַשְּׂר[[FIXME]]פָ֔ה אֲשֶׁ֖ר שָׂרַ֥ף יְהֹוָֽה׃",
+ 50674:           "englishText": "And Moses said to Aaron and to his sons Eleazar and Ithamar, “Do not bare your heads<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>bare your heads </b>Or “dishevel your hair”; cf. Num. 5.18.</i> and do not rend your clothes, lest you die and anger strike the whole community. But your kin,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>kin </b>Heb. <i>aḥim</i>, lit. “brothers”; NJPS “kinsmen.” It goes without saying that women are in view, because they were the face of public mourning in ancient Israel (Exod. 33.4; Jer. 9.16–17, 19; 2 Chron. 35.25).</i> all the house of Israel, shall bewail the burning that יהוה has wrought.",
+ 50675:           "transliteration": "vַyֹּ֣amֶr mֹshֶׁ֣h aֶֽl־aַhֲrֹ֡ן vּlְaֶlְaָzָr֩ vּlְaִֽytָmָ֨r&thinsp;<small>׀</small>&thinsp;bָּnָ֜yv rָֽashֵׁykֶ֥ם aַl־tִּpְrָ֣avּ&thinsp;<b>׀</b> vּbִgְdֵykֶ֤ם lֹֽa־tִpְrֹ֙mvּ֙ vְlֹ֣a tָmֻ֔tvּ vְaַ֥l kׇּl־hָaֵdָ֖h yִkְtsֹ֑ף vַaֲchֵykֶם֙ kׇּl־bֵּ֣yt yִshְׂrָaֵ֔l yִbְkּvּ֙ aֶt־hַshְּׂr[[FIXME]]pָ֔h aֲshֶׁ֖r shָׂrַ֥ף yְhֹvָֽh׃",
+
+--- Context for line 50675 ---
+ 50673:           "hebrewText": "וַיֹּ֣אמֶר מֹשֶׁ֣ה אֶֽל־אַהֲרֹ֡ן וּלְאֶלְעָזָר֩ וּלְאִֽיתָמָ֨ר&thinsp;<small>׀</small>&thinsp;בָּנָ֜יו רָֽאשֵׁיכֶ֥ם אַל־תִּפְרָ֣עוּ&thinsp;<b>׀</b> וּבִגְדֵיכֶ֤ם לֹֽא־תִפְרֹ֙מוּ֙ וְלֹ֣א תָמֻ֔תוּ וְעַ֥ל כׇּל־הָעֵדָ֖ה יִקְצֹ֑ף וַאֲחֵיכֶם֙ כׇּל־בֵּ֣ית יִשְׂרָאֵ֔ל יִבְכּוּ֙ אֶת־הַשְּׂר[[FIXME]]פָ֔ה אֲשֶׁ֖ר שָׂרַ֥ף יְהֹוָֽה׃",
+ 50674:           "englishText": "And Moses said to Aaron and to his sons Eleazar and Ithamar, “Do not bare your heads<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>bare your heads </b>Or “dishevel your hair”; cf. Num. 5.18.</i> and do not rend your clothes, lest you die and anger strike the whole community. But your kin,<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>kin </b>Heb. <i>aḥim</i>, lit. “brothers”; NJPS “kinsmen.” It goes without saying that women are in view, because they were the face of public mourning in ancient Israel (Exod. 33.4; Jer. 9.16–17, 19; 2 Chron. 35.25).</i> all the house of Israel, shall bewail the burning that יהוה has wrought.",
+ 50675:           "transliteration": "vַyֹּ֣amֶr mֹshֶׁ֣h aֶֽl־aַhֲrֹ֡ן vּlְaֶlְaָzָr֩ vּlְaִֽytָmָ֨r&thinsp;<small>׀</small>&thinsp;bָּnָ֜yv rָֽashֵׁykֶ֥ם aַl־tִּpְrָ֣avּ&thinsp;<b>׀</b> vּbִgְdֵykֶ֤ם lֹֽa־tִpְrֹ֙mvּ֙ vְlֹ֣a tָmֻ֔tvּ vְaַ֥l kׇּl־hָaֵdָ֖h yִkְtsֹ֑ף vַaֲchֵykֶם֙ kׇּl־bֵּ֣yt yִshְׂrָaֵ֔l yִbְkּvּ֙ aֶt־hַshְּׂr[[FIXME]]pָ֔h aֲshֶׁ֖r shָׂrַ֥ף yְhֹvָֽh׃",
+ 50676:           "commentary": "",
+ 50677:           "rashi": "",
+
+--- Context for line 51500 ---
+ 51498:         {
+ 51499:           "reference": "Vayikra 11:41",
+ 51500:           "hebrewText": "וְכׇל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣[[FIXME]] עַל־הָאָ֑רֶץ שֶׁ֥קֶץ ה֖וּא לֹ֥א יֵאָכֵֽל׃",
+ 51501:           "englishText": "All the things that swarm upon the earth are an abomination; they shall not be eaten.",
+ 51502:           "transliteration": "vְkׇl־hַshֶּׁ֖rֶץ hַshֹּׁrֵ֣[[FIXME]] aַl־hָaָ֑rֶץ shֶׁ֥kֶץ h֖vּa lֹ֥a yֵaָkֵֽl׃",
+
+--- Context for line 51502 ---
+ 51500:           "hebrewText": "וְכׇל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣[[FIXME]] עַל־הָאָ֑רֶץ שֶׁ֥קֶץ ה֖וּא לֹ֥א יֵאָכֵֽל׃",
+ 51501:           "englishText": "All the things that swarm upon the earth are an abomination; they shall not be eaten.",
+ 51502:           "transliteration": "vְkׇl־hַshֶּׁ֖rֶץ hַshֹּׁrֵ֣[[FIXME]] aַl־hָaָ֑rֶץ shֶׁ֥kֶץ h֖vּa lֹ֥a yֵaָkֵֽl׃",
+ 51503:           "commentary": "",
+ 51504:           "rashi": "",
+
+--- Context for line 52051 ---
+ 52049:         {
+ 52050:           "reference": "Vayikra 13:21",
+ 52051:           "hebrewText": "וְאִ֣ם&thinsp;<b>׀</b> יִרְאֶ֣נּ[[FIXME]]ה הַכֹּהֵ֗ן וְהִנֵּ֤ה אֵֽין־בָּהּ֙ שֵׂעָ֣ר לָבָ֔ן וּשְׁפָלָ֥הֿ אֵינֶ֛נָּה מִן־הָע֖וֹר וְהִ֣יא כֵהָ֑ה וְהִסְגִּיר֥וֹ הַכֹּהֵ֖ן שִׁבְעַ֥ת יָמִֽים׃",
+ 52052:           "englishText": "But if the priest finds that there is no white hair in it and it is not lower than the rest of the skin, and it is faded, the priest shall isolate that person for seven days.",
+ 52053:           "transliteration": "vְaִ֣ם&thinsp;<b>׀</b> yִrְaֶ֣nּ[[FIXME]]h hַkֹּhֵ֗ן vְhִnֵּ֤h aֵֽyן־bָּhּ֙ shֵׂaָ֣r lָbָ֔ן vּshְׁpָlָ֥hֿ aֵynֶ֛nָּh mִן־hָa֖vֹr vְhִ֣ya kֵhָ֑h vְhִsְgִּyr֥vֹ hַkֹּhֵ֖ן shִׁbְaַ֥t yָmִֽyם׃",
+
+--- Context for line 52053 ---
+ 52051:           "hebrewText": "וְאִ֣ם&thinsp;<b>׀</b> יִרְאֶ֣נּ[[FIXME]]ה הַכֹּהֵ֗ן וְהִנֵּ֤ה אֵֽין־בָּהּ֙ שֵׂעָ֣ר לָבָ֔ן וּשְׁפָלָ֥הֿ אֵינֶ֛נָּה מִן־הָע֖וֹר וְהִ֣יא כֵהָ֑ה וְהִסְגִּיר֥וֹ הַכֹּהֵ֖ן שִׁבְעַ֥ת יָמִֽים׃",
+ 52052:           "englishText": "But if the priest finds that there is no white hair in it and it is not lower than the rest of the skin, and it is faded, the priest shall isolate that person for seven days.",
+ 52053:           "transliteration": "vְaִ֣ם&thinsp;<b>׀</b> yִrְaֶ֣nּ[[FIXME]]h hַkֹּhֵ֗ן vְhִnֵּ֤h aֵֽyן־bָּhּ֙ shֵׂaָ֣r lָbָ֔ן vּshְׁpָlָ֥hֿ aֵynֶ֛nָּh mִן־hָa֖vֹr vְhִ֣ya kֵhָ֑h vְhִsְgִּyr֥vֹ hַkֹּhֵ֖ן shִׁbְaַ֥t yָmִֽyם׃",
+ 52054:           "commentary": "",
+ 52055:           "rashi": "",
+
+--- Context for line 53005 ---
+ 53003:         {
+ 53004:           "reference": "Vayikra 14:24",
+ 53005:           "hebrewText": "וְלָק[[FIXME]]֧ח הַכֹּהֵ֛ן אֶת־כֶּ֥בֶשׂ הָאָשָׁ֖ם וְאֶת־לֹ֣ג הַשָּׁ֑מֶן וְהֵנִ֨יף אֹתָ֧ם הַכֹּהֵ֛ן תְּנוּפָ֖ה לִפְנֵ֥י יְהֹוָֽה׃",
+ 53006:           "englishText": "The priest shall take the lamb of guilt offering and the <i>log</i> of oil, and elevate them as an elevation offering before יהוה.",
+ 53007:           "transliteration": "vְlָk[[FIXME]]֧ch hַkֹּhֵ֛ן aֶt־kֶּ֥bֶshׂ hָaָshָׁ֖ם vְaֶt־lֹ֣g hַshָּׁ֑mֶן vְhֵnִ֨yף aֹtָ֧ם hַkֹּhֵ֛ן tְּnvּpָ֖h lִpְnֵ֥y yְhֹvָֽh׃",
+
+--- Context for line 53007 ---
+ 53005:           "hebrewText": "וְלָק[[FIXME]]֧ח הַכֹּהֵ֛ן אֶת־כֶּ֥בֶשׂ הָאָשָׁ֖ם וְאֶת־לֹ֣ג הַשָּׁ֑מֶן וְהֵנִ֨יף אֹתָ֧ם הַכֹּהֵ֛ן תְּנוּפָ֖ה לִפְנֵ֥י יְהֹוָֽה׃",
+ 53006:           "englishText": "The priest shall take the lamb of guilt offering and the <i>log</i> of oil, and elevate them as an elevation offering before יהוה.",
+ 53007:           "transliteration": "vְlָk[[FIXME]]֧ch hַkֹּhֵ֛ן aֶt־kֶּ֥bֶshׂ hָaָshָׁ֖ם vְaֶt־lֹ֣g hַshָּׁ֑mֶן vְhֵnִ֨yף aֹtָ֧ם hַkֹּhֵ֛ן tְּnvּpָ֖h lִpְnֵ֥y yְhֹvָֽh׃",
+ 53008:           "commentary": "",
+ 53009:           "rashi": "",
+
+--- Context for line 53290 ---
+ 53288:         {
+ 53289:           "reference": "Vayikra 14:43",
+ 53290:           "hebrewText": "וְאִם־יָשׁ֤וּב הַנֶּ֙גַע֙ וּפָרַ֣ח בַּבַּ[[FIXME]]יִת אַחַ֖ר חִלֵּ֣ץ אֶת־הָאֲבָנִ֑ים וְאַחֲרֵ֛י הִקְצ֥וֹת אֶת־הַבַּ֖יִת וְאַחֲרֵ֥י הִטּֽוֹחַ׃",
+ 53291:           "englishText": "If the plague again breaks out in the house, after the stones have been pulled out and after the house has been scraped and replastered,",
+ 53292:           "transliteration": "vְaִם־yָshׁ֤vּb hַnֶּ֙gַa֙ vּpָrַ֣ch bַּbַּ[[FIXME]]yִt aַchַ֖r chִlֵּ֣ץ aֶt־hָaֲbָnִ֑yם vְaַchֲrֵ֛y hִkְts֥vֹt aֶt־hַbַּ֖yִt vְaַchֲrֵ֥y hִtּֽvֹchַ׃",
+
+--- Context for line 53292 ---
+ 53290:           "hebrewText": "וְאִם־יָשׁ֤וּב הַנֶּ֙גַע֙ וּפָרַ֣ח בַּבַּ[[FIXME]]יִת אַחַ֖ר חִלֵּ֣ץ אֶת־הָאֲבָנִ֑ים וְאַחֲרֵ֛י הִקְצ֥וֹת אֶת־הַבַּ֖יִת וְאַחֲרֵ֥י הִטּֽוֹחַ׃",
+ 53291:           "englishText": "If the plague again breaks out in the house, after the stones have been pulled out and after the house has been scraped and replastered,",
+ 53292:           "transliteration": "vְaִם־yָshׁ֤vּb hַnֶּ֙gַa֙ vּpָrַ֣ch bַּbַּ[[FIXME]]yִt aַchַ֖r chִlֵּ֣ץ aֶt־hָaֲbָnִ֑yם vְaַchֲrֵ֛y hִkְts֥vֹt aֶt־hַbַּ֖yִt vְaַchֲrֵ֥y hִtּֽvֹchַ׃",
+ 53293:           "commentary": "",
+ 53294:           "rashi": "",
+
+--- Context for line 58862 ---
+ 58860:         {
+ 58861:           "reference": "Vayikra 25:49",
+ 58862:           "hebrewText": "אוֹ־דֹד֞וֹ א֤וֹ בֶן־דֹּדוֹ[[FIXME]] יִגְאָלֶ֔נּוּ אֽוֹ־מִשְּׁאֵ֧ר בְּשָׂר֛וֹ מִמִּשְׁפַּחְתּ֖וֹ יִגְאָלֶ֑נּוּ אֽוֹ־הִשִּׂ֥יגָה יָד֖וֹ וְנִגְאָֽל׃",
+ 58863:           "englishText": "or an uncle or an uncle’s son shall do the redeeming—anyone in the family who is of the same flesh shall do the redeeming; or, having prospered, [your formerly impoverished kin] may do the redeeming.",
+ 58864:           "transliteration": "avֹ־dֹd֞vֹ a֤vֹ bֶן־dֹּdvֹ[[FIXME]] yִgְaָlֶ֔nּvּ aֽvֹ־mִshְּׁaֵ֧r bְּshָׂr֛vֹ mִmִּshְׁpַּchְtּ֖vֹ yִgְaָlֶ֑nּvּ aֽvֹ־hִshִּׂ֥ygָh yָd֖vֹ vְnִgְaָֽl׃",
+
+--- Context for line 58864 ---
+ 58862:           "hebrewText": "אוֹ־דֹד֞וֹ א֤וֹ בֶן־דֹּדוֹ[[FIXME]] יִגְאָלֶ֔נּוּ אֽוֹ־מִשְּׁאֵ֧ר בְּשָׂר֛וֹ מִמִּשְׁפַּחְתּ֖וֹ יִגְאָלֶ֑נּוּ אֽוֹ־הִשִּׂ֥יגָה יָד֖וֹ וְנִגְאָֽל׃",
+ 58863:           "englishText": "or an uncle or an uncle’s son shall do the redeeming—anyone in the family who is of the same flesh shall do the redeeming; or, having prospered, [your formerly impoverished kin] may do the redeeming.",
+ 58864:           "transliteration": "avֹ־dֹd֞vֹ a֤vֹ bֶן־dֹּdvֹ[[FIXME]] yִgְaָlֶ֔nּvּ aֽvֹ־mִshְּׁaֵ֧r bְּshָׂr֛vֹ mִmִּshְׁpַּchְtּ֖vֹ yִgְaָlֶ֑nּvּ aֽvֹ־hִshִּׂ֥ygָh yָd֖vֹ vְnִgְaָֽl׃",
+ 58865:           "commentary": "",
+ 58866:           "rashi": "",
+
+--- Context for line 65942 ---
+ 65940:         {
+ 65941:           "reference": "Bamidbar 7:85",
+ 65942:           "hebrewText": "שְׁלֹשִׁ֣ים וּמֵאָ֗ה הַקְּעָרָ֤ה הָֽאַחַת֙ כֶּ֔סֶף וְשִׁבְעִ֖ים הַמִּזְרָ֣ק הָאֶחָ֑ד כֹּ֚ל כֶּ֣סֶף הַכֵּלִ֔ים אַלְפַּ֥יִם וְאַרְבַּע־מֵא֖וֹת בְּשֶׁ֥קֶל הַקֹּֽ[[FIXME]]ֶשׁ׃",
+ 65943:           "englishText": "Silver per bowl, 130; per basin, 70. Total silver of vessels, 2,400 sanctuary shekels.",
+ 65944:           "transliteration": "shְׁlֹshִׁ֣yם vּmֵaָ֗h hַkְּaָrָ֤h hָֽaַchַt֙ kֶּ֔sֶף vְshִׁbְaִ֖yם hַmִּzְrָ֣k hָaֶchָ֑d kֹּ֚l kֶּ֣sֶף hַkֵּlִ֔yם aַlְpַּ֥yִם vְaַrְbַּa־mֵa֖vֹt bְּshֶׁ֥kֶl hַkֹּֽ[[FIXME]]ֶshׁ׃",
+
+--- Context for line 65944 ---
+ 65942:           "hebrewText": "שְׁלֹשִׁ֣ים וּמֵאָ֗ה הַקְּעָרָ֤ה הָֽאַחַת֙ כֶּ֔סֶף וְשִׁבְעִ֖ים הַמִּזְרָ֣ק הָאֶחָ֑ד כֹּ֚ל כֶּ֣סֶף הַכֵּלִ֔ים אַלְפַּ֥יִם וְאַרְבַּע־מֵא֖וֹת בְּשֶׁ֥קֶל הַקֹּֽ[[FIXME]]ֶשׁ׃",
+ 65943:           "englishText": "Silver per bowl, 130; per basin, 70. Total silver of vessels, 2,400 sanctuary shekels.",
+ 65944:           "transliteration": "shְׁlֹshִׁ֣yם vּmֵaָ֗h hַkְּaָrָ֤h hָֽaַchַt֙ kֶּ֔sֶף vְshִׁbְaִ֖yם hַmִּzְrָ֣k hָaֶchָ֑d kֹּ֚l kֶּ֣sֶף hַkֵּlִ֔yם aַlְpַּ֥yִם vְaַrְbַּa־mֵa֖vֹt bְּshֶׁ֥kֶl hַkֹּֽ[[FIXME]]ֶshׁ׃",
+ 65945:           "commentary": "",
+ 65946:           "rashi": "",
+
+--- Context for line 66149 ---
+ 66147:         {
+ 66148:           "reference": "Bamidbar 8:8",
+ 66149:           "hebrewText": "וְלָֽקְחוּ֙ פַּ֣ר בֶּן־בָּקָ֔ר וּמִ֨נְחָת֔וֹ סֹ֖לֶת בּ[[FIXME]]לוּלָ֣ה בַשָּׁ֑מֶן וּפַר־שֵׁנִ֥י בֶן־בָּקָ֖ר תִּקַּ֥ח לְחַטָּֽאת׃",
+ 66150:           "englishText": "Let them take a bull of the herd, and with it a meal offering of choice flour with oil mixed in, and you take a second bull of the herd for a sin offering.",
+ 66151:           "transliteration": "vְlָֽkְchvּ֙ pַּ֣r bֶּן־bָּkָ֔r vּmִ֨nְchָt֔vֹ sֹ֖lֶt bּ[[FIXME]]lvּlָ֣h bַshָּׁ֑mֶן vּpַr־shֵׁnִ֥y bֶן־bָּkָ֖r tִּkַּ֥ch lְchַtָּֽat׃",
+
+--- Context for line 66151 ---
+ 66149:           "hebrewText": "וְלָֽקְחוּ֙ פַּ֣ר בֶּן־בָּקָ֔ר וּמִ֨נְחָת֔וֹ סֹ֖לֶת בּ[[FIXME]]לוּלָ֣ה בַשָּׁ֑מֶן וּפַר־שֵׁנִ֥י בֶן־בָּקָ֖ר תִּקַּ֥ח לְחַטָּֽאת׃",
+ 66150:           "englishText": "Let them take a bull of the herd, and with it a meal offering of choice flour with oil mixed in, and you take a second bull of the herd for a sin offering.",
+ 66151:           "transliteration": "vְlָֽkְchvּ֙ pַּ֣r bֶּן־bָּkָ֔r vּmִ֨nְchָt֔vֹ sֹ֖lֶt bּ[[FIXME]]lvּlָ֣h bַshָּׁ֑mֶן vּpַr־shֵׁnִ֥y bֶן־bָּkָ֖r tִּkַּ֥ch lְchַtָּֽat׃",
+ 66152:           "commentary": "",
+ 66153:           "rashi": "",
+
+--- Context for line 67790 ---
+ 67788:         {
+ 67789:           "reference": "Bamidbar 11:32",
+ 67790:           "hebrewText": "וַיָּ֣קׇם הָעָ֡ם כׇּל־הַיּוֹם֩ הַה֨וּא וְכׇל־הַלַּ֜יְלָה וְכֹ֣ל&thinsp;<b>׀</b> י[[FIXME]]וֹם הַֽמׇּחֳרָ֗ת וַיַּֽאַסְפוּ֙ אֶת־הַשְּׂלָ֔ו הַמַּמְעִ֕יט אָסַ֖ף עֲשָׂרָ֣ה חֳמָרִ֑ים וַיִּשְׁטְח֤וּ לָהֶם֙ שָׁט֔וֹחַ סְבִיב֖וֹת הַֽמַּחֲנֶֽה׃",
+ 67791:           "englishText": "The people set to gathering quail all that day and night and all the next day—even the one who gathered least had ten <i>ḥomers</i>—and they spread them out all around the camp.",
+ 67792:           "transliteration": "vַyָּ֣kׇם hָaָ֡ם kׇּl־hַyּvֹם֩ hַh֨vּa vְkׇl־hַlַּ֜yְlָh vְkֹ֣l&thinsp;<b>׀</b> y[[FIXME]]vֹם hַֽmׇּchֳrָ֗t vַyַּֽaַsְpvּ֙ aֶt־hַshְּׂlָ֔v hַmַּmְaִ֕yt aָsַ֖ף aֲshָׂrָ֣h chֳmָrִ֑yם vַyִּshְׁtְch֤vּ lָhֶם֙ shָׁt֔vֹchַ sְbִyb֖vֹt hַֽmַּchֲnֶֽh׃",
+
+--- Context for line 67792 ---
+ 67790:           "hebrewText": "וַיָּ֣קׇם הָעָ֡ם כׇּל־הַיּוֹם֩ הַה֨וּא וְכׇל־הַלַּ֜יְלָה וְכֹ֣ל&thinsp;<b>׀</b> י[[FIXME]]וֹם הַֽמׇּחֳרָ֗ת וַיַּֽאַסְפוּ֙ אֶת־הַשְּׂלָ֔ו הַמַּמְעִ֕יט אָסַ֖ף עֲשָׂרָ֣ה חֳמָרִ֑ים וַיִּשְׁטְח֤וּ לָהֶם֙ שָׁט֔וֹחַ סְבִיב֖וֹת הַֽמַּחֲנֶֽה׃",
+ 67791:           "englishText": "The people set to gathering quail all that day and night and all the next day—even the one who gathered least had ten <i>ḥomers</i>—and they spread them out all around the camp.",
+ 67792:           "transliteration": "vַyָּ֣kׇם hָaָ֡ם kׇּl־hַyּvֹם֩ hַh֨vּa vְkׇl־hַlַּ֜yְlָh vְkֹ֣l&thinsp;<b>׀</b> y[[FIXME]]vֹם hַֽmׇּchֳrָ֗t vַyַּֽaַsְpvּ֙ aֶt־hַshְּׂlָ֔v hַmַּmְaִ֕yt aָsַ֖ף aֲshָׂrָ֣h chֳmָrִ֑yם vַyִּshְׁtְch֤vּ lָhֶם֙ shָׁt֔vֹchַ sְbִyb֖vֹt hַֽmַּchֲnֶֽh׃",
+ 67793:           "commentary": "",
+ 67794:           "rashi": "",
+
+--- Context for line 69079 ---
+ 69077:         {
+ 69078:           "reference": "Bamidbar 14:32",
+ 69079:           "hebrewText": "וּפִגְרֵיכֶ֖ם אַתֶּ֑ם יִפְּל֖וּ בַּמִּדְבָּ֥ר הַ[[FIXME]]ֶּֽה׃",
+ 69080:           "englishText": "But your carcasses shall drop in this wilderness,",
+ 69081:           "transliteration": "vּpִgְrֵykֶ֖ם aַtֶּ֑ם yִpְּl֖vּ bַּmִּdְbָּ֥r hַ[[FIXME]]ֶּֽh׃",
+
+--- Context for line 69081 ---
+ 69079:           "hebrewText": "וּפִגְרֵיכֶ֖ם אַתֶּ֑ם יִפְּל֖וּ בַּמִּדְבָּ֥ר הַ[[FIXME]]ֶּֽה׃",
+ 69080:           "englishText": "But your carcasses shall drop in this wilderness,",
+ 69081:           "transliteration": "vּpִgְrֵykֶ֖ם aַtֶּ֑ם yִpְּl֖vּ bַּmִּdְbָּ֥r hַ[[FIXME]]ֶּֽh׃",
+ 69082:           "commentary": "",
+ 69083:           "rashi": "",
+
+--- Context for line 69861 ---
+ 69859:         {
+ 69860:           "reference": "Bamidbar 15:39",
+ 69861:           "hebrewText": "וְהָיָ֣ה לָכֶם֮ לְצִיצִת֒ וּרְאִיתֶ֣ם אֹת֗וֹ וּזְכַרְתֶּם֙ אֶת־כׇּל־מִצְוֺ֣ת יְהֹוָ֔ה וַעֲשִׂיתֶ֖ם אֹתָ֑ם וְלֹֽא־תָת֜וּרוּ אַחֲרֵ֤י לְבַבְכֶם֙ וְאַחֲרֵ֣י עֵֽינֵיכֶ֔ם אֲשֶׁר־אַתֶּ֥ם זֹנִ֖ים אַחֲרֵיהֶֽם[[FIXME]]",
+ 69862:           "englishText": "That shall be your fringe; look at it and recall all the commandments of יהוה and observe them, so that you do not follow your heart and eyes in your lustful urge.",
+ 69863:           "transliteration": "vְhָyָ֣h lָkֶם֮ lְtsִytsִt֒ vּrְaִytֶ֣ם aֹt֗vֹ vּzְkַrְtֶּם֙ aֶt־kׇּl־mִtsְvֺ֣t yְhֹvָ֔h vַaֲshִׂytֶ֖ם aֹtָ֑ם vְlֹֽa־tָt֜vּrvּ aַchֲrֵ֤y lְbַbְkֶם֙ vְaַchֲrֵ֣y aֵֽynֵykֶ֔ם aֲshֶׁr־aַtֶּ֥ם zֹnִ֖yם aַchֲrֵyhֶֽם[[FIXME]]",
+
+--- Context for line 69863 ---
+ 69861:           "hebrewText": "וְהָיָ֣ה לָכֶם֮ לְצִיצִת֒ וּרְאִיתֶ֣ם אֹת֗וֹ וּזְכַרְתֶּם֙ אֶת־כׇּל־מִצְוֺ֣ת יְהֹוָ֔ה וַעֲשִׂיתֶ֖ם אֹתָ֑ם וְלֹֽא־תָת֜וּרוּ אַחֲרֵ֤י לְבַבְכֶם֙ וְאַחֲרֵ֣י עֵֽינֵיכֶ֔ם אֲשֶׁר־אַתֶּ֥ם זֹנִ֖ים אַחֲרֵיהֶֽם[[FIXME]]",
+ 69862:           "englishText": "That shall be your fringe; look at it and recall all the commandments of יהוה and observe them, so that you do not follow your heart and eyes in your lustful urge.",
+ 69863:           "transliteration": "vְhָyָ֣h lָkֶם֮ lְtsִytsִt֒ vּrְaִytֶ֣ם aֹt֗vֹ vּzְkַrְtֶּם֙ aֶt־kׇּl־mִtsְvֺ֣t yְhֹvָ֔h vַaֲshִׂytֶ֖ם aֹtָ֑ם vְlֹֽa־tָt֜vּrvּ aַchֲrֵ֤y lְbַbְkֶם֙ vְaַchֲrֵ֣y aֵֽynֵykֶ֔ם aֲshֶׁr־aַtֶּ֥ם zֹnִ֖yם aַchֲrֵyhֶֽם[[FIXME]]",
+ 69864:           "commentary": "",
+ 69865:           "rashi": "",
+
+--- Context for line 70411 ---
+ 70409:         {
+ 70410:           "reference": "Bamidbar 16:33",
+ 70411:           "hebrewText": "וַיֵּ֨רְד֜וּ הֵ֣ם וְכׇל־אֲשֶׁ֥ר לָהֶ֛ם חַיִּ֖ים שְׁאֹ֑לָה וַתְּכַ֤ס עֲלֵיהֶם֙ הָאָ֔רֶץ [[FIXME]]ַיֹּאבְד֖וּ מִתּ֥וֹךְ הַקָּהָֽל׃",
+ 70412:           "englishText": "They went down alive into Sheol, with all that belonged to them; the earth closed over them and they vanished from the midst of the congregation.",
+ 70413:           "transliteration": "vַyֵּ֨rְd֜vּ hֵ֣ם vְkׇl־aֲshֶׁ֥r lָhֶ֛ם chַyִּ֖yם shְׁaֹ֑lָh vַtְּkַ֤s aֲlֵyhֶם֙ hָaָ֔rֶץ [[FIXME]]ַyֹּabְd֖vּ mִtּ֥vֹךְ hַkָּhָֽl׃",
+
+--- Context for line 70413 ---
+ 70411:           "hebrewText": "וַיֵּ֨רְד֜וּ הֵ֣ם וְכׇל־אֲשֶׁ֥ר לָהֶ֛ם חַיִּ֖ים שְׁאֹ֑לָה וַתְּכַ֤ס עֲלֵיהֶם֙ הָאָ֔רֶץ [[FIXME]]ַיֹּאבְד֖וּ מִתּ֥וֹךְ הַקָּהָֽל׃",
+ 70412:           "englishText": "They went down alive into Sheol, with all that belonged to them; the earth closed over them and they vanished from the midst of the congregation.",
+ 70413:           "transliteration": "vַyֵּ֨rְd֜vּ hֵ֣ם vְkׇl־aֲshֶׁ֥r lָhֶ֛ם chַyִּ֖yם shְׁaֹ֑lָh vַtְּkַ֤s aֲlֵyhֶם֙ hָaָ֔rֶץ [[FIXME]]ַyֹּabְd֖vּ mִtּ֥vֹךְ hַkָּhָֽl׃",
+ 70414:           "commentary": "",
+ 70415:           "rashi": "",
+
+--- Context for line 71345 ---
+ 71343:         {
+ 71344:           "reference": "Bamidbar 18:32",
+ 71345:           "hebrewText": "וְלֹֽא־תִשְׂא֤וּ עָלָיו֙ חֵ֔טְא בַּהֲרִֽימְכֶ֥ם אֶת־חֶלְבּ֖וֹ מִמֶּ֑נּוּ וְאֶת־קׇדְשֵׁ֧י בְנֵי[[FIXME]]יִשְׂרָאֵ֛ל לֹ֥א תְחַלְּל֖וּ וְלֹ֥א תָמֽוּתוּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+ 71346:           "englishText": "You will incur no guilt through it, once you have removed the best part from it; but you must not profane the sacred donations of the Israelites, lest you die.",
+ 71347:           "transliteration": "vְlֹֽa־tִshְׂa֤vּ aָlָyv֙ chֵ֔tְa bַּhֲrִֽymְkֶ֥ם aֶt־chֶlְbּ֖vֹ mִmֶּ֑nּvּ vְaֶt־kׇdְshֵׁ֧y bְnֵy[[FIXME]]yִshְׂrָaֵ֛l lֹ֥a tְchַlְּl֖vּ vְlֹ֥a tָmֽvּtvּ׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+
+--- Context for line 71347 ---
+ 71345:           "hebrewText": "וְלֹֽא־תִשְׂא֤וּ עָלָיו֙ חֵ֔טְא בַּהֲרִֽימְכֶ֥ם אֶת־חֶלְבּ֖וֹ מִמֶּ֑נּוּ וְאֶת־קׇדְשֵׁ֧י בְנֵי[[FIXME]]יִשְׂרָאֵ֛ל לֹ֥א תְחַלְּל֖וּ וְלֹ֥א תָמֽוּתוּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+ 71346:           "englishText": "You will incur no guilt through it, once you have removed the best part from it; but you must not profane the sacred donations of the Israelites, lest you die.",
+ 71347:           "transliteration": "vְlֹֽa־tִshְׂa֤vּ aָlָyv֙ chֵ֔tְa bַּhֲrִֽymְkֶ֥ם aֶt־chֶlְbּ֖vֹ mִmֶּ֑nּvּ vְaֶt־kׇdְshֵׁ֧y bְnֵy[[FIXME]]yִshְׂrָaֵ֛l lֹ֥a tְchַlְּl֖vּ vְlֹ֥a tָmֽvּtvּ׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+ 71348:           "commentary": "",
+ 71349:           "rashi": "",
+
+--- Context for line 73170 ---
+ 73168:         {
+ 73169:           "reference": "Bamidbar 22:32",
+ 73170:           "hebrewText": "וַיֹּ֤אמֶר אֵלָיו֙ מַלְאַ֣ךְ יְהֹוָ֔ה עַל־מָ֗ה הִכִּ֙יתָ֙ אֶת־אֲתֹ֣נְךָ֔ זֶ֖ה שָׁל֣וֹשׁ רְגָלִ֑ים הִנֵּ֤ה אָנֹכִי֙ יָצָ֣אתִי לְשָׂטָ[[FIXME]]ן כִּֽי־יָרַ֥ט הַדֶּ֖רֶךְ לְנֶגְדִּֽי׃",
+ 73171:           "englishText": "The messenger of יהוה said to him, “Why have you beaten your ass these three times? It is I who came out as an adversary, for the errand is obnoxious<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>obnoxious </b>Precise meaning of Heb. <i>yarat</i> uncertain.</i> to me.",
+ 73172:           "transliteration": "vַyֹּ֤amֶr aֵlָyv֙ mַlְaַ֣ךְ yְhֹvָ֔h aַl־mָ֗h hִkִּ֙ytָ֙ aֶt־aֲtֹ֣nְךָ֔ zֶ֖h shָׁl֣vֹshׁ rְgָlִ֑yם hִnֵּ֤h aָnֹkִy֙ yָtsָ֣atִy lְshָׂtָ[[FIXME]]ן kִּֽy־yָrַ֥t hַdֶּ֖rֶךְ lְnֶgְdִּֽy׃",
+
+--- Context for line 73172 ---
+ 73170:           "hebrewText": "וַיֹּ֤אמֶר אֵלָיו֙ מַלְאַ֣ךְ יְהֹוָ֔ה עַל־מָ֗ה הִכִּ֙יתָ֙ אֶת־אֲתֹ֣נְךָ֔ זֶ֖ה שָׁל֣וֹשׁ רְגָלִ֑ים הִנֵּ֤ה אָנֹכִי֙ יָצָ֣אתִי לְשָׂטָ[[FIXME]]ן כִּֽי־יָרַ֥ט הַדֶּ֖רֶךְ לְנֶגְדִּֽי׃",
+ 73171:           "englishText": "The messenger of יהוה said to him, “Why have you beaten your ass these three times? It is I who came out as an adversary, for the errand is obnoxious<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>obnoxious </b>Precise meaning of Heb. <i>yarat</i> uncertain.</i> to me.",
+ 73172:           "transliteration": "vַyֹּ֤amֶr aֵlָyv֙ mַlְaַ֣ךְ yְhֹvָ֔h aַl־mָ֗h hִkִּ֙ytָ֙ aֶt־aֲtֹ֣nְךָ֔ zֶ֖h shָׁl֣vֹshׁ rְgָlִ֑yם hִnֵּ֤h aָnֹkִy֙ yָtsָ֣atִy lְshָׂtָ[[FIXME]]ן kִּֽy־yָrַ֥t hַdֶּ֖rֶךְ lְnֶgְdִּֽy׃",
+ 73173:           "commentary": "",
+ 73174:           "rashi": "",
+
+--- Context for line 75546 ---
+ 75544:         {
+ 75545:           "reference": "Bamidbar 26:56",
+ 75546:           "hebrewText": "עַל־פִּי֙ הַגּוֹרָ֔ל תֵּחָלֵ֖ק נַחֲלָת֑וֹ בֵּ֥ין רַ֖[[FIXME]] לִמְעָֽט׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 75547:           "englishText": "Each portion shall be assigned by lot, whether for larger or smaller groups.”",
+ 75548:           "transliteration": "aַl־pִּy֙ hַgּvֹrָ֔l tֵּchָlֵ֖k nַchֲlָt֑vֹ bֵּ֥yן rַ֖[[FIXME]] lִmְaָֽt׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 75548 ---
+ 75546:           "hebrewText": "עַל־פִּי֙ הַגּוֹרָ֔ל תֵּחָלֵ֖ק נַחֲלָת֑וֹ בֵּ֥ין רַ֖[[FIXME]] לִמְעָֽט׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 75547:           "englishText": "Each portion shall be assigned by lot, whether for larger or smaller groups.”",
+ 75548:           "transliteration": "aַl־pִּy֙ hַgּvֹrָ֔l tֵּchָlֵ֖k nַchֲlָt֑vֹ bֵּ֥yן rַ֖[[FIXME]] lִmְaָֽt׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 75549:           "commentary": "",
+ 75550:           "rashi": "",
+
+--- Context for line 75848 ---
+ 75846:         {
+ 75847:           "reference": "Bamidbar 27:11",
+ 75848:           "hebrewText": "וְאִם־אֵ֣ין אַחִים֮ לְאָבִיו֒ וּנְת[[FIXME]]תֶּ֣ם אֶת־נַחֲלָת֗וֹ לִשְׁאֵר֞וֹ הַקָּרֹ֥ב אֵלָ֛יו מִמִּשְׁפַּחְתּ֖וֹ וְיָרַ֣שׁ אֹתָ֑הּ וְֽהָ֨יְתָ֜ה לִבְנֵ֤י יִשְׂרָאֵל֙ לְחֻקַּ֣ת מִשְׁפָּ֔ט כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+ 75849:           "englishText": "If his father had no brothers, you shall assign his property to his nearest relative in his own clan, who shall inherit it.’ This shall be the law of procedure for the Israelites, in accordance with יהוה’s command to Moses.”",
+ 75850:           "transliteration": "vְaִם־aֵ֣yן aַchִyם֮ lְaָbִyv֒ vּnְt[[FIXME]]tֶּ֣ם aֶt־nַchֲlָt֗vֹ lִshְׁaֵr֞vֹ hַkָּrֹ֥b aֵlָ֛yv mִmִּshְׁpַּchְtּ֖vֹ vְyָrַ֣shׁ aֹtָ֑hּ vְֽhָ֨yְtָ֜h lִbְnֵ֤y yִshְׂrָaֵl֙ lְchֻkַּ֣t mִshְׁpָּ֔t kַּaֲshֶׁ֛r tsִvָּ֥h yְhֹvָ֖h aֶt־mֹshֶֽׁh׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+
+--- Context for line 75850 ---
+ 75848:           "hebrewText": "וְאִם־אֵ֣ין אַחִים֮ לְאָבִיו֒ וּנְת[[FIXME]]תֶּ֣ם אֶת־נַחֲלָת֗וֹ לִשְׁאֵר֞וֹ הַקָּרֹ֥ב אֵלָ֛יו מִמִּשְׁפַּחְתּ֖וֹ וְיָרַ֣שׁ אֹתָ֑הּ וְֽהָ֨יְתָ֜ה לִבְנֵ֤י יִשְׂרָאֵל֙ לְחֻקַּ֣ת מִשְׁפָּ֔ט כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+ 75849:           "englishText": "If his father had no brothers, you shall assign his property to his nearest relative in his own clan, who shall inherit it.’ This shall be the law of procedure for the Israelites, in accordance with יהוה’s command to Moses.”",
+ 75850:           "transliteration": "vְaִם־aֵ֣yן aַchִyם֮ lְaָbִyv֒ vּnְt[[FIXME]]tֶּ֣ם aֶt־nַchֲlָt֗vֹ lִshְׁaֵr֞vֹ hַkָּrֹ֥b aֵlָ֛yv mִmִּshְׁpַּchְtּ֖vֹ vְyָrַ֣shׁ aֹtָ֑hּ vְֽhָ֨yְtָ֜h lִbְnֵ֤y yִshְׂrָaֵl֙ lְchֻkַּ֣t mִshְׁpָּ֔t kַּaֲshֶׁ֛r tsִvָּ֥h yְhֹvָ֖h aֶt־mֹshֶֽׁh׃&nbsp;<span class=\"mam-spi-pe\">{p}</span><br>",
+ 75851:           "commentary": "",
+ 75852:           "rashi": "",
+
+--- Context for line 78973 ---
+ 78971:         {
+ 78972:           "reference": "Bamidbar 32:36",
+ 78973:           "hebrewText": "וְא[[FIXME]]ת־בֵּ֥ית נִמְרָ֖ה וְאֶת־בֵּ֣ית הָרָ֑ן עָרֵ֥י מִבְצָ֖ר וְגִדְרֹ֥ת צֹֽאן׃",
+ 78974:           "englishText": "Beth-nimrah, and Beth-haran as fortified towns or as enclosures for flocks.",
+ 78975:           "transliteration": "vְa[[FIXME]]t־bֵּ֥yt nִmְrָ֖h vְaֶt־bֵּ֣yt hָrָ֑ן aָrֵ֥y mִbְtsָ֖r vְgִdְrֹ֥t tsֹֽaן׃",
+
+--- Context for line 78975 ---
+ 78973:           "hebrewText": "וְא[[FIXME]]ת־בֵּ֥ית נִמְרָ֖ה וְאֶת־בֵּ֣ית הָרָ֑ן עָרֵ֥י מִבְצָ֖ר וְגִדְרֹ֥ת צֹֽאן׃",
+ 78974:           "englishText": "Beth-nimrah, and Beth-haran as fortified towns or as enclosures for flocks.",
+ 78975:           "transliteration": "vְa[[FIXME]]t־bֵּ֥yt nִmְrָ֖h vְaֶt־bֵּ֣yt hָrָ֑ן aָrֵ֥y mִbְtsָ֖r vְgִdְrֹ֥t tsֹֽaן׃",
+ 78976:           "commentary": "",
+ 78977:           "rashi": "",
+
+--- Context for line 80111 ---
+ 80109:         {
+ 80110:           "reference": "Bamidbar 34:12",
+ 80111:           "hebrewText": "ו[[FIXME]]יָרַ֤ד הַגְּבוּל֙ הַיַּרְדֵּ֔נָה וְהָי֥וּ תוֹצְאֹתָ֖יו יָ֣ם הַמֶּ֑לַח זֹאת֩ תִּהְיֶ֨ה לָכֶ֥ם הָאָ֛רֶץ לִגְבֻלֹתֶ֖יהָ סָבִֽיב׃",
+ 80112:           "englishText": "The boundary shall then descend along the Jordan and terminate at the Dead Sea. That shall be your land as defined by its boundaries on all sides.",
+ 80113:           "transliteration": "v[[FIXME]]yָrַ֤d hַgְּbvּl֙ hַyַּrְdֵּ֔nָh vְhָy֥vּ tvֹtsְaֹtָ֖yv yָ֣ם hַmֶּ֑lַch zֹat֩ tִּhְyֶ֨h lָkֶ֥ם hָaָ֛rֶץ lִgְbֻlֹtֶ֖yhָ sָbִֽyb׃",
+
+--- Context for line 80113 ---
+ 80111:           "hebrewText": "ו[[FIXME]]יָרַ֤ד הַגְּבוּל֙ הַיַּרְדֵּ֔נָה וְהָי֥וּ תוֹצְאֹתָ֖יו יָ֣ם הַמֶּ֑לַח זֹאת֩ תִּהְיֶ֨ה לָכֶ֥ם הָאָ֛רֶץ לִגְבֻלֹתֶ֖יהָ סָבִֽיב׃",
+ 80112:           "englishText": "The boundary shall then descend along the Jordan and terminate at the Dead Sea. That shall be your land as defined by its boundaries on all sides.",
+ 80113:           "transliteration": "v[[FIXME]]yָrַ֤d hַgְּbvּl֙ hַyַּrְdֵּ֔nָh vְhָy֥vּ tvֹtsְaֹtָ֖yv yָ֣ם hַmֶּ֑lַch zֹat֩ tִּhְyֶ֨h lָkֶ֥ם hָaָ֛rֶץ lִgְbֻlֹtֶ֖yhָ sָbִֽyb׃",
+ 80114:           "commentary": "",
+ 80115:           "rashi": "",
+
+--- Context for line 83938 ---
+ 83936:         {
+ 83937:           "reference": "Devarim 4:46",
+ 83938:           "hebrewText": "בְּעֵ֨בֶר הַיַּרְדֵּ֜ן בַּגַּ֗יְא מ֚וּל בֵּ֣ית פְּע֔וֹר בְּאֶ֗רֶץ סִיחֹן֙ מֶ֣לֶךְ הָֽאֱמֹרִ֔י אֲשֶׁ֥ר יוֹשֵׁ֖ב בְּחֶשְׁבּ֑וֹן אֲשֶׁ֨ר הִכָּ֤ה מֹשֶׁה֙ וּבְנֵ֣י יִשְׂרָאֵ֔ל בְּצֵאתָ֖ם מִמִּצְרָ[[FIXME]]יִם׃",
+ 83939:           "englishText": "beyond the Jordan, in the valley at Beth-peor, in the land of King Sihon of the Amorites, who dwelt in Heshbon, whom Moses and the Israelites defeated after they had left Egypt.",
+ 83940:           "transliteration": "bְּaֵ֨bֶr hַyַּrְdֵּ֜ן bַּgַּ֗yְa m֚vּl bֵּ֣yt pְּa֔vֹr bְּaֶ֗rֶץ sִychֹן֙ mֶ֣lֶךְ hָֽaֱmֹrִ֔y aֲshֶׁ֥r yvֹshֵׁ֖b bְּchֶshְׁbּ֑vֹן aֲshֶׁ֨r hִkָּ֤h mֹshֶׁh֙ vּbְnֵ֣y yִshְׂrָaֵ֔l bְּtsֵatָ֖ם mִmִּtsְrָ[[FIXME]]yִם׃",
+
+--- Context for line 83940 ---
+ 83938:           "hebrewText": "בְּעֵ֨בֶר הַיַּרְדֵּ֜ן בַּגַּ֗יְא מ֚וּל בֵּ֣ית פְּע֔וֹר בְּאֶ֗רֶץ סִיחֹן֙ מֶ֣לֶךְ הָֽאֱמֹרִ֔י אֲשֶׁ֥ר יוֹשֵׁ֖ב בְּחֶשְׁבּ֑וֹן אֲשֶׁ֨ר הִכָּ֤ה מֹשֶׁה֙ וּבְנֵ֣י יִשְׂרָאֵ֔ל בְּצֵאתָ֖ם מִמִּצְרָ[[FIXME]]יִם׃",
+ 83939:           "englishText": "beyond the Jordan, in the valley at Beth-peor, in the land of King Sihon of the Amorites, who dwelt in Heshbon, whom Moses and the Israelites defeated after they had left Egypt.",
+ 83940:           "transliteration": "bְּaֵ֨bֶr hַyַּrְdֵּ֜ן bַּgַּ֗yְa m֚vּl bֵּ֣yt pְּa֔vֹr bְּaֶ֗rֶץ sִychֹן֙ mֶ֣lֶךְ hָֽaֱmֹrִ֔y aֲshֶׁ֥r yvֹshֵׁ֖b bְּchֶshְׁbּ֑vֹן aֲshֶׁ֨r hִkָּ֤h mֹshֶׁh֙ vּbְnֵ֣y yִshְׂrָaֵ֔l bְּtsֵatָ֖ם mִmִּtsְrָ[[FIXME]]yִם׃",
+ 83941:           "commentary": "",
+ 83942:           "rashi": "",
+
+--- Context for line 86724 ---
+ 86722:         {
+ 86723:           "reference": "Devarim 11:2",
+ 86724:           "hebrewText": "וִֽידַעְתֶּם֮ הַיּוֹם֒ כִּ֣י&thinsp;<b>׀</b> לֹ֣א אֶת־בְּנֵיכֶ֗[[FIXME]] אֲשֶׁ֤ר לֹֽא־יָדְעוּ֙ וַאֲשֶׁ֣ר לֹא־רָא֔וּ אֶת־מוּסַ֖ר יְהֹוָ֣ה אֱלֹהֵיכֶ֑ם אֶת־גׇּדְל֕וֹ אֶת־יָדוֹ֙ הַחֲזָקָ֔ה וּזְרֹע֖וֹ הַנְּטוּיָֽה׃",
+ 86725:           "englishText": "<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">Syntax of Heb. uncertain.</i> Take thought this day that it was not your children, who neither experienced nor witnessed the lesson of your God יהוה —God’s majesty, mighty hand, and outstretched arm;",
+ 86726:           "transliteration": "vִֽydַaְtֶּם֮ hַyּvֹם֒ kִּ֣y&thinsp;<b>׀</b> lֹ֣a aֶt־bְּnֵykֶ֗[[FIXME]] aֲshֶׁ֤r lֹֽa־yָdְavּ֙ vַaֲshֶׁ֣r lֹa־rָa֔vּ aֶt־mvּsַ֖r yְhֹvָ֣h aֱlֹhֵykֶ֑ם aֶt־gׇּdְl֕vֹ aֶt־yָdvֹ֙ hַchֲzָkָ֔h vּzְrֹa֖vֹ hַnְּtvּyָֽh׃",
+
+--- Context for line 86726 ---
+ 86724:           "hebrewText": "וִֽידַעְתֶּם֮ הַיּוֹם֒ כִּ֣י&thinsp;<b>׀</b> לֹ֣א אֶת־בְּנֵיכֶ֗[[FIXME]] אֲשֶׁ֤ר לֹֽא־יָדְעוּ֙ וַאֲשֶׁ֣ר לֹא־רָא֔וּ אֶת־מוּסַ֖ר יְהֹוָ֣ה אֱלֹהֵיכֶ֑ם אֶת־גׇּדְל֕וֹ אֶת־יָדוֹ֙ הַחֲזָקָ֔ה וּזְרֹע֖וֹ הַנְּטוּיָֽה׃",
+ 86725:           "englishText": "<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">Syntax of Heb. uncertain.</i> Take thought this day that it was not your children, who neither experienced nor witnessed the lesson of your God יהוה —God’s majesty, mighty hand, and outstretched arm;",
+ 86726:           "transliteration": "vִֽydַaְtֶּם֮ hַyּvֹם֒ kִּ֣y&thinsp;<b>׀</b> lֹ֣a aֶt־bְּnֵykֶ֗[[FIXME]] aֲshֶׁ֤r lֹֽa־yָdְavּ֙ vַaֲshֶׁ֣r lֹa־rָa֔vּ aֶt־mvּsַ֖r yְhֹvָ֣h aֱlֹhֵykֶ֑ם aֶt־gׇּdְl֕vֹ aֶt־yָdvֹ֙ hַchֲzָkָ֔h vּzְrֹa֖vֹ hַnְּtvּyָֽh׃",
+ 86727:           "commentary": "",
+ 86728:           "rashi": "",
+
+--- Context for line 87337 ---
+ 87335:         {
+ 87336:           "reference": "Devarim 11:9",
+ 87337:           "hebrewText": "וּלְמַ֨עַן תַּאֲרִ֤יכוּ יָמִים֙ עַל־הָ֣אֲדָמָ֔ה אֲשֶׁר֩ נִשְׁבַּ֨ע יְהֹוָ֧ה לַאֲבֹתֵיכֶ֛ם לָתֵ֥ת לָהֶ֖ם וּלְ[[FIXME]]ַרְעָ֑ם אֶ֛רֶץ זָבַ֥ת חָלָ֖ב וּדְבָֽשׁ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 87338:           "englishText": "and that you may long endure upon the soil that יהוה swore to your fathers to assign to them and to their heirs, a land flowing with milk and honey.",
+ 87339:           "transliteration": "vּlְmַ֨aַן tַּaֲrִ֤ykvּ yָmִyם֙ aַl־hָ֣aֲdָmָ֔h aֲshֶׁr֩ nִshְׁbַּ֨a yְhֹvָ֧h lַaֲbֹtֵykֶ֛ם lָtֵ֥t lָhֶ֖ם vּlְ[[FIXME]]ַrְaָ֑ם aֶ֛rֶץ zָbַ֥t chָlָ֖b vּdְbָֽshׁ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 87339 ---
+ 87337:           "hebrewText": "וּלְמַ֨עַן תַּאֲרִ֤יכוּ יָמִים֙ עַל־הָ֣אֲדָמָ֔ה אֲשֶׁר֩ נִשְׁבַּ֨ע יְהֹוָ֧ה לַאֲבֹתֵיכֶ֛ם לָתֵ֥ת לָהֶ֖ם וּלְ[[FIXME]]ַרְעָ֑ם אֶ֛רֶץ זָבַ֥ת חָלָ֖ב וּדְבָֽשׁ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 87338:           "englishText": "and that you may long endure upon the soil that יהוה swore to your fathers to assign to them and to their heirs, a land flowing with milk and honey.",
+ 87339:           "transliteration": "vּlְmַ֨aַן tַּaֲrִ֤ykvּ yָmִyם֙ aַl־hָ֣aֲdָmָ֔h aֲshֶׁr֩ nִshְׁbַּ֨a yְhֹvָ֧h lַaֲbֹtֵykֶ֛ם lָtֵ֥t lָhֶ֖ם vּlְ[[FIXME]]ַrְaָ֑ם aֶ֛rֶץ zָbַ֥t chָlָ֖b vּdְbָֽshׁ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 87340:           "commentary": "",
+ 87341:           "rashi": "",
+
+--- Context for line 88104 ---
+ 88102:         {
+ 88103:           "reference": "Devarim 12:28",
+ 88104:           "hebrewText": "שְׁמֹ֣ר וְשָׁמַעְתָּ֗ אֵ֚ת כׇּל־הַדְּבָרִ֣ים הָאֵ֔לֶּה אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּ֑ךָּ לְמַ֩עַן֩ יִיטַ֨ב לְךָ֜ וּלְבָנֶ֤יךָ אַחֲרֶ֙יךָ֙ עַד־עוֹלָ֔ם כִּ֤י תַעֲשֶׂה֙ הַטּ֣וֹב וְהַיָּשָׁ֔ר בְּעֵינֵ֖[[FIXME]] יְהֹוָ֥ה אֱלֹהֶֽיךָ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 88105:           "englishText": "Be careful to heed all these commandments that I enjoin upon you; thus it will go well with you and with your descendants after you forever, for you will be doing what is good and right in the sight of your God יהוה.",
+ 88106:           "transliteration": "shְׁmֹ֣r vְshָׁmַaְtָּ֗ aֵ֚t kׇּl־hַdְּbָrִ֣yם hָaֵ֔lֶּh aֲshֶׁ֥r aָnֹkִ֖y mְtsַvֶּ֑ךָּ lְmַ֩aַן֩ yִytַ֨b lְךָ֜ vּlְbָnֶ֤yךָ aַchֲrֶ֙yךָ֙ aַd־avֹlָ֔ם kִּ֤y tַaֲshֶׂh֙ hַtּ֣vֹb vְhַyָּshָׁ֔r bְּaֵynֵ֖[[FIXME]] yְhֹvָ֥h aֱlֹhֶֽyךָ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 88106 ---
+ 88104:           "hebrewText": "שְׁמֹ֣ר וְשָׁמַעְתָּ֗ אֵ֚ת כׇּל־הַדְּבָרִ֣ים הָאֵ֔לֶּה אֲשֶׁ֥ר אָנֹכִ֖י מְצַוֶּ֑ךָּ לְמַ֩עַן֩ יִיטַ֨ב לְךָ֜ וּלְבָנֶ֤יךָ אַחֲרֶ֙יךָ֙ עַד־עוֹלָ֔ם כִּ֤י תַעֲשֶׂה֙ הַטּ֣וֹב וְהַיָּשָׁ֔ר בְּעֵינֵ֖[[FIXME]] יְהֹוָ֥ה אֱלֹהֶֽיךָ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 88105:           "englishText": "Be careful to heed all these commandments that I enjoin upon you; thus it will go well with you and with your descendants after you forever, for you will be doing what is good and right in the sight of your God יהוה.",
+ 88106:           "transliteration": "shְׁmֹ֣r vְshָׁmַaְtָּ֗ aֵ֚t kׇּl־hַdְּbָrִ֣yם hָaֵ֔lֶּh aֲshֶׁ֥r aָnֹkִ֖y mְtsַvֶּ֑ךָּ lְmַ֩aַן֩ yִytַ֨b lְךָ֜ vּlְbָnֶ֤yךָ aַchֲrֶ֙yךָ֙ aַd־avֹlָ֔ם kִּ֤y tַaֲshֶׂh֙ hַtּ֣vֹb vְhַyָּshָׁ֔r bְּaֵynֵ֖[[FIXME]] yְhֹvָ֥h aֱlֹhֶֽyךָ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 88107:           "commentary": "",
+ 88108:           "rashi": "",
+
+--- Context for line 90756 ---
+ 90754:         {
+ 90755:           "reference": "Devarim 19:14",
+ 90756:           "hebrewText": "לֹ֤א תַסִּיג֙ גְּב֣וּל רֵֽעֲךָ֔ אֲשֶׁ֥ר גָּבְל֖וּ רִאשֹׁנִ֑ים בְּנַחֲלָֽתְךָ֙ אֲשֶׁ֣ר תִּנְחַ֔ל בָּאָ֕רֶץ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ [[FIXME]]ְרִשְׁתָּֽהּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 90757:           "englishText": "You shall not move your neighbor’s landmarks, set up by previous generations, in the property that will be allotted to you in the land that your God יהוה is giving you to possess.",
+ 90758:           "transliteration": "lֹ֤a tַsִּyg֙ gְּb֣vּl rֵֽaֲךָ֔ aֲshֶׁ֥r gָּbְl֖vּ rִashֹׁnִ֑yם bְּnַchֲlָֽtְךָ֙ aֲshֶׁ֣r tִּnְchַ֔l bָּaָ֕rֶץ aֲshֶׁr֙ yְhֹvָ֣h aֱlֹhֶ֔yךָ nֹtֵ֥ן lְךָ֖ [[FIXME]]ְrִshְׁtָּֽhּ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+
+--- Context for line 90758 ---
+ 90756:           "hebrewText": "לֹ֤א תַסִּיג֙ גְּב֣וּל רֵֽעֲךָ֔ אֲשֶׁ֥ר גָּבְל֖וּ רִאשֹׁנִ֑ים בְּנַחֲלָֽתְךָ֙ אֲשֶׁ֣ר תִּנְחַ֔ל בָּאָ֕רֶץ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ [[FIXME]]ְרִשְׁתָּֽהּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 90757:           "englishText": "You shall not move your neighbor’s landmarks, set up by previous generations, in the property that will be allotted to you in the land that your God יהוה is giving you to possess.",
+ 90758:           "transliteration": "lֹ֤a tַsִּyg֙ gְּb֣vּl rֵֽaֲךָ֔ aֲshֶׁ֥r gָּbְl֖vּ rִashֹׁnִ֑yם bְּnַchֲlָֽtְךָ֙ aֲshֶׁ֣r tִּnְchַ֔l bָּaָ֕rֶץ aֲshֶׁr֙ yְhֹvָ֣h aֱlֹhֶ֔yךָ nֹtֵ֥ן lְךָ֖ [[FIXME]]ְrִshְׁtָּֽhּ׃&nbsp;<span class=\"mam-spi-samekh\">{s}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+ 90759:           "commentary": "",
+ 90760:           "rashi": "",
+
+--- Context for line 91118 ---
+ 91116:         {
+ 91117:           "reference": "Devarim 20:17",
+ 91118:           "hebrewText": "כִּֽי־הַחֲרֵ֣ם תַּחֲרִימֵ[[FIXME]]ם הַחִתִּ֤י וְהָאֱמֹרִי֙ הַכְּנַעֲנִ֣י וְהַפְּרִזִּ֔י הַחִוִּ֖י וְהַיְבוּסִ֑י כַּאֲשֶׁ֥ר צִוְּךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+ 91119:           "englishText": "No, you must proscribe<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>proscribe </b>See Lev. 27.29.</i> them—the Hittites and the Amorites, the Canaanites and the Perizzites, the Hivites and the Jebusites—as your God יהוה has commanded you,",
+ 91120:           "transliteration": "kִּֽy־hַchֲrֵ֣ם tַּchֲrִymֵ[[FIXME]]ם hַchִtִּ֤y vְhָaֱmֹrִy֙ hַkְּnַaֲnִ֣y vְhַpְּrִzִּ֔y hַchִvִּ֖y vְhַyְbvּsִ֑y kַּaֲshֶׁ֥r tsִvְּךָ֖ yְhֹvָ֥h aֱlֹhֶֽyךָ׃",
+
+--- Context for line 91120 ---
+ 91118:           "hebrewText": "כִּֽי־הַחֲרֵ֣ם תַּחֲרִימֵ[[FIXME]]ם הַחִתִּ֤י וְהָאֱמֹרִי֙ הַכְּנַעֲנִ֣י וְהַפְּרִזִּ֔י הַחִוִּ֖י וְהַיְבוּסִ֑י כַּאֲשֶׁ֥ר צִוְּךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+ 91119:           "englishText": "No, you must proscribe<sup class=\"footnote-marker\">*</sup><i class=\"footnote\"><b>proscribe </b>See Lev. 27.29.</i> them—the Hittites and the Amorites, the Canaanites and the Perizzites, the Hivites and the Jebusites—as your God יהוה has commanded you,",
+ 91120:           "transliteration": "kִּֽy־hַchֲrֵ֣ם tַּchֲrִymֵ[[FIXME]]ם hַchִtִּ֤y vְhָaֱmֹrִy֙ hַkְּnַaֲnִ֣y vְhַpְּrִzִּ֔y hַchִvִּ֖y vְhַyְbvּsִ֑y kַּaֲshֶׁ֥r tsִvְּךָ֖ yְhֹvָ֥h aֱlֹhֶֽyךָ׃",
+ 91121:           "commentary": "",
+ 91122:           "rashi": "",
+
+--- Context for line 91255 ---
+ 91253:         {
+ 91254:           "reference": "Devarim 21:6",
+ 91255:           "hebrewText": "וְכֹ֗ל זִקְנֵי֙ הָעִ֣יר הַהִ֔וא הַקְּרֹבִ֖ים אֶל־הֶחָלָ֑ל יִרְחֲצוּ֙ אֶת־יְדֵיהֶ֔ם עַל־הָעֶגְלָ֖ה הָעֲרוּפָ֥ה בַנָּֽחַ[[FIXME]]׃",
+ 91256:           "englishText": "Then all the elders of the town nearest to the corpse shall wash their hands over the heifer whose neck was broken in the wadi.",
+ 91257:           "transliteration": "vְkֹ֗l zִkְnֵy֙ hָaִ֣yr hַhִ֔va hַkְּrֹbִ֖yם aֶl־hֶchָlָ֑l yִrְchֲtsvּ֙ aֶt־yְdֵyhֶ֔ם aַl־hָaֶgְlָ֖h hָaֲrvּpָ֥h bַnָּֽchַ[[FIXME]]׃",
+
+--- Context for line 91257 ---
+ 91255:           "hebrewText": "וְכֹ֗ל זִקְנֵי֙ הָעִ֣יר הַהִ֔וא הַקְּרֹבִ֖ים אֶל־הֶחָלָ֑ל יִרְחֲצוּ֙ אֶת־יְדֵיהֶ֔ם עַל־הָעֶגְלָ֖ה הָעֲרוּפָ֥ה בַנָּֽחַ[[FIXME]]׃",
+ 91256:           "englishText": "Then all the elders of the town nearest to the corpse shall wash their hands over the heifer whose neck was broken in the wadi.",
+ 91257:           "transliteration": "vְkֹ֗l zִkְnֵy֙ hָaִ֣yr hַhִ֔va hַkְּrֹbִ֖yם aֶl־hֶchָlָ֑l yִrְchֲtsvּ֙ aֶt־yְdֵyhֶ֔ם aַl־hָaֶgְlָ֖h hָaֲrvּpָ֥h bַnָּֽchַ[[FIXME]]׃",
+ 91258:           "commentary": "",
+ 91259:           "rashi": "",

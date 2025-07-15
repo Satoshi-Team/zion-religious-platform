@@ -1,0 +1,353 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Introduction to Hinduism: Origins, Beliefs & Sacred Texts | Religious Studies Blog",
+  description: "Explore the foundations of Hinduism: its ancient origins, core beliefs like Dharma, Karma, Samsara, and Moksha, and an overview of its sacred texts including Vedas, Upanishads, Epics (Ramayana, Mahabharata), and Puranas.",
+  openGraph: {
+    title: "Introduction to Hinduism: Origins, Beliefs & Sacred Texts | Religious Studies Blog",
+    description: "A comprehensive introduction to Hinduism, covering its historical roots, fundamental philosophical concepts (Dharma, Karma, Samsara, Moksha), and major scriptural traditions.",
+  type: "article",
+    images: [
+      {
+        url: "/images/introduction-to-hinduism.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Introduction to Hinduism",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Introduction to Hinduism: Origins, Beliefs & Sacred Texts",
+    description: "Explore the foundations of Hinduism: its ancient origins, core beliefs (Dharma, Karma, Samsara, Moksha), and sacred texts (Vedas, Upanishads, Epics, Puranas).",
+    images: ["/images/introduction-to-hinduism.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function IntroductionToHinduism() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Introduction to Hinduism: Origins, Beliefs & Sacred Texts | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Introduction to Hinduism: Origins, Beliefs & Sacred Texts | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/hinduism" className="hover:underline">
+            Hinduism
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Introduction to Hinduism</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Introduction to Hinduism: Origins, Core Beliefs, and Sacred Texts
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Sanatana Dharma</Badge>
+            <Badge variant="secondary">Vedic Tradition</Badge>
+            <Badge variant="secondary">Dharma</Badge>
+            <Badge variant="secondary">Karma</Badge>
+            <Badge variant="secondary">Moksha</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Hinduism, often referred to as Sanatana Dharma ("the eternal way"), is one of the world's oldest living
+            religions, with a rich tapestry of philosophies, deities, and practices. This introduction explores its
+            ancient origins, fundamental beliefs that shape the lives of its adherents, and the vast collection of
+            sacred texts that preserve its profound wisdom.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Ancient Origins and Historical Context
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-1">
+                  <div>
+                    <h3 className="text-lg font-medium">Indus Valley Civilization (c. 3300–1300 BCE)</h3>
+                    <p className="mt-2">
+                      While direct links are debated, some scholars suggest that elements of the Indus Valley Civilization,
+                      one of the world's earliest urban cultures, may have influenced later Hindu traditions. Artifacts
+                      depicting figures in meditative postures and symbols resembling later Hindu deities hint at possible
+                      continuities.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">The Vedic Period (c. 1500–500 BCE)</h3>
+                    <p className="mt-2">
+                      This era is characterized by the composition of the Vedas, the oldest sacred texts of Hinduism.
+                      Early Vedic religion focused on complex rituals (yajnas) performed by Brahmin priests to propitiate
+                      deities (Devas) representing natural forces. Societal structure, including the Varna system,
+                      began to take shape during this period.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Development and Diversification</h3>
+                    <p className="mt-2">
+                      Over millennia, Hinduism evolved, absorbing and integrating diverse local traditions and
+                      philosophies. It did not have a single founder but grew organically, leading to a wide spectrum
+                      of beliefs and practices.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Core Beliefs and Philosophical Concepts
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Dharma: Cosmic Order and Righteous Duty</h3>
+                    <p className="mt-2">
+                      The inherent order of the universe and the righteous duties individuals must perform according to
+                      their nature (svabhava) and stage of life (ashrama). Following Dharma maintains cosmic and social
+                      harmony.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Karma: Action and Consequence</h3>
+                    <p className="mt-2">
+                      The universal law of cause and effect, where every action (karma) generates a corresponding
+                      reaction or consequence, shaping an individual's future experiences and rebirths.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Samsara: The Cycle of Rebirth</h3>
+                    <p className="mt-2">
+                      The continuous cycle of birth, death, and rebirth, driven by karma. The soul (Atman) transmigrates
+                      through various life forms until it achieves liberation.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Moksha: Liberation from Samsara</h3>
+                    <p className="mt-2">
+                      The ultimate goal in Hinduism – liberation from the cycle of Samsara and the attainment of
+                      spiritual freedom, self-realization, and union with the ultimate reality (Brahman).
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Brahman and Atman</h3>
+                    <p className="mt-2">
+                      <strong>Brahman:</strong> The ultimate, impersonal, and all-pervading reality or Supreme Cosmic Spirit.
+                      <br />
+                      <strong>Atman:</strong> The individual soul or self, which in many schools of thought is considered
+                      identical or part of Brahman.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Deities (Devas and Devis)</h3>
+                    <p className="mt-2">
+                      Hinduism is characterized by a pantheon of gods and goddesses, often seen as manifestations or
+                      aspects of the one Supreme Being (Brahman). Major deities include Brahma (the creator),
+                      Vishnu (the preserver), and Shiva (the destroyer), along with various forms of the Goddess (Devi).
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Overview of Sacred Texts
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Shruti ("That Which Is Heard")</h3>
+                    <p className="mt-2">Considered divinely revealed and eternal truths.</p>
+                    <ul className="mt-2">
+                      <li>
+                        <strong>Vedas:</strong> The oldest and most foundational texts (Rigveda, Yajurveda, Samaveda,
+                        Atharvaveda), containing hymns, rituals, and philosophical insights.
+                      </li>
+                      <li>
+                        <strong>Upanishads:</strong> Philosophical treatises, often forming the concluding parts of the
+                        Vedas (Vedanta), exploring concepts like Brahman, Atman, Karma, and Moksha.
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Smriti ("That Which Is Remembered")</h3>
+                    <p className="mt-2">Derived from Shruti, composed by sages, and more accessible.</p>
+                    <ul className="mt-2">
+                      <li>
+                        <strong>Epics (Itihasas):</strong>
+                        <ul className="ml-4">
+                          <li><em>Ramayana:</em> The story of Prince Rama, embodying dharma and ideals.</li>
+                          <li><em>Mahabharata:</em> An epic narrative including the Bhagavad Gita, a key philosophical text.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Puranas:</strong> Narratives about deities, cosmology, history, and genealogies, popularizing
+                        Hindu beliefs and practices.
+                      </li>
+                      <li>
+                        <strong>Dharma Shastras:</strong> Law books and codes of conduct (e.g., Manusmriti).
+                      </li>
+                      <li><strong>Agamas and Tantras:</strong> Texts detailing temple rituals, worship, and esoteric practices.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <Link href="/blog/origins-and-historical-development-of-hinduism" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Historical Development</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Delve deeper into the evolution of Hindu traditions.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-scriptures" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Scriptures</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Explore the sacred texts in more detail.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-philosophy" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Philosophy</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Understand the diverse philosophical schools.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore core concepts like{" "}
+                  <Link href="/hinduism/concepts/dharma" className="hover:underline">
+                    Dharma
+                  </Link>
+                  ,{" "}
+                  <Link href="/hinduism/concepts/karma" className="hover:underline">
+                    Karma
+                  </Link>
+                  , and{" "}
+                  <Link href="/hinduism/concepts/moksha" className="hover:underline">
+                    Moksha
+                  </Link>
+                  . Discover the wisdom of the{" "}
+                  <Link href="/hinduism/texts/vedas" className="hover:underline">
+                    Vedas
+                  </Link>
+                  and{" "}
+                  <Link href="/hinduism/texts/upanishads" className="hover:underline">
+                    Upanishads
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/hinduism">Explore Hinduism</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/blog/hinduism/deities">Major Hindu Deities</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

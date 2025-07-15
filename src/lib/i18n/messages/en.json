@@ -1,0 +1,209 @@
+{
+  "common": {
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "homeDescription": "Return to the main page",
+      "sacredTexts": "Sacred Texts",
+      "sacredTextsTitle": "Explore Sacred Texts",
+      "sacredTextsDescription": "Discover and study sacred texts from various religious traditions.",
+      "bible": "Bible",
+      "bibleDescription": "Explore the Christian Bible with commentaries and study tools.",
+      "quran": "Quran",
+      "quranDescription": "Study the Quran with translations and interpretations.",
+      "torah": "Torah",
+      "torahDescription": "Explore the Jewish Torah and related texts.",
+      "buddhistTexts": "Buddhist Texts",
+      "hinduScriptures": "Hindu Scriptures",
+      "allSacredTexts": "All Sacred Texts",
+      "studies": "Studies",
+      "studiesTitle": "Religious Studies",
+      "studiesDescription": "Academic and spiritual studies of religious traditions.",
+      "bibleStudies": "Bible Studies",
+      "bibleStudiesDescription": "In-depth study of biblical texts and theology.",
+      "theology": "Theology",
+      "theologyDescription": "Study of religious beliefs and doctrines.",
+      "churchHistory": "Church History",
+      "churchHistoryDescription": "Historical development of religious institutions.",
+      "studyGuides": "Study Guides",
+      "commentaries": "Commentaries",
+      "historicalContext": "Historical Context",
+      "comparativeStudies": "Comparative Studies",
+      "academicResources": "Academic Resources",
+      "teachings": "Teachings",
+      "teachingsTitle": "Religious Teachings",
+      "teachingsDescription": "Spiritual teachings and guidance from various traditions.",
+      "sermons": "Sermons",
+      "sermonsDescription": "Religious sermons and spiritual messages.",
+      "bibleTeachings": "Bible Teachings",
+      "bibleTeachingsDescription": "Biblical teachings and interpretations.",
+      "devotionals": "Devotionals",
+      "devotionalsDescription": "Daily devotional readings and reflections.",
+      "blog": "Blog",
+      "blogTitle": "Religious Studies Blog",
+      "blogDescription": "Articles and insights on various religious traditions and practices.",
+      "resources": "Resources",
+      "resourcesTitle": "Religious Resources",
+      "resourcesDescription": "Tools and resources for religious study and practice.",
+      "religiousHistory": "Religious History",
+      "sacredPlaces": "Sacred Places",
+      "religiousArt": "Religious Art",
+      "religiousMusic": "Religious Music",
+      "religiousCalendar": "Religious Calendar",
+      "meditation": "Meditation",
+      "meditationTitle": "Meditation Practices",
+      "meditationDescription": "Meditation techniques from various spiritual traditions.",
+      "christianMeditation": "Christian Meditation",
+      "buddhistMeditation": "Buddhist Meditation",
+      "islamicMeditation": "Islamic Meditation",
+      "hinduMeditation": "Hindu Meditation",
+      "modernPractices": "Modern Practices",
+      "allMeditation": "All Meditation",
+      "login": "Login",
+      "register": "Register",
+      "hinduism": "Hinduism",
+      "hinduismDescription": "Explore Hindu philosophy, practices, and traditions.",
+      "buddhism": "Buddhism",
+      "buddhismDescription": "Learn about Buddhist teachings, meditation, and practices.",
+      "about": "About"
+    }
+  },
+  "religions": {
+    "hinduism": {
+      "title": "Hinduism",
+      "description": "Explore Hindu philosophy, practices, and traditions.",
+      "links": [
+        "Sacred Texts",
+        "Philosophy",
+        "Practices",
+        "Festivals"
+      ]
+    },
+    "buddhism": {
+      "title": "Buddhism",
+      "description": "Learn about Buddhist teachings, meditation, and practices.",
+      "links": [
+        "Sacred Texts",
+        "Meditation",
+        "Philosophy",
+        "Traditions"
+      ]
+    },
+    "jainism": {
+      "title": "Jainism",
+      "description": "Discover Jain philosophy and spiritual practices.",
+      "links": [
+        "Sacred Texts",
+        "Principles",
+        "Practices",
+        "History"
+      ]
+    },
+    "christianity": {
+      "title": "Christianity",
+      "description": "Explore Christian faith, teachings, and traditions.",
+      "links": [
+        "Bible",
+        "Theology",
+        "History",
+        "Practices"
+      ]
+    },
+    "islam": {
+      "title": "Islam",
+      "description": "Learn about Islamic faith, practices, and traditions.",
+      "links": [
+        "Quran",
+        "Hadith",
+        "Prayer",
+        "History"
+      ]
+    },
+    "judaism": {
+      "title": "Judaism",
+      "description": "Explore Jewish faith, traditions, and sacred texts.",
+      "links": [
+        "Torah",
+        "Talmud",
+        "Traditions",
+        "History"
+      ]
+    },
+    "sikhism": {
+      "title": "Sikhism",
+      "description": "Discover Sikh faith, practices, and sacred texts.",
+      "links": [
+        "Guru Granth Sahib",
+        "Practices",
+        "History",
+        "Traditions"
+      ]
+    },
+    "shinto": {
+      "title": "Shinto",
+      "description": "Learn about Shinto beliefs and practices.",
+      "links": [
+        "Sacred Texts",
+        "Practices",
+        "Shrines",
+        "History"
+      ]
+    },
+    "taoism": {
+      "title": "Taoism",
+      "description": "Explore Taoist philosophy and practices.",
+      "links": [
+        "Tao Te Ching",
+        "Philosophy",
+        "Practices",
+        "History"
+      ]
+    },
+    "bahai": {
+      "title": "Bahá'í Faith",
+      "description": "Discover Bahá'í teachings and principles.",
+      "links": [
+        "Sacred Texts",
+        "Principles",
+        "History",
+        "Practices"
+      ]
+    },
+    "confucianism": {
+      "title": "Confucianism",
+      "description": "Learn about Confucian philosophy and ethics.",
+      "links": [
+        "Analects",
+        "Philosophy",
+        "Ethics",
+        "History"
+      ]
+    },
+    "rastafarianism": {
+      "title": "Rastafarianism",
+      "description": "Explore Rastafarian beliefs and culture.",
+      "links": [
+        "Beliefs",
+        "Culture",
+        "History",
+        "Practices"
+      ]
+    }
+  },
+  "resources": {
+    "description": "Tools and resources for religious study and practice."
+  },
+  "Metadata": {
+    "title": "ZION.FM - Your Faith, Your Music, Your Station",
+    "description": "Explore sacred texts, religious studies, and spiritual music from various traditions.",
+    "keywords": "religion, sacred texts, bible, quran, buddhism, hinduism, meditation, spiritual music",
+    "author": "ZION.FM Team",
+    "creator": "ZION.FM",
+    "publisher": "ZION.FM",
+    "siteName": "ZION.FM",
+    "twitterCreator": "@zionfm",
+    "googleVerification": "your-google-verification-code",
+    "yandexVerification": "your-yandex-verification-code",
+    "yahooVerification": "your-yahoo-verification-code"
+  }
+} 

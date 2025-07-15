@@ -1,0 +1,332 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Islamic Worship: Connecting with the Divine | Religious Studies Blog",
+  description: "Explore the comprehensive system of Islamic worship (Ibadah), including daily prayers, fasting, charity, and pilgrimage, along with their spiritual significance.",
+  openGraph: {
+    title: "Islamic Worship: Connecting with the Divine | Religious Studies Blog",
+    description: "Comprehensive guide to Islamic worship practices and their spiritual dimensions",
+  type: "article",
+    images: [
+      {
+        url: "/images/islamic-worship.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Islamic Worship",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Islamic Worship: Connecting with the Divine",
+    description: "Comprehensive guide to Islamic worship practices and their spiritual dimensions",
+    images: ["/images/islamic-worship.jpg"],
+  },
+};
+
+export default function IslamicWorship() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Worship: Connecting with the Divine | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Worship: Connecting with the Divine | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Worship</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Worship: Connecting with the Divine
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Religious Practice</Badge>
+            <Badge variant="secondary">Devotional Acts</Badge>
+            <Badge variant="secondary">Spiritual Connection</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Worship (Ibadah) in Islam encompasses all acts of devotion, both ritual and practical,
+            that bring a believer closer to Allah. These practices combine physical actions with
+            spiritual mindfulness, creating a comprehensive system of worship that impacts every
+            aspect of a Muslim's life.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Daily Prayers (Salah)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Prayer Requirements</h3>
+                    <ul className="mt-2">
+                      <li>Ritual purification (Wudu)</li>
+                      <li>Proper timing</li>
+                      <li>Direction (Qiblah)</li>
+                      <li>Intention (Niyyah)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Prayer Components</h3>
+                    <ul className="mt-2">
+                      <li>Physical movements</li>
+                      <li>Quranic recitation</li>
+                      <li>Supplications</li>
+                      <li>Mindful presence</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Fasting (Sawm)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Ramadan Practices</h3>
+                    <ul className="mt-2">
+                      <li>Dawn to sunset fasting</li>
+                      <li>Increased worship</li>
+                      <li>Quran recitation</li>
+                      <li>Night prayers (Taraweeh)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Spiritual Benefits</h3>
+                    <ul className="mt-2">
+                      <li>Self-discipline</li>
+                      <li>Spiritual awareness</li>
+                      <li>Community bonding</li>
+                      <li>Charitable giving</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Charity (Zakat)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Obligatory Charity</h3>
+                    <ul className="mt-2">
+                      <li>Annual calculation</li>
+                      <li>Eligible recipients</li>
+                      <li>Types of wealth</li>
+                      <li>Distribution methods</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Voluntary Charity</h3>
+                    <ul className="mt-2">
+                      <li>Regular giving</li>
+                      <li>Emergency relief</li>
+                      <li>Community support</li>
+                      <li>Hidden charity</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Pilgrimage (Hajj)
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Rituals</h3>
+                    <ul className="mt-2">
+                      <li>Circumambulation (Tawaf)</li>
+                      <li>Standing at Arafah</li>
+                      <li>Stoning pillars</li>
+                      <li>Animal sacrifice</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Preparation</h3>
+                    <ul className="mt-2">
+                      <li>Physical readiness</li>
+                      <li>Financial ability</li>
+                      <li>Spiritual preparation</li>
+                      <li>Travel arrangements</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Additional Acts of Worship
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Voluntary Prayers</h3>
+                    <ul className="mt-2">
+                      <li>Night prayer (Tahajjud)</li>
+                      <li>Mid-morning prayer (Duha)</li>
+                      <li>Post-prayer litanies</li>
+                      <li>Special occasion prayers</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Other Practices</h3>
+                    <ul className="mt-2">
+                      <li>Quran recitation</li>
+                      <li>Remembrance (Dhikr)</li>
+                      <li>Seeking knowledge</li>
+                      <li>Good character</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-spirituality" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Spirituality</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Explore the inner dimensions of worship practices
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/islamic-festivals" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Festivals</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Learn about special occasions of communal worship
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Deepen your understanding through our{" "}
+                  <Link href="/religion/islam/worship" className="hover:underline">
+                    Islamic Worship
+                  </Link>{" "}
+                  section. Compare devotional practices in our{" "}
+                  <Link href="/religion/comparative-worship" className="hover:underline">
+                    Comparative Worship
+                  </Link>{" "}
+                  guide.
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/islam/worship">Explore Islamic Worship</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/religion/comparative-worship">Compare Worship Practices</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

@@ -1,0 +1,199 @@
+import { Metadata } from "next"
+import Link from "next/link"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+export const metadata: Metadata = {
+  title: "Hindu Sacred Texts: Shruti (Vedas, Upanishads) & Smriti (Epics, Puranas, Dharma Shastras) | Religious Studies Blog",
+  description: "An overview of Hindu sacred texts, distinguishing Shruti (Vedas, Upanishads - divinely revealed) from Smriti (Epics, Puranas, Dharma Shastras - remembered traditions). Explore their core teachings and significance.",
+  openGraph: {
+    title: "Hindu Sacred Texts: Shruti (Vedas, Upanishads) & Smriti (Epics, Puranas, Dharma Shastras) | Religious Studies Blog",
+    description: "Dive into the vast ocean of Hindu scriptures. Learn about the eternal truths of Shruti (Vedas, Upanishads) and the guiding narratives and laws of Smriti (Epics, Puranas, Dharma Shastras).",
+    type: "article",
+    images: [
+      {
+        url: "/images/hindu-sacred-texts.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Compilation of Hindu Sacred Texts",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hindu Sacred Texts: Shruti & Smriti Explored",
+    description: "Understand the categories and key texts of Hindu scriptures, from the Vedas and Upanishads (Shruti) to the Epics, Puranas, and Dharma Shastras (Smriti).",
+    images: ["/images/hindu-sacred-texts.jpg"], // Placeholder - ensure image exists
+  },
+}
+
+export default function HinduScripturesPage() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/hinduism" className="hover:underline">
+            Hinduism
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Sacred Texts</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Sacred Texts: Shruti and Smriti
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Shruti</Badge>
+            <Badge variant="secondary">Smriti</Badge>
+            <Badge variant="secondary">Vedas</Badge>
+            <Badge variant="secondary">Upanishads</Badge>
+            <Badge variant="secondary">Epics</Badge>
+            <Badge variant="secondary">Puranas</Badge>
+            <Badge variant="secondary">Dharma Shastras</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            The sacred scriptures of Hinduism form a vast and diverse body of literature, broadly categorized into
+            Shruti (that which is heard, or divinely revealed) and Smriti (that which is remembered, or traditional texts).
+            Together, they provide profound spiritual wisdom, ethical guidance, and mythological narratives that shape Hindu thought and practice.
+          </p>
+
+          <ScrollArea className="h-[700px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">Shruti: Divine Revelation</h2>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Shruti texts are considered eternal, authorless (apaurusheya), and directly heard by ancient sages (Rishis).
+                  They are the ultimate authority in Hinduism.
+                </p>
+                <Separator className="my-4" />
+                <div className="space-y-6">
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">The Vedas</h3>
+                    <p className="mt-1 text-sm">The oldest and most foundational Shruti texts, comprising four collections:</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Rigveda:</strong> Hymns of praise and invocation to deities.</li>
+                      <li><strong>Yajurveda:</strong> Prose mantras and formulas for sacrificial rites (Yajna).</li>
+                      <li><strong>Samaveda:</strong> Melodies and chants derived from the Rigveda for liturgical purposes.</li>
+                      <li><strong>Atharvaveda:</strong> Spells, incantations, and speculative hymns related to daily life and esoteric knowledge.</li>
+                    </ul>
+                    <p className="mt-2 text-xs">Each Veda is further divided into Samhitas (hymns), Brahmanas (ritual treatises), Aranyakas (forest texts/philosophical interpretations of rituals), and Upanishads.</p>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">The Upanishads (Vedanta)</h3>
+                    <p className="mt-1 text-sm">Forming the concluding portions of the Vedas (Vedanta - "end of the Vedas"), these texts delve into profound philosophical and spiritual truths.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Core Concepts:</strong> Explore Brahman (Ultimate Reality), Atman (the individual Self/Soul), the identity of Brahman and Atman, Karma (action and consequence), Samsara (cycle of rebirth), and Moksha (liberation).</li>
+                      <li><strong>Principal Upanishads:</strong> Include texts like Isha, Kena, Katha, Prashna, Mundaka, Mandukya, Taittiriya, Aitareya, Chandogya, and Brihadaranyaka.</li>
+                      <li><strong>Nature:</strong> Highly philosophical, emphasizing meditation, self-realization, and the path of knowledge (Jnana Yoga).</li>
+                    </ul>
+                  </Card>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">Smriti: Remembered Traditions</h2>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Smriti texts are derived from Shruti, composed by human sages, and adapt eternal truths for different times and contexts.
+                  They are authoritative but secondary to Shruti.
+                </p>
+                <Separator className="my-4" />
+                <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2">
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Epics (Itihasas)</h3>
+                    <p className="mt-1 text-sm">Grand narrative poems illustrating dharma through stories of heroes and divine interventions.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Ramayana:</strong> Attributed to Valmiki, recounts the life and adventures of Lord Rama, an avatar of Vishnu, emphasizing ideal conduct and dharma.</li>
+                      <li><strong>Mahabharata:</strong> Attributed to Vyasa, one of the longest poems in the world, detailing the Kurukshetra War. It includes the Bhagavad Gita, a profound philosophical dialogue on dharma, devotion, and yoga.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Puranas</h3>
+                    <p className="mt-1 text-sm">Literally "ancient tales," these texts popularize Vedic teachings through myths, legends, cosmology, genealogies of gods and kings, and descriptions of religious practices.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Major Puranas:</strong> Traditionally eighteen Mahapuranas (e.g., Vishnu Purana, Shiva Purana, Bhagavata Purana, Markandeya Purana, Padma Purana).</li>
+                      <li><strong>Focus:</strong> Often centered on specific deities like Vishnu, Shiva, or Devi, and crucial for Bhakti traditions.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Dharma Shastras</h3>
+                    <p className="mt-1 text-sm">Treatises on dharma (righteousness, duty, law), covering social customs, ethics, civil and criminal law, and personal conduct for different stages of life (Ashramas) and social orders (Varnas).</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Key Texts:</strong> Manusmriti (Laws of Manu), Yajnavalkya Smriti, Narada Smriti.</li>
+                      <li><strong>Content:</strong> Guidelines for righteous living, societal harmony, and individual responsibilities.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Other Smriti Texts</h3>
+                    <ul className="mt-1 text-xs list-disc pl-4">
+                      <li><strong>Agamas and Tantras:</strong> Sectarian scriptures detailing specific forms of worship, temple construction, rituals, and yogic practices for traditions centered on Vishnu (Pancharatra), Shiva (Shaiva Agamas), and Shakti (Shakta Tantras).</li>
+                      <li><strong>Sutra Literature:</strong> Concise aphoristic texts summarizing complex philosophical or ritual systems (e.g., Yoga Sutras of Patanjali, Brahma Sutras of Badarayana, Grihya Sutras for domestic rituals).</li>
+                    </ul>
+                  </Card>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-3">
+                <Link href="/blog/introduction-to-hinduism" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Intro to Hinduism</h3>
+                    <p className="text-sm text-muted-foreground">Context for sacred texts.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-philosophy" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Philosophy</h3>
+                    <p className="text-sm text-muted-foreground">Schools of thought based on texts.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/the-vedas-and-upanishads" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">The Vedas & Upanishads Deep Dive</h3>
+                    <p className="text-sm text-muted-foreground">Explore Shruti in detail.</p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the profound dialogue of the{" "}
+                  <Link href="/hinduism/texts/bhagavad-gita-summary" className="hover:underline">
+                    Bhagavad Gita
+                  </Link>
+                  , delve into the allegorical tales within the{" "}
+                  <Link href="/hinduism/texts/puranas-stories" className="hover:underline">
+                    Puranas
+                  </Link>
+                  , or contemplate the core philosophical inquiries of the{" "}
+                  <Link href="/hinduism/texts/upanishads-concepts" className="hover:underline">
+                    Upanishads
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/concepts/shruti-vs-smriti">Shruti vs. Smriti Detailed</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/texts/ramayana-overview">Ramayana: Story and Lessons</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )
+} 

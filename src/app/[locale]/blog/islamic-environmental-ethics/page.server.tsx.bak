@@ -1,0 +1,303 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Islamic Views on Environmentalism & Animal Welfare | Religious Studies Blog",
+  description: "Explore Islamic teachings on environmental stewardship (Khalifa) and animal welfare. Understand Quranic principles, Prophetic examples (Hadith on conservation, kindness to animals), and contemporary ethical challenges.",
+  openGraph: {
+    title: "Islamic Views on Environmentalism & Animal Welfare | Religious Studies Blog",
+    description: "A comprehensive guide to Islam's approach to environmental ethics and animal rights, detailing concepts like Mizan (balance), Amanah (trust), and the responsibility towards all creatures.",
+  type: "article",
+    images: [
+      {
+        url: "/images/islamic-environmentalism-animal-welfare.jpg", // Placeholder - ensure image exists
+        width: 1200,
+        height: 630,
+        alt: "Islamic Environmentalism and Animal Welfare",
+}
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Islamic Views on Environmentalism & Animal Welfare",
+    description: "Explore Islamic teachings on environmental stewardship and animal welfare, including Quranic principles and Prophetic examples.",
+    images: ["/images/islamic-environmentalism-animal-welfare.jpg"], // Placeholder - ensure image exists
+  },
+};
+
+export default function IslamicEnvironmentalEthics() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Views on Environmentalism & Animal Welfare | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Views on Environmentalism & Animal Welfare | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/islam" className="hover:underline">
+            Islam
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Environmentalism & Animal Welfare</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Islamic Views on Environmentalism and Animal Welfare
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Khalifa (Stewardship)</Badge>
+            <Badge variant="secondary">Mizan (Balance)</Badge>
+            <Badge variant="secondary">Animal Rights in Islam</Badge>
+            <Badge variant="secondary">Islamic Ethics</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Islam provides a holistic framework for environmental stewardship and the ethical treatment of animals,
+            emphasizing humanity's role as vicegerents (Khalifa) on Earth. This involves maintaining balance (Mizan),
+            upholding trusts (Amanah), and showing compassion to all living beings as part of God's creation.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Quranic Principles for Environmental Stewardship & Animal Welfare
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Core Concepts</h3>
+                    <ul className="mt-2">
+                      <li><strong>Khalifa (Vicegerency/Stewardship):</strong> Humans are entrusted by God to care for the Earth. (e.g., Al-Baqarah 2:30)</li>
+                      <li><strong>Mizan (Balance):</strong> God created everything in perfect balance, and humans must not disrupt it. (e.g., Ar-Rahman 55:7-9)</li>
+                      <li><strong>Amanah (Trust):</strong> The environment and its creatures are a trust from God. (e.g., Al-Ahzab 33:72)</li>
+                      <li><strong>Tawhid (Oneness of God):</strong> Recognizing that all creation praises God and reflects His attributes. (e.g., Al-Isra 17:44)</li>
+                      <li><strong>Umam (Communities):</strong> Animals and birds are described as communities like humans. (Al-An'am 6:38)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Specific Injunctions</h3>
+                    <ul className="mt-2">
+                      <li>Prohibition of Fasad (Corruption/Mischief) in the land. (e.g., Al-A'raf 7:56)</li>
+                      <li>Emphasis on sustainable use of resources (water, land).</li>
+                      <li>Kindness and provision for animals.</li>
+                      <li>Condemnation of cruelty and unnecessary harm to any creature.</li>
+                      <li>Accountability for actions towards the environment and animals.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Prophetic Teachings (Sunnah) on Conservation and Animal Rights
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Environmental Practices</h3>
+                    <ul className="mt-2">
+                      <li>Encouragement of planting trees and cultivating land.</li>
+                      <li>Prohibition against wasting water, even during ablution (Wudu).</li>
+                      <li>Establishment of protected areas (Hima) for conservation.</li>
+                      <li>Teachings on cleanliness of public spaces.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Kindness to Animals (Rifq bil-Hayawan)</h3>
+                    <ul className="mt-2">
+                      <li>Numerous Hadith emphasizing mercy towards animals.</li>
+                      <li>Prohibition of animal abuse, overburdening, and sport hunting for no purpose.</li>
+                      <li>Instructions for humane slaughter (Dhabihah).</li>
+                      <li>Narrations of forgiveness for showing kindness to animals (e.g., a thirsty dog).</li>
+                      <li>Animals have rights to food, water, and proper care.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Historical Applications and Islamic Civilization
+                </h2>
+                <Separator className="my-4" />
+                <ul className="mt-2">
+                  <li>Development of water management systems (irrigation, fountains).</li>
+                  <li>Creation of gardens and green spaces in Islamic cities.</li>
+                  <li>Legal provisions for animal welfare in Islamic jurisprudence (Fiqh).</li>
+                  <li>Waqf (charitable endowments) established for the care of stray animals or wells for watering animals.</li>
+                  <li>Ethical guidelines for agriculture and resource use.</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6">
+                <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                  Contemporary Environmental and Animal Welfare Challenges
+                </h2>
+                <Separator className="my-4" />
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Modern Issues</h3>
+                    <ul className="mt-2">
+                      <li>Climate change and its impact on Muslim-majority countries.</li>
+                      <li>Deforestation, desertification, and water scarcity.</li>
+                      <li>Pollution (air, water, plastic).</li>
+                      <li>Industrial farming practices and animal cruelty concerns.</li>
+                      <li>Loss of biodiversity and endangered species.</li>
+                      <li>Overconsumption and wastefulness.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Islamic Responses and Initiatives</h3>
+                    <ul className="mt-2">
+                      <li>Emergence of Islamic environmental organizations and activism.</li>
+                      <li>Development of "Eco-Mosques" and green initiatives.</li>
+                      <li>Calls for ethical consumption and sustainable lifestyles.</li>
+                      <li>Scholarly discourse on applying Islamic principles to modern challenges (Eco-Fiqh).</li>
+                      <li>Interfaith collaboration on environmental protection and animal rights.</li>
+                      <li>Promotion of humane and sustainable agriculture (Halal Tayyib).</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/islamic-perspectives-on-social-justice-and-human-rights" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Social Justice & Human Rights in Islam</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Extending justice and rights to all creation.
+                    </p>
+                  </Card>
+                </Link>
+                <Link href="/blog/islamic-ethics" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Islamic Ethics (Akhlaq)</h3>
+                    <p className="text-sm text-muted-foreground">
+                      The moral framework for responsible stewardship.
+                    </p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the concept of{" "}
+                  <Link href="/islam/concepts/khalifa" className="hover:underline">
+                    Khalifa (Stewardship)
+                  </Link>
+                  in more detail, or learn about specific Prophetic teachings on{" "}
+                  <Link href="/islam/hadith/animal-welfare" className="hover:underline">
+                    Animal Welfare in Hadith
+                  </Link>
+                  . Discover contemporary{" "}
+                  <Link href="/islam/movements/islamic-environmentalism" className="hover:underline">
+                    Islamic Environmental Movements
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/concepts/mizan">The Principle of Mizan</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/islam/fiqh/eco-fiqh">Eco-Fiqh (Islamic Environmental Jurisprudence)</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

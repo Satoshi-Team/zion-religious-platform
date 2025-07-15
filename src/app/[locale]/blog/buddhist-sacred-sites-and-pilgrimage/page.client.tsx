@@ -1,0 +1,212 @@
+import { Metadata } from "next"
+import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Buddhist Sacred Sites and Pilgrimage | Religious Studies Blog",
+  description: "Explore Buddhist pilgrimage traditions, sacred sites, and their spiritual significance. Learn about the Four Great Places, regional holy sites, and contemporary pilgrimage practices.",
+  openGraph: {
+    title: "Buddhist Sacred Sites and Pilgrimage | Religious Studies Blog",
+    description: "Comprehensive guide to Buddhist pilgrimage traditions and sacred places",
+    type: "article",
+  },
+}
+
+export default function BuddhistSacredSitesPage() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-4">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span>•</span>
+          <Link href="/religion/buddhism" className="hover:underline">
+            Buddhism
+          </Link>
+          <span>•</span>
+          <span>Sacred Sites</span>
+        </div>
+
+        <h1>Buddhist Sacred Sites and Pilgrimage: Journeys of Faith</h1>
+
+        <div className="space-y-6">
+          <p>
+            Buddhist sacred sites serve as powerful focal points for devotion and spiritual practice,
+            connecting practitioners with the historical Buddha and the living tradition. Pilgrimage to
+            these places has been an important religious practice since the earliest days of Buddhism,
+            continuing to inspire and transform practitioners in the modern world.
+          </p>
+
+          <h2>The Four Great Places</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>Primary Sites:</h3>
+              <ul>
+                <li>Lumbinī (Birth)</li>
+                <li>Bodh Gayā (Enlightenment)</li>
+                <li>Sārnāth (First Teaching)</li>
+                <li>Kuśinagara (Parinirvāṇa)</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Historical Context:</h3>
+              <ul>
+                <li>Buddha's recommendation</li>
+                <li>Aśoka's patronage</li>
+                <li>Archaeological evidence</li>
+                <li>Textual references</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Regional Sacred Sites</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>South Asia:</h3>
+              <ul>
+                <li>Rājagṛha sites</li>
+                <li>Śrāvastī remains</li>
+                <li>Nālandā university</li>
+                <li>Sri Lankan temples</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>East Asia:</h3>
+              <ul>
+                <li>Mount Wutai</li>
+                <li>Famen Temple</li>
+                <li>Mount Kōya</li>
+                <li>Shwedagon Pagoda</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Types of Sacred Places</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>Natural Sites:</h3>
+              <ul>
+                <li>Sacred mountains</li>
+                <li>Holy caves</li>
+                <li>Sacred groves</li>
+                <li>Blessed springs</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Built Environments:</h3>
+              <ul>
+                <li>Ancient monasteries</li>
+                <li>Stūpa complexes</li>
+                <li>Temple cities</li>
+                <li>Meditation centers</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Pilgrimage Practices</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>Traditional Methods:</h3>
+              <ul>
+                <li>Walking pilgrimages</li>
+                <li>Prostration journeys</li>
+                <li>Circuit completion</li>
+                <li>Sacred viewing</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Devotional Activities:</h3>
+              <ul>
+                <li>Offerings and prayers</li>
+                <li>Meditation practice</li>
+                <li>Text recitation</li>
+                <li>Merit dedication</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Modern Pilgrimage</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>Contemporary Access:</h3>
+              <ul>
+                <li>Organized tours</li>
+                <li>Transport networks</li>
+                <li>Accommodation facilities</li>
+                <li>Guide services</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Modern Challenges:</h3>
+              <ul>
+                <li>Site preservation</li>
+                <li>Tourist impact</li>
+                <li>Development pressure</li>
+                <li>Political issues</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Sacred Geography</h2>
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <h3>Symbolic Landscapes:</h3>
+              <ul>
+                <li>Maṇḍala patterns</li>
+                <li>Sacred mountains</li>
+                <li>Pure lands</li>
+                <li>Power places</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Sacred Networks:</h3>
+              <ul>
+                <li>Pilgrimage routes</li>
+                <li>Temple circuits</li>
+                <li>Holy regions</li>
+                <li>Sacred axes</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Related Topics</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            <Link
+              href="/blog/buddhist-art-and-architecture"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">Buddhist Art</h3>
+              <p className="text-sm text-muted-foreground">
+                Explore the art and architecture of sacred sites
+              </p>
+            </Link>
+            <Link
+              href="/blog/buddhist-festivals-and-rituals"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">Festivals and Rituals</h3>
+              <p className="text-sm text-muted-foreground">
+                Learn about ceremonies at sacred places
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-8 rounded-lg bg-muted p-4">
+            <h3 className="text-lg font-semibold">Further Study</h3>
+            <p className="text-sm text-muted-foreground">
+              Deepen your understanding through our{" "}
+              <Link href="/religion/buddhism/pilgrimage" className="hover:underline">
+                Buddhist Pilgrimage
+              </Link>{" "}
+              section. Explore sacred geography in our{" "}
+              <Link href="/religion/sacred-places" className="hover:underline">
+                Sacred Places
+              </Link>{" "}
+              guide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  )
+} 

@@ -1,0 +1,309 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Hindu Festivals: Diwali, Holi, Navaratri & More | Significance & Celebrations | Religious Studies Blog",
+  description: "Explore major Hindu festivals like Diwali, Holi, Navaratri, Ganesh Chaturthi, and Shivaratri. Understand their spiritual significance, stories, rituals, and cultural celebrations across India and the world.",
+  openGraph: {
+    title: "Hindu Festivals: Diwali, Holi, Navaratri & More | Significance & Celebrations | Religious Studies Blog",
+    description: "Explore major Hindu festivals like Diwali, Holi, Navaratri, Ganesh Chaturthi, and Shivaratri. Understand their spiritual significance, stories, rituals, and cultural celebrations across India and the world.",
+    type: "article",
+    url: "/blog/festivals-in-hinduism",
+    images: [
+      {
+        url: "/images/blog/festivals-in-hinduism.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hindu Festivals: Diwali, Holi, Navaratri & More | Significance & Celebrations | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function FestivalsInHinduism() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Festivals: Diwali, Holi, Navaratri & More | Significance & Celebrations | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Festivals: Diwali, Holi, Navaratri & More | Significance & Celebrations | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span aria-hidden="true">•</span>
+          <Link href="/religion/hinduism" className="hover:underline">
+            Hinduism
+          </Link>
+          <span aria-hidden="true">•</span>
+          <span aria-current="page">Hindu Festivals</span>
+        </nav>
+
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Festivals: Celebrations of Faith and Culture
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Diwali</Badge>
+            <Badge variant="secondary">Holi</Badge>
+            <Badge variant="secondary">Navaratri</Badge>
+            <Badge variant="secondary">Ganesh Chaturthi</Badge>
+            <Badge variant="secondary">Shivaratri</Badge>
+            <Badge variant="secondary">Puja</Badge>
+            <Badge variant="secondary">Lunar Calendar</Badge>
+          </div>
+        </header>
+
+        <div className="space-y-6">
+          <p className="text-xl text-muted-foreground">
+            Hindu festivals, or Utsavas, are vibrant expressions of faith, culture, and community. Rooted in ancient
+            traditions, scriptures, and seasonal cycles, these celebrations mark important mythological events,
+            honor deities, and reinforce social and familial bonds with joyous rituals and spiritual practices.
+          </p>
+
+          <ScrollArea className="h-[600px] rounded-md border p-4">
+            <div className="space-y-8">
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Major Hindu Festivals</h2>
+                <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2">
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Diwali (Deepavali) - Festival of Lights</h3>
+                    <p className="mt-1 text-sm">Celebrates the victory of light over darkness, good over evil, and knowledge over ignorance. Commemorates Lord Rama's return to Ayodhya.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> Triumph of righteousness, inner illumination.</li>
+                      <li><strong>Rituals:</strong> Lighting diyas (lamps), Lakshmi Puja, fireworks, feasting, exchanging gifts.</li>
+                      <li><strong>Deities:</strong> Lakshmi, Ganesha, Rama.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Holi - Festival of Colors</h3>
+                    <p className="mt-1 text-sm">A vibrant festival celebrating spring, love, and the triumph of good over evil (Holika Dahan). Known for playful throwing of colored powders and water.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> Arrival of spring, divine love of Radha-Krishna, forgiveness.</li>
+                      <li><strong>Rituals:</strong> Holika Dahan (bonfire), playing with colors, singing, dancing.</li>
+                      <li><strong>Deities:</strong> Krishna, Radha, Vishnu (Narasimha).</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Navaratri - Nine Nights of the Goddess</h3>
+                    <p className="mt-1 text-sm">A nine-night festival dedicated to the worship of Goddess Durga in her various forms, celebrating feminine divinity and power (Shakti).</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> Victory of Durga over Mahishasura, divine feminine power.</li>
+                      <li><strong>Rituals:</strong> Fasting, Puja, Garba/Dandiya dances, chanting, storytelling. Vijayadashami (Dussehra) marks the culmination.</li>
+                      <li><strong>Deities:</strong> Durga, Lakshmi, Saraswati.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Ganesh Chaturthi - Birth of Lord Ganesha</h3>
+                    <p className="mt-1 text-sm">Celebrates the birth of Lord Ganesha, the remover of obstacles and god of wisdom and beginnings. Marked by installing and worshipping Ganesha idols.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> New beginnings, removal of obstacles, wisdom.</li>
+                      <li><strong>Rituals:</strong> Idol installation, Puja, offerings (especially Modak), cultural events, immersion (Visarjan).</li>
+                      <li><strong>Deity:</strong> Ganesha.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Maha Shivaratri - Great Night of Shiva</h3>
+                    <p className="mt-1 text-sm">An annual festival dedicated to Lord Shiva, marking his marriage to Parvati and the night he performed the Tandava dance.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> Overcoming darkness and ignorance, cosmic dance of creation and destruction.</li>
+                      <li><strong>Rituals:</strong> All-night vigil, fasting, chanting "Om Namah Shivaya", lingam abhishekam.</li>
+                      <li><strong>Deity:</strong> Shiva.</li>
+                    </ul>
+                  </Card>
+                  <Card className="p-4 bg-muted/40">
+                    <h3 className="text-lg font-medium">Krishna Janmashtami - Birth of Lord Krishna</h3>
+                    <p className="mt-1 text-sm">Celebrates the birth of Lord Krishna, the eighth avatar of Vishnu. Observed with fasting, devotional singing, and reenactments of Krishna's life.</p>
+                    <ul className="mt-2 text-xs list-disc pl-4">
+                      <li><strong>Significance:</strong> Divine love, playfulness, and wisdom of Krishna.</li>
+                      <li><strong>Rituals:</strong> Fasting, midnight Puja, Dahi Handi, Bhajans, Kirtans.</li>
+                      <li><strong>Deity:</strong> Krishna.</li>
+                    </ul>
+                  </Card>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Seasonal & Harvest Festivals</h2>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-lg font-medium">Makar Sankranti / Pongal</h3>
+                    <p className="mt-1 text-sm">Marks the sun's transit into Makara (Capricorn), signaling longer days. Celebrated as a harvest festival with regional variations like Pongal in Tamil Nadu.</p>
+                    <ul className="mt-2 text-xs">
+                      <li>Practices: Kite flying, bonfires, special foods (til-gud, pongal dish).</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium">Onam</h3>
+                    <p className="mt-1 text-sm">A major harvest festival in Kerala, celebrating the homecoming of the mythical King Mahabali.</p>
+                    <ul className="mt-2 text-xs">
+                      <li>Practices: Pookkalam (floral carpets), Onasadya (feast), snake boat races.</li>
+                    </ul>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Other Significant Festivals</h2>
+                <ul className="list-disc pl-4 text-sm">
+                  <li><strong>Rama Navami:</strong> Celebrates the birth of Lord Rama.</li>
+                  <li><strong>Hanuman Jayanti:</strong> Celebrates the birth of Lord Hanuman.</li>
+                  <li><strong>Raksha Bandhan:</strong> Celebrates the bond between brothers and sisters.</li>
+                  <li><strong>Vasant Panchami:</strong> Dedicated to Goddess Saraswati, the goddess of knowledge and arts.</li>
+                  <li><strong>Guru Purnima:</strong> Honors spiritual teachers (gurus).</li>
+                </ul>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-3">
+                <Link href="/blog/hindu-rituals-and-worship" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Rituals & Worship</h3>
+                    <p className="text-sm text-muted-foreground">Explore Puja, Homa, and Yajna.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/major-deities" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Major Hindu Deities</h3>
+                    <p className="text-sm text-muted-foreground">Learn about gods and goddesses.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/hindu-calendar-system" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Calendar System</h3>
+                    <p className="text-sm text-muted-foreground">Understand how festival dates are set.</p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Delve into the stories behind{" "}
+                  <Link href="/hinduism/festivals/diwali-story" className="hover:underline">
+                    Diwali and the Ramayana
+                  </Link>
+                  , understand the symbolism of{" "}
+                  <Link href="/hinduism/festivals/holi-colors" className="hover:underline">
+                    Colors in Holi
+                  </Link>
+                  , or explore the nine forms of{" "}
+                  <Link href="/hinduism/deities/durga-navaratri" className="hover:underline">
+                    Durga worshipped during Navaratri
+                  </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/texts/puranas">Puranic Stories of Festivals</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/culture/regional-festivals">Regional Festival Variations</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

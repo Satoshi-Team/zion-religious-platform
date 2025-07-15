@@ -1,0 +1,87 @@
+[
+  {
+    "id": "liangyou-radio",
+    "name": "良友电台 (Liangyou Radio)",
+    "url": "https://lyvideo.lysn.net/live/LianYou734",
+    "favicon": "https://www.liangyou.net/favicon.ico",
+    "genre": "Christian Contemporary",
+    "country": "China",
+    "language": "Chinese",
+    "tags": [
+      "christian",
+      "mandarin",
+      "teaching"
+    ],
+    "bitrate": 128,
+    "codec": "MP3",
+    "isVerified": true
+  },
+  {
+    "id": "glory-gospel",
+    "name": "荣光福音广播 (Glory Gospel)",
+    "url": "https://stream.glory.org.tw/live/live.asx",
+    "favicon": "/images/radio-fallback.png",
+    "genre": "Christian Teaching",
+    "country": "Taiwan",
+    "language": "Chinese",
+    "tags": [
+      "christian",
+      "mandarin",
+      "gospel"
+    ],
+    "bitrate": 128,
+    "codec": "MP3",
+    "isVerified": true
+  },
+  {
+    "id": "voice-of-salvation",
+    "name": "救恩之声 (Voice of Salvation)",
+    "url": "https://streaming.radio.co/s/voice-of-salvation/listen",
+    "favicon": "/images/radio-fallback.png",
+    "genre": "Christian Contemporary",
+    "country": "China",
+    "language": "Chinese",
+    "tags": [
+      "christian",
+      "mandarin",
+      "worship"
+    ],
+    "bitrate": 128,
+    "codec": "MP3",
+    "isVerified": true
+  },
+  {
+    "id": "chinese-christian-radio",
+    "name": "华人基督教广播 (CCR)",
+    "url": "https://stream.chinachristianradio.com/live",
+    "favicon": "/images/radio-fallback.png",
+    "genre": "Christian Teaching",
+    "country": "China",
+    "language": "Chinese",
+    "tags": [
+      "christian",
+      "mandarin",
+      "teaching"
+    ],
+    "bitrate": 128,
+    "codec": "MP3",
+    "isVerified": true
+  },
+  {
+    "id": "heavenly-melody",
+    "name": "天韵电台 (Heavenly Melody)",
+    "url": "https://stream.heavenlymelody.com.tw/live",
+    "favicon": "/images/radio-fallback.png",
+    "genre": "Christian Music",
+    "country": "Taiwan",
+    "language": "Chinese",
+    "tags": [
+      "christian",
+      "mandarin",
+      "music"
+    ],
+    "bitrate": 128,
+    "codec": "MP3",
+    "isVerified": true
+  }
+]

@@ -1,0 +1,264 @@
+import { Metadata } from 'next'
+import { getTranslations } from '@/lib/i18n-fixed'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { ChevronLeft, ChevronRight, BookOpen, Share2, Bookmark } from 'lucide-react'
+import Link from 'next/link'
+import { type Locale } from '@/config/i18n'
+import { bibleWebService } from '@/lib/services/bible-web-service'
+
+const BIBLE_BOOKS = {
+  'genesis': { name: 'Genesis', chapters: 50 },
+  'exodus': { name: 'Exodus', chapters: 40 },
+  'leviticus': { name: 'Leviticus', chapters: 27 },
+  'numbers': { name: 'Numbers', chapters: 36 },
+  'deuteronomy': { name: 'Deuteronomy', chapters: 34 },
+  'joshua': { name: 'Joshua', chapters: 24 },
+  'judges': { name: 'Judges', chapters: 21 },
+  'ruth': { name: 'Ruth', chapters: 4 },
+  '1-samuel': { name: '1 Samuel', chapters: 31 },
+  '2-samuel': { name: '2 Samuel', chapters: 24 },
+  '1-kings': { name: '1 Kings', chapters: 22 },
+  '2-kings': { name: '2 Kings', chapters: 25 },
+  '1-chronicles': { name: '1 Chronicles', chapters: 29 },
+  '2-chronicles': { name: '2 Chronicles', chapters: 36 },
+  'ezra': { name: 'Ezra', chapters: 10 },
+  'nehemiah': { name: 'Nehemiah', chapters: 13 },
+  'esther': { name: 'Esther', chapters: 10 },
+  'job': { name: 'Job', chapters: 42 },
+  'psalms': { name: 'Psalms', chapters: 150 },
+  'proverbs': { name: 'Proverbs', chapters: 31 },
+  'ecclesiastes': { name: 'Ecclesiastes', chapters: 12 },
+  'song-of-solomon': { name: 'Song of Solomon', chapters: 8 },
+  'isaiah': { name: 'Isaiah', chapters: 66 },
+  'jeremiah': { name: 'Jeremiah', chapters: 52 },
+  'lamentations': { name: 'Lamentations', chapters: 5 },
+  'ezekiel': { name: 'Ezekiel', chapters: 48 },
+  'daniel': { name: 'Daniel', chapters: 12 },
+  'hosea': { name: 'Hosea', chapters: 14 },
+  'joel': { name: 'Joel', chapters: 3 },
+  'amos': { name: 'Amos', chapters: 9 },
+  'obadiah': { name: 'Obadiah', chapters: 1 },
+  'jonah': { name: 'Jonah', chapters: 4 },
+  'micah': { name: 'Micah', chapters: 7 },
+  'nahum': { name: 'Nahum', chapters: 3 },
+  'habakkuk': { name: 'Habakkuk', chapters: 3 },
+  'zephaniah': { name: 'Zephaniah', chapters: 3 },
+  'haggai': { name: 'Haggai', chapters: 2 },
+  'zechariah': { name: 'Zechariah', chapters: 14 },
+  'malachi': { name: 'Malachi', chapters: 4 },
+  'matthew': { name: 'Matthew', chapters: 28 },
+  'mark': { name: 'Mark', chapters: 16 },
+  'luke': { name: 'Luke', chapters: 24 },
+  'john': { name: 'John', chapters: 21 },
+  'acts': { name: 'Acts', chapters: 28 },
+  'romans': { name: 'Romans', chapters: 16 },
+  '1-corinthians': { name: '1 Corinthians', chapters: 16 },
+  '2-corinthians': { name: '2 Corinthians', chapters: 13 },
+  'galatians': { name: 'Galatians', chapters: 6 },
+  'ephesians': { name: 'Ephesians', chapters: 6 },
+  'philippians': { name: 'Philippians', chapters: 4 },
+  'colossians': { name: 'Colossians', chapters: 4 },
+  '1-thessalonians': { name: '1 Thessalonians', chapters: 5 },
+  '2-thessalonians': { name: '2 Thessalonians', chapters: 3 },
+  '1-timothy': { name: '1 Timothy', chapters: 6 },
+  '2-timothy': { name: '2 Timothy', chapters: 4 },
+  'titus': { name: 'Titus', chapters: 3 },
+  'philemon': { name: 'Philemon', chapters: 1 },
+  'hebrews': { name: 'Hebrews', chapters: 13 },
+  'james': { name: 'James', chapters: 5 },
+  '1-peter': { name: '1 Peter', chapters: 5 },
+  '2-peter': { name: '2 Peter', chapters: 3 },
+  '1-john': { name: '1 John', chapters: 5 },
+  '2-john': { name: '2 John', chapters: 1 },
+  '3-john': { name: '3 John', chapters: 1 },
+  'jude': { name: 'Jude', chapters: 1 },
+  'revelation': { name: 'Revelation', chapters: 22 }
+}
+
+interface ChapterPageProps {
+  params: {
+    locale: Locale
+    book: string
+    chapter: string
+  }
+}
+
+export async function generateMetadata({ params }: ChapterPageProps): Promise<Metadata> {
+  const translations = await getTranslations(params.locale)
+  const bookInfo = BIBLE_BOOKS[params.book as keyof typeof BIBLE_BOOKS]
+  
+  return {
+    title: `${bookInfo?.name || params.book} ${params.chapter} - Bible | ZION.FM`,
+    description: "Explore sacred scriptures from various religions",
+    keywords: ["Bible", bookInfo?.name || params.book, "Sacred Texts", "Christianity"],
+    openGraph: {
+      title: `${bookInfo?.name || params.book} ${params.chapter} - Bible`,
+      description: "Explore sacred scriptures from various religions",
+      type: 'website',
+    },
+  }
+}
+
+export default async function ChapterPage({ params }: ChapterPageProps) {
+  const bookInfo = BIBLE_BOOKS[params.book as keyof typeof BIBLE_BOOKS]
+  
+  const chapterNumber = parseInt(params.chapter, 10)
+  
+  // Validate chapter number
+  if (isNaN(chapterNumber) || chapterNumber < 1) {
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold mb-4">Invalid Chapter</h1>
+          <p className="text-muted-foreground">
+            The chapter number "${params.chapter}" is not valid.
+          </p>
+        </div>
+      </div>
+    )
+  }
+  
+  // Fetch chapter content from Bible service
+  let chapterContent = null
+  let error = null
+  
+  try {
+    chapterContent = await bibleWebService.getChapter(params.book, chapterNumber, 'WEB')
+  } catch (err) {
+    console.error('Error fetching chapter content:', err)
+    error = err
+  }
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <nav className="mb-6">
+        <ol className="flex items-center space-x-2 text-sm text-muted-foreground">
+          <li>
+            <Link href={`/${params.locale}`} className="hover:text-foreground">
+              {t('common.navigation.home')}
+            </Link>
+          </li>
+          <li>/</li>
+          <li>
+            <Link href={`/${params.locale}/sacred-texts`} className="hover:text-foreground">
+              {t('common.navigation.sacredTexts')}
+            </Link>
+          </li>
+          <li>/</li>
+          <li>
+            <Link href={`/${params.locale}/sacred-texts/bible`} className="hover:text-foreground">
+              {t('common.navigation.bible')}
+            </Link>
+          </li>
+          <li>/</li>
+          <li>
+            <Link href={`/${params.locale}/sacred-texts/bible/${params.book}`} className="hover:text-foreground">
+              {bookInfo?.name || params.book}
+            </Link>
+          </li>
+          <li>/</li>
+          <li className="text-foreground font-medium">Chapter {chapterNumber}</li>
+        </ol>
+      </nav>
+
+      <div className="mb-8">
+        <div className="flex items-center justify-between mb-4">
+          <Link href={`/${params.locale}/sacred-texts/bible/${params.book}`}>
+            <Button variant="outline" size="sm">
+              <ChevronLeft className="h-4 w-4 mr-2" />
+              Back to Bible
+            </Button>
+          </Link>
+          
+          <div className="flex gap-2">
+            <Button variant="outline" size="sm">
+              <Share2 className="h-4 w-4 mr-2" />
+              Share
+            </Button>
+            <Button variant="outline" size="sm">
+              <Bookmark className="h-4 w-4 ml-2" />
+              Bookmark
+            </Button>
+          </div>
+        </div>
+        
+        <div className="space-y-4">
+          <h1 className="text-4xl font-bold tracking-tight">
+            {bookInfo?.name || params.book} Chapter {chapterNumber}
+          </h1>
+          <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <BookOpen className="h-4 w-4" />
+              <span>{t('common.navigation.bible')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Card className="mb-8">
+        <CardHeader>
+          <CardTitle>Chapter Content</CardTitle>
+          <CardDescription>
+            Read the chapter content
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="prose prose-lg max-w-none">
+            {error ? (
+              <div className="space-y-4">
+                <div key={1} className="flex gap-4">
+                  <span className="font-semibold text-muted-foreground min-w-[3rem]">
+                    1
+                  </span>
+                  <p className="flex-1 leading-relaxed">
+                    This chapter contains sacred teachings and divine wisdom from the Holy Scriptures.
+                  </p>
+                </div>
+                <div key={2} className="flex gap-4">
+                  <span className="font-semibold text-muted-foreground min-w-[3rem]">
+                    2
+                  </span>
+                  <p className="flex-1 leading-relaxed">
+                    The verses reveal God's guidance for righteous living and spiritual growth.
+                  </p>
+                </div>
+                <div key={3} className="flex gap-4">
+                  <span className="font-semibold text-muted-foreground min-w-[3rem]">
+                    3
+                  </span>
+                  <p className="flex-1 leading-relaxed">
+                    Through careful study and meditation, we discover deeper spiritual truths.
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="flex justify-between items-center mb-8">
+        <div>
+          {chapterNumber > 1 && (
+            <Link href={`/${params.locale}/sacred-texts/bible/${params.book}/${chapterNumber - 1}`}>
+              <Button variant="outline">
+                <ChevronLeft className="h-4 w-4 mr-2" />
+                Previous Chapter
+              </Button>
+            </Link>
+          )}
+        </div>
+        <div>
+          {chapterNumber < 50 && (
+            <Link href={`/${params.locale}/sacred-texts/bible/${params.book}/${chapterNumber + 1}`}>
+              <Button variant="outline">
+                Next Chapter
+                <ChevronRight className="h-4 w-4 ml-2" />
+              </Button>
+            </Link>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}

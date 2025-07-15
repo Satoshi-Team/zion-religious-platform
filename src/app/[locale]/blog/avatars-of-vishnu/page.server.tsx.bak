@@ -1,0 +1,71 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: 'Avatars of Vishnu',
+  description: 'Explore the ten incarnations of Lord Vishnu, their significance, and their impact on Hindu mythology and culture.',
+  keywords: 'Vishnu, Avatars, Dashavatar, Hindu Mythology, Incarnations',
+  author: 'Hinduism Team',
+  date: '2023-10-01',
+  category: 'Hinduism',
+  tags: ['Vishnu', 'Avatars', 'Mythology', 'Hinduism'],
+  image: '/images/avatars-of-vishnu.jpg',
+  canonical: 'https://yourdomain.com/blog/avatars-of-vishnu'
+}
+
+export default function AvatarsOfVishnu() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Avatars of Vishnu
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Vishnu</Badge>
+            <Badge variant="secondary">Avatars</Badge>
+            <Badge variant="secondary">Mythology</Badge>
+            <Badge variant="secondary">Hinduism</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Lord Vishnu, the preserver of the universe, is believed to have incarnated on Earth in various forms to restore cosmic order and protect dharma. These incarnations, known as avatars, are central to Hindu mythology and philosophy. Each avatar represents a unique aspect of divine intervention, addressing specific challenges faced by humanity and the cosmos.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">The Ten Primary Avatars (Dashavatar)</h2>
+              <p>
+                The ten primary avatars of Vishnu, collectively known as the Dashavatar, include Matsya (the fish), Kurma (the tortoise), Varaha (the boar), Narasimha (the half-man, half-lion), Vamana (the dwarf), Parashurama (the warrior sage), Rama (the prince of Ayodhya), Krishna (the divine cowherd), Buddha (the enlightened one), and Kalki (the future avatar). Each avatar has a rich narrative, symbolizing different virtues and lessons for humanity.
+              </p>
+              <h3 className="text-xl font-semibold mb-2">Significance of Each Avatar</h3>
+              <p>
+                These avatars are not just mythological stories but are deeply embedded in Hindu culture, art, literature, and religious practices. They inspire devotion, moral values, and a deeper understanding of the cosmic balance between good and evil.
+              </p>
+              <p>
+                Explore the fascinating journey of Vishnu's avatars and their timeless relevance in today's world.
+              </p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

@@ -1,0 +1,281 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Hindu Temples: Sacred Architecture and Worship",
+  description: "Explore the profound architectural and spiritual significance of Hindu temples - from ancient Vedic altars to modern global sanctuaries. Discover how these sacred spaces embody divine principles and serve as centers of worship, community, and cultural preservation.",
+  openGraph: {
+    title: "Hindu Temples: Sacred Architecture and Worship",
+    description: "Explore the profound architectural and spiritual significance of Hindu temples - from ancient Vedic altars to modern global sanctuaries. Discover how these sacred spaces embody divine principles and serve as centers of worship, community, and cultural preservation.",
+    type: "article",
+    url: "/blog/hindu-temples",
+    images: [
+      {
+        url: "/images/blog/hindu-temples.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hindu Temples: Sacred Architecture and Worship"
+      }
+    ]
+  }
+}
+export default function HinduTemples() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Temples: Sacred Architecture and Worship
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Temples: Sacred Architecture and Worship
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+
+
+
+  return (
+    <article className="container mx-auto px-4 py-8">
+      <div className="space-y-8">
+        {/* Breadcrumb Navigation */}
+        <nav className="text-sm text-muted-foreground">
+          <ol className="flex items-center space-x-2">
+            <li>
+              <Link href="/" className="hover:underline">
+                Home
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href="/blog" className="hover:underline">
+                Blog
+              </Link>
+            </li>
+            <li>/</li>
+            <li>Hindu Temples: Sacred Architecture and Worship</li>
+          </ol>
+        </nav>
+
+        {/* Main Content */}
+        <div className="prose prose-lg dark:prose-invert max-w-none">
+          <h1>Hindu Temples: Sacred Architecture and Worship</h1>
+          
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Architectural Evolution</h2>
+              <li>
+                <strong>Vedic Origins:</strong> Early fire altars and open-air worship spaces
+                that evolved into structured temples, reflecting the transition from
+                nomadic to settled communities
+              </li>
+              <li>
+                <strong>Classical Period:</strong> Development of distinct architectural
+                styles - Nagara (North), Dravida (South), and Vesara (Central) - each
+                embodying unique regional expressions of divine principles
+              </li>
+              <li>
+                <strong>Medieval Development:</strong> Grand temple complexes like
+                Khajuraho, Konark, and Madurai that showcase advanced architectural
+                techniques and artistic excellence
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Sacred Geometry</h2>
+              <li>
+                <strong>Vastu Shastra:</strong> Ancient architectural science that
+                harmonizes temple design with cosmic principles and natural elements
+              </li>
+              <li>
+                <strong>Mandala Patterns:</strong> Sacred geometric designs that map
+                the cosmos and guide the temple's layout, from the central sanctum to
+                the outer walls
+              </li>
+              <li>
+                <strong>Symbolic Elements:</strong> Architectural features that
+                represent spiritual concepts - from the towering gopurams to the
+                intricate carvings that tell divine stories
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Worship Practices</h2>
+              <li>
+                <strong>Daily Rituals:</strong> From the pre-dawn abhishekam to the
+                evening aarti, maintaining the cosmic rhythm through regular worship
+              </li>
+              <li>
+                <strong>Festival Celebrations:</strong> Special ceremonies and
+                processions that mark important religious occasions and seasonal
+                transitions
+              </li>
+              <li>
+                <strong>Community Functions:</strong> Temples as centers for
+                education, cultural preservation, and social service, serving both
+                spiritual and practical needs
+              </li>
+            </ul>
+          </section>
+
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Spiritual Significance</h2>
+              <li>
+                <strong>Cosmic Axis:</strong> Temples as vertical connections between
+                earthly and divine realms, facilitating spiritual ascent
+              </li>
+              <li>
+                <strong>Energy Centers:</strong> Strategic placement and design that
+                harness and channel spiritual energy for the benefit of devotees
+              </li>
+              <li>
+                <strong>Sacred Space:</strong> Creation of environments that support
+                meditation, prayer, and divine communion through architectural
+                elements and ritual practices
+              </li>
+            </ul>
+          </section>
+
+          {/* Related Topics */}
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Related Topics</h2>
+              <li>
+                <Link href="/blog/hindu-rituals" className="hover:underline">
+                  Hindu Rituals: Sacred Practices and Ceremonies
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/hindu-festivals" className="hover:underline">
+                  Hindu Festivals: Celebrations of Divine Grace
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/hindu-art" className="hover:underline">
+                  Hindu Art: Expressions of Divine Beauty
+                </Link>
+              </li>
+            </ul>
+          </section>
+
+          {/* Further Study */}
+          <section></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <li>
+                <Link href="/religion/hinduism" className="hover:underline">
+                  Hinduism Learning Path
+                </Link>
+              </li>
+              <li>
+                <Link href="/religion/comparative" className="hover:underline">
+                  Comparative Religion
+                </Link>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

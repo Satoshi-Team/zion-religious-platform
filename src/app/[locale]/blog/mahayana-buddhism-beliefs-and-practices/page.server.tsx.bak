@@ -1,0 +1,324 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Mahāyāna Buddhism: The Great Vehicle | Religious Studies Blog",
+  description: "Explore Mahāyāna Buddhism, the 'Great Vehicle' tradition that emphasizes universal enlightenment, compassion, and the bodhisattva path. Learn about its core philosophies, practices, and influence on Asian cultures.",
+  openGraph: {
+    title: "Mahāyāna Buddhism: The Great Vehicle | Religious Studies Blog",
+    description: "Explore Mahāyāna Buddhism, the 'Great Vehicle' tradition that emphasizes universal enlightenment, compassion, and the bodhisattva path. Learn about its core philosophies, practices, and influence on Asian cultures.",
+  type: "article",
+}
+  },
+};
+
+export default function MahayanaBuddhismBeliefsAndPractices() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Mahāyāna Buddhism: The Great Vehicle | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Mahāyāna Buddhism: The Great Vehicle | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+import Link from "next/link"
+
+
+
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-4">
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Link href="/blog" className="hover:underline">
+            Blog
+          </Link>
+          <span>•</span>
+          <Link href="/religion/buddhism" className="hover:underline">
+            Buddhism
+          </Link>
+          <span>•</span>
+          <span>Traditions</span>
+        </div>
+
+        <h1>Mahāyāna Buddhism: The Path of Universal Liberation</h1>
+
+        <div className="space-y-6">
+          <p>
+            Mahāyāna Buddhism, known as the "Great Vehicle," represents a major
+            tradition that emphasizes universal enlightenment and compassion. This
+            school developed distinctive philosophies, practices, and ideals,
+            particularly the bodhisattva path of seeking enlightenment for the
+            benefit of all beings.
+          </p></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Historical Development</h2>
+            <div className="space-y-2">
+              <h3>Origins and Evolution:</h3>
+              <ul>
+                <li>Rise of New Teachings</li>
+                <li>Development of Sūtra Literature</li>
+                <li>Spread Across Asia</li>
+                <li>Cultural Adaptations</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Key Philosophers:</h3>
+              <ul>
+                <li>Nāgārjuna and Mādhyamaka</li>
+                <li>Asaṅga and Yogācāra</li>
+                <li>Chinese Masters</li>
+                <li>Japanese Innovators</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Core Philosophical Concepts</h2>
+            <div className="space-y-2">
+              <h3>Key Doctrines:</h3>
+              <ul>
+                <li>Śūnyatā (Emptiness)</li>
+                <li>Buddha Nature</li>
+                <li>Skillful Means</li>
+                <li>Two Truths</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Distinctive Teachings:</h3>
+              <ul>
+                <li>Universal Buddha Nature</li>
+                <li>Multiple Buddhas</li>
+                <li>Pure Land Cosmology</li>
+                <li>Mind-Only School</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">The Bodhisattva Path</h2>
+            <div className="space-y-2">
+              <h3>Bodhisattva Ideal:</h3>
+              <ul>
+                <li>Universal Compassion</li>
+                <li>Six Perfections</li>
+                <li>Bodhisattva Vows</li>
+                <li>Stages of Development</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Famous Bodhisattvas:</h3>
+              <ul>
+                <li>Avalokiteśvara</li>
+                <li>Mañjuśrī</li>
+                <li>Kṣitigarbha</li>
+                <li>Samantabhadra</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Practices and Methods</h2>
+            <div className="space-y-2">
+              <h3>Meditation Forms:</h3>
+              <ul>
+                <li>Chan/Zen Meditation</li>
+                <li>Pure Land Practice</li>
+                <li>Tantric Methods</li>
+                <li>Devotional Practices</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Ritual Elements:</h3>
+              <ul>
+                <li>Sūtra Recitation</li>
+                <li>Mantra Chanting</li>
+                <li>Deity Visualization</li>
+                <li>Offering Practices</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Schools and Traditions</h2>
+            <div className="space-y-2">
+              <h3>Major Schools:</h3>
+              <ul>
+                <li>Chan/Zen Buddhism</li>
+                <li>Pure Land Buddhism</li>
+                <li>Tiantai/Tendai</li>
+                <li>Huayan/Kegon</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Regional Forms:</h3>
+              <ul>
+                <li>Chinese Buddhism</li>
+                <li>Korean Buddhism</li>
+                <li>Japanese Buddhism</li>
+                <li>Vietnamese Buddhism</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Influence</h2>
+            <div className="space-y-2">
+              <h3>Modern Applications:</h3>
+              <ul>
+                <li>Engaged Buddhism</li>
+                <li>Environmental Action</li>
+                <li>Social Justice</li>
+                <li>Interfaith Dialogue</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3>Global Impact:</h3>
+              <ul>
+                <li>Western Buddhism</li>
+                <li>Modern Movements</li>
+                <li>Cultural Exchange</li>
+                <li>Scientific Dialogue</li>
+              </ul>
+            </div>
+          </div></p>
+            </Card>
+
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Related Topics</h2>
+            <Link
+              href="/blog/theravada-buddhism-beliefs-and-practices"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">Theravāda Buddhism</h3>
+              <p className="text-sm text-muted-foreground">
+                Explore the oldest surviving Buddhist tradition
+              </p>
+            </Link>
+            <Link
+              href="/blog/vajrayana-buddhism-beliefs-and-practices"
+              className="rounded-lg border p-4 hover:border-foreground/50"
+            >
+              <h3 className="text-lg font-semibold">Vajrayāna Buddhism</h3>
+              <p className="text-sm text-muted-foreground">
+                Discover the esoteric tradition of Buddhist tantra
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-8 rounded-lg bg-muted p-4">
+            <h3 className="text-lg font-semibold">Further Study</h3>
+            <p className="text-sm text-muted-foreground">
+              Deepen your understanding of Buddhist traditions through our comprehensive
+              learning path in the{" "}
+              <Link href="/religion/buddhism" className="hover:underline">
+                Buddhism section
+              </Link>
+              . Compare different Buddhist schools in our{" "}
+              <Link href="/religion/comparative" className="hover:underline">
+                Comparative Religion
+              </Link>{" "}
+              section.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

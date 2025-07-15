@@ -1,0 +1,24 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhism's Spread Across Asia: A Journey of Transformation | Religious Studies Blog",
+  description: "Explore the remarkable journey of Buddhism across Asia - from its origins in India to its diverse expressions across the continent. Discover how Buddhist teachings adapted to different cultures while maintaining their core wisdom.",
+  openGraph: {
+    title: "Buddhism's Spread Across Asia: A Journey of Transformation | Religious Studies Blog",
+    description: "Explore the remarkable journey of Buddhism across Asia - from its origins in India to its diverse expressions across the continent. Discover how Buddhist teachings adapted to different cultures while maintaining their core wisdom.",
+    type: "article",
+    url: "/blog/buddhisms-spread-across-asia",
+    images: [
+      {
+        url: "/images/blog/buddhisms-spread-across-asia.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhism's Spread Across Asia: A Journey of Transformation | Religious Studies Blog"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,159 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Hindu Philosophy: Astika (Orthodox) & Nastika (Heterodox) Schools | Religious Studies Blog",
+  description: "Explore the six Astika (orthodox) schools of Hindu philosophy: Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, and Vedanta. Also, learn about Nastika (heterodox) schools like Charvaka, Buddhism, and Jainism.",
+  openGraph: {
+    title: "Hindu Philosophy: Astika (Orthodox) & Nastika (Heterodox) Schools | Religious Studies Blog",
+    description: "Explore the six Astika (orthodox) schools of Hindu philosophy: Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, and Vedanta. Also, learn about Nastika (heterodox) schools like Charvaka, Buddhism, and Jainism.",
+    type: "article",
+    url: "/blog/hindu-philosophy",
+    images: [
+      {
+        url: "/images/blog/hindu-philosophy.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hindu Philosophy: Astika (Orthodox) & Nastika (Heterodox) Schools | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function HinduPhilosophy() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Philosophy: Astika (Orthodox) & Nastika (Heterodox) Schools | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Hindu Philosophy: Astika (Orthodox) & Nastika (Heterodox) Schools | Religious Studies Blog
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            
+          </div>
+        </header>
+
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            
+            <Card className="p-6">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+                  <li><strong>Samsara:</strong> The continuous cycle of birth, death, and rebirth.</li>
+                  <li><strong>Moksha (or Mukti, Nirvana):</strong> Liberation from Samsara, the ultimate spiritual goal.</li>
+                  <li><strong>Dharma:</strong> Cosmic law, righteousness, duty, ethics, and the principles that uphold order in the universe and society.</li>
+                  <li><strong>Pramanas:</strong> Means of valid knowledge (e.g., perception, inference, testimony), crucial in Nyaya.</li>
+            </ul>
+              </Card>
+
+              <div className="grid gap-4 md:grid-cols-3">
+                <Link href="/blog/hindu-sacred-texts" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Hindu Sacred Texts</h3>
+                    <p className="text-sm text-muted-foreground">Foundations of these philosophies.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/yoga-paths-and-practices" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Yoga: Paths & Practices</h3>
+                    <p className="text-sm text-muted-foreground">Practical application of Yoga school.</p>
+                  </Card>
+                </Link>
+                <Link href="/blog/concepts-of-dharma-and-karma" className="block">
+                  <Card className="h-full p-4 hover:border-foreground/50 transition-colors">
+                    <h3 className="text-lg font-semibold">Dharma & Karma</h3>
+                    <p className="text-sm text-muted-foreground">Key concepts in Hindu thought.</p>
+                  </Card>
+                </Link>
+              </div>
+
+              <Card className="mt-8 bg-muted p-4">
+                <h3 className="text-lg font-semibold">Further Study</h3>
+                <p className="text-sm text-muted-foreground">
+                  Explore the non-dualistic teachings of{" "}
+                  <Link href="/hinduism/philosophy/advaita-vedanta" className="hover:underline">
+                    Advaita Vedanta
+                  </Link>
+                  , the practical wisdom of{" "}
+                  <Link href="/hinduism/philosophy/yoga-sutras" className="hover:underline">
+                    Patanjali's Yoga Sutras
+                </Link>
+                  , or compare with{" "}
+                  <Link href="/buddhism/philosophy/core-concepts" className="hover:underline">
+                    Buddhist Philosophical Concepts
+                </Link>
+                  .
+                </p>
+                <div className="mt-4 flex gap-2">
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/philosophy/mimamsa-explained">Mimamsa School Details</Link>
+                  </Button>
+                  <Button variant="outline" asChild>
+                    <Link href="/hinduism/philosophy/samkhya-principles">Samkhya Metaphysics</Link>
+                  </Button>
+                </div>
+              </Card>
+            </div>
+          </ScrollArea>
+        </div>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+            </Card>
+
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p><p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )</p>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}

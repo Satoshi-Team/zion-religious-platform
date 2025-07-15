@@ -1,0 +1,1 @@
+export type Language = keyof typeof import('@/lib/constants/stations').LANGUAGES 

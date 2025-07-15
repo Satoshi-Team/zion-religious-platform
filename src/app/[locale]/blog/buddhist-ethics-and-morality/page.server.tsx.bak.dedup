@@ -1,0 +1,155 @@
+import { Badge } from "@/components/ui/badge"
+import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+export const metadata = {
+  title: "Buddhist Ethics and Morality: Path to Virtuous Living | Religious Studies Blog",
+  description: "Explore the comprehensive ethical framework of Buddhism - from the Five Precepts to the Noble Eightfold Path. Discover how Buddhist moral principles guide personal conduct, social relations, and global challenges.",
+  openGraph: {
+    title: "Buddhist Ethics and Morality: Path to Virtuous Living | Religious Studies Blog",
+    description: "Explore the comprehensive ethical framework of Buddhism - from the Five Precepts to the Noble Eightfold Path. Discover how Buddhist moral principles guide personal conduct, social relations, and global challenges.",
+    type: "article",
+    url: "/blog/buddhist-ethics-and-morality",
+    images: [
+      {
+        url: "/images/blog/buddhist-ethics-and-morality.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Buddhist Ethics and Morality: Path to Virtuous Living | Religious Studies Blog"
+      }
+    ]
+  }
+}
+export default function BuddhistEthicsAndMorality() {
+  return (
+    <article className="prose prose-lg dark:prose-invert mx-auto">
+      <div className="space-y-6">
+        <header className="space-y-4">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight">
+            Buddhist Ethics and Morality: Path to Virtuous Living
+          </h1>
+          <div className="flex gap-2 flex-wrap">
+            <Badge variant="secondary">Buddhism</Badge>
+            <Badge variant="secondary">Ethics</Badge>
+            <Badge variant="secondary">Morality</Badge>
+            <Badge variant="secondary">Philosophy</Badge>
+          </div>
+        </header>
+        <ScrollArea className="h-[700px] rounded-md border p-4">
+          <div className="space-y-8">
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Introduction</h2>
+              <p>
+                Buddhist ethics provides a comprehensive framework for moral conduct that guides practitioners toward liberation and enlightenment. This exploration examines the fundamental principles of Buddhist morality, their practical applications, and their role in personal and social transformation.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Core Ethical Principles</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Five Precepts (Pancasila):</h3>
+                  <ul>
+                    <li>Non-harming (Ahimsa)</li>
+                    <li>Truthful Speech</li>
+                    <li>Right Conduct</li>
+                    <li>Mindful Consumption</li>
+                    <li>Ethical Livelihood</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Ten Virtuous Actions:</h3>
+                  <ul>
+                    <li>Body: Non-harming, Non-stealing, Sexual Ethics</li>
+                    <li>Speech: Truth, Harmony, Kindness, Meaningful</li>
+                    <li>Mind: Non-attachment, Goodwill, Right View</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Ethical Development</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Personal Transformation:</h3>
+                  <ul>
+                    <li>Mindfulness Practice</li>
+                    <li>Compassion Cultivation</li>
+                    <li>Wisdom Development</li>
+                    <li>Ethical Reflection</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Social Engagement:</h3>
+                  <ul>
+                    <li>Right Livelihood</li>
+                    <li>Community Service</li>
+                    <li>Environmental Ethics</li>
+                    <li>Social Justice</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Contemporary Applications</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Modern Challenges:</h3>
+                  <ul>
+                    <li>Bioethics</li>
+                    <li>Technology Ethics</li>
+                    <li>Environmental Issues</li>
+                    <li>Social Justice</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Global Ethics:</h3>
+                  <ul>
+                    <li>Interfaith Dialogue</li>
+                    <li>Peace Building</li>
+                    <li>Human Rights</li>
+                    <li>Sustainable Development</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="p-6">
+              <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight mb-2">Practical Implementation</h2>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <h3>Daily Practice:</h3>
+                  <ul>
+                    <li>Mindful Living</li>
+                    <li>Ethical Decision Making</li>
+                    <li>Relationship Ethics</li>
+                    <li>Workplace Ethics</li>
+                  </ul>
+                </div>
+                <div className="space-y-2">
+                  <h3>Long-term Development:</h3>
+                  <ul>
+                    <li>Character Building</li>
+                    <li>Virtue Cultivation</li>
+                    <li>Ethical Leadership</li>
+                    <li>Community Building</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="mt-8 bg-muted p-4">
+              <h2 className="text-2xl font-semibold tracking-tight mb-2">Further Study</h2>
+              <p className="text-sm text-muted-foreground">
+                For deeper exploration, see related posts and resources.
+              </p>
+              <div className="mt-4 flex gap-2">
+                <Button variant="outline" asChild>
+                  <Link href="/blog">All Blog Posts</Link>
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </ScrollArea>
+      </div>
+    </article>
+  )
+}
