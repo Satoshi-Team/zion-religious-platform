@@ -417,4 +417,4 @@ const content = {
   title: 'Medieval Bahai Faith – International Expansion and Development',
   description: 'Explore the development of the Bahai Faith during the late 19th and early 20th centuries, marked by the ministry of Abdu\'l-Baha, international expansion, and the establishment of Bahai institutions and communities worldwide.',
   keywords: 'Medieval Bahai Faith, Abdu\'l-Baha, International Expansion, Bahai Covenant, Administrative Order, Religious Development'
-} 
+} // Force rebuild - Tue Jul 15 05:00:50 MDT 2025
