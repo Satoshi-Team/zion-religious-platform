@@ -3,17 +3,21 @@ import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  
   return {
-    title: t('medievalJainism.title'),
-    description: t('medievalJainism.description'),
-    keywords: t('medievalJainism.keywords'),
+    title: 'Medieval Bahai Faith',
+    description: 'The development of the Bahai Faith during the late 19th and early 20th centuries.',
+    keywords: 'Bahai Faith, Medieval History, Abdu'l-Baha, International Expansion',
     openGraph: {
-      title: t('medievalJainism.title'),
-      description: t('medievalJainism.description'),
+      title: 'Medieval Bahai Faith',
+      description: 'The development of the Bahai Faith during the late 19th and early 20th centuries.',
       type: 'article',
-      locale: locale,
-    },
+      publishedTime: '2024-01-01T00:00:00.000Z',
+      authors: ['ZION.FM'],
+      section: 'Bahai',
+      tags: ['Bahai Faith', 'Medieval History', 'Abdu'l-Baha', 'International Expansion', 'Religious Development']
+    }
+  }
+},
     twitter: {
       card: 'summary_large_image',
       title: t('medievalJainism.title'),

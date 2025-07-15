@@ -9,20 +9,21 @@ import { Calendar, BookOpen, Users, Globe, Lightbulb, Heart } from 'lucide-react
 import Link from 'next/link'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  
   return {
-    title: t('title'),
-    description: t('description'),
-    keywords: t('keywords'),
+    title: 'Medieval Bahai Faith',
+    description: 'The development of the Bahai Faith during the late 19th and early 20th centuries.',
+    keywords: 'Bahai Faith, Medieval History, Abdu'l-Baha, International Expansion',
     openGraph: {
-      title: t('title'),
-      description: t('description'),
+      title: 'Medieval Bahai Faith',
+      description: 'The development of the Bahai Faith during the late 19th and early 20th centuries.',
       type: 'article',
       publishedTime: '2024-01-01T00:00:00.000Z',
       authors: ['ZION.FM'],
-      section: 'Rastafarianism',
-      tags: ['Rastafarianism', 'Medieval History', 'Reggae Music', 'Bob Marley', 'International Spread', 'Community Development']
+      section: 'Bahai',
+      tags: ['Bahai Faith', 'Medieval History', 'Abdu'l-Baha', 'International Expansion', 'Religious Development']
     }
+  }
+}
   }
 }
 
